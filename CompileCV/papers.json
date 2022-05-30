@@ -1,0 +1,155 @@
+{
+    "paperInfo": [
+        {
+            "authors": "Firas Khasawneh and Elizabeth Munch",
+            "bibtex": "@unpublished{Khasawneh2018,<br> author = {Firas Khasawneh and Elizabeth Munch},<br> note = {In submission},<br> title = {Topological Data Analysis for True Step Detection in Piecewise Constant Signals},<br> year = {2018}<br>}<br><br>",
+            "collapseLabel": "Khasawneh2018",
+            "date": "2018",
+            "title": "Topological Data Analysis for True Step Detection in Piecewise Constant Signals"
+        },
+        {
+            "authors": "Firas A. Khasawneh and Elizabeth Munch and Jose A. Perea",
+            "bibtex": "@unpublished{Khasawneh2018a,<br> author = {Firas A. Khasawneh and Elizabeth Munch and Jose A. Perea},<br> note = {Conference paper, in submission},<br> title = {Chatter Classification in Turning using Machine Learning and Topological Data Analysis},<br> year = {2018}<br>}<br><br>",
+            "collapseLabel": "Khasawneh2018a",
+            "date": "2018",
+            "title": "Chatter Classification in Turning using Machine Learning and Topological Data Analysis"
+        },
+        {
+            "authors": "Zixuan Cang and Elizabeth Munch and Guo-Wei Wei",
+            "bibtex": "@unpublished{Cang2018,<br> author = {Zixuan Cang and Elizabeth Munch and Guo-Wei Wei},<br> note = {Preprint},<br> title = {Evolutionary homology on a dynamical system},<br> year = {2018}<br>}<br><br>",
+            "collapseLabel": "Cang2018",
+            "date": "2018",
+            "title": "Evolutionary homology on a dynamical system"
+        },
+        {
+            "abstract": "This chapter describes a new approach for studying the stability of stochastic delay equations by investigating their time series using topological data analysis (TDA). The approach is illustrated utilizing two stochastic delay equations. The first model equation is the stochastic version of Hayes equation--a scalar autonomous delay equation--where the noise is an additive term. The second model equation is the stochastic version of Mathieu\u2019s equation--a time-periodic delay equation. In the latter, noise is added via a multiplicative term in the time-periodic coefficient. The time series is generated using Euler\u2013Maruyama method and a corresponding point cloud is obtained using the Takens\u2019 embedding. The point cloud is then analyzed using a tool from TDA known as persistent homology. The results of this study show that the described approach can be used for analyzing datasets of delay dynamical systems that are described using constant as well as time-periodic coefficients. The presented approach can be used for signals generated from both\nnumerical simulation and experiments. It can be used as a tool to study the stability of stochastic delay equations for which there are currently a limited number of analysis tools.",
+            "authors": "Khasawneh, Firas A. and Munch, Elizabeth",
+            "bibtex": "@inbook{Khasawneh2017,<br> address = {Cham},<br> author = {Khasawneh, Firas A. and Munch, Elizabeth},<br> booktitle = {Time Delay Systems: Theory, Numerics, Applications, and Experiments},<br> doi = {10.1007/978-3-319-53426-8_7},<br> editor = {Insperger, Tam{\\'a}s and Ersal, Tulga and Orosz, G{\\'a}bor},<br> link = {https://www.springerprofessional.de/en/utilizing-topological-data-analysis-for-studying-signals-of-time/12191012},<br> pages = {93--106},<br> publisher = {Springer International Publishing},<br> title = {Utilizing Topological Data Analysis for Studying Signals of Time-Delay Systems},<br> year = {2017}<br>}<br><br>",
+            "collapseLabel": "Khasawneh2017",
+            "date": "2017",
+            "originalLink": "<a class = 'extLink' href='https://www.springerprofessional.de/en/utilizing-topological-data-analysis-for-studying-signals-of-time/12191012'> Publisher Website </a>",
+            "title": "Utilizing Topological Data Analysis for Studying Signals of Time-Delay Systems",
+            "venue": "Time Delay Systems: Theory, Numerics, Applications, and Experiments"
+        },
+        {
+            "abstract": "The interleaving distance was originally defined in the field of Topological Data Analysis (TDA) by Chazal et al. as a metric on the class of persistence modules parametrized over the real line. Bubenik et al. subsequently extended the definition to categories of functors on a poset, the objects in these categories being regarded as `generalized persistence modules'. These metrics typically depend on the choice of a lax semigroup of endomorphisms of the poset. The purpose of the present paper is to develop a more general framework for the notion of interleaving distance using the theory of `actegories'. Specifically, we extend the notion of interleaving distance to arbitrary categories equipped with a lax monoidal action by the monoid $[0,\\infty)$, such categories being known as $[0,\\infty)$-actegories. In this way, the class of objects in such a category acquires the structure of a Lawvere metric space. Functors that are colax $[0,\\infty)$-equivariant yield maps that are 1-Lipschitz. This leads to concise proofs of various known stability results from TDA, by considering appropriate colax $[0,\\infty)$-equivariant functors. Along the way, we show that several common metrics, including the Hausdorff distance and the $L^\\infty$-norm, can be realized as interleaving distances in this general perspective.",
+            "authors": "Vin de Silva and Elizabeth Munch and Anastasios Stefanou",
+            "bibtex": "@article{deSilva2017b,<br> author = {Vin {de Silva} and Elizabeth Munch and Anastasios Stefanou},<br> eprint = {1706.04095v1},<br> eprintclass = {math.CT},<br> eprinttype = {arXiv},<br> journal = {arXiv:1706.04095v1},<br> link = {http://arxiv.org/pdf/1706.04095v1},<br> title = {Theory of interleavings on $[0,\\infty)$-actegories},<br> year = {2017}<br>}<br><br>",
+            "collapseLabel": "deSilva2017b",
+            "date": "2017",
+            "originalLink": "<a class = 'extLink' href='http://arxiv.org/pdf/1706.04095v1'> Publisher Website </a>",
+            "title": "Theory of interleavings on $[0,\\infty)$-actegories",
+            "venue": "arXiv:1706.04095v1"
+        },
+        {
+            "abstract": "Topological data analysis (TDA) is a collection of powerful tools that can quantify shape and structure in data in order to answer questions from the data's domain. This is done by representing some aspect of the structure of the data in a simplified topological signature. In this article, we introduce two of the most commonly used topological signatures. First, the persistence diagram represents loops and holes in the space by considering connectivity of the data points for a continuum of values rather than a single fixed value. The second topological signature, the mapper graph, returns a 1-dimensional structure representing the shape of the data, and is particularly good for exploration and visualization of the data. While these techniques are based on very sophisticated mathematics, the current ubiquity of available software means that these tools are more accessible than ever to be applied to data by researchers in education and learning, as well as all domain scientists.",
+            "authors": "Elizabeth Munch",
+            "bibtex": "@article{Munch2017,<br> author = {Elizabeth Munch},<br> doi = {10.18608/jla.2017.42.6},<br> journal = {Journal of Learning Analytics},<br> link = {http://www.learning-analytics.info/journals/index.php/JLA/article/view/5196},<br> number = {2},<br> title = {A User's Guide to Topological Data Analysis},<br> volume = {4},<br> year = {2017}<br>}<br><br>",
+            "collapseLabel": "Munch2017",
+            "date": "2017",
+            "originalLink": "<a class = 'extLink' href='http://www.learning-analytics.info/journals/index.php/JLA/article/view/5196'> Publisher Website </a>",
+            "title": "A User's Guide to Topological Data Analysis",
+            "venue": "Journal of Learning Analytics"
+        },
+        {
+            "abstract": "This paper describes a new approach for ascertaining the stability of stochastic dynamical systems in their parameter space by examining their time series using topological data analysis (TDA). We illustrate the approach using a nonlinear delayed model that describes the tool oscillations due to self-excited vibrations in turning. Each time series is generated using the Euler-Maruyama method and a corresponding point cloud is obtained using the Takens embedding. The point cloud can then be analyzed using a tool from TDA known as persistent homology. The results of this study show that the described approach can be used for analyzing datasets of delay dynamical systems generated both from numerical simulation and experimental data. The contributions of this paper include presenting for the first time a topological approach for investigating the stability of a class of nonlinear stochastic delay equations, and introducing a new application of TDA to machining processes.",
+            "authors": "Firas A. Khasawneh and Elizabeth Munch",
+            "bibtex": "@article{Khasawneh2015,<br> author = {Firas A. Khasawneh and Elizabeth Munch},<br> doi = {10.1016/j.ymssp.2015.09.046},<br> issn = {0888-3270},<br> journal = {Mechanical Systems and Signal Processing},<br> link = {http://www.sciencedirect.com/science/article/pii/S0888327015004598},<br> month = {mar},<br> pages = {527--541},<br> publisher = {Elsevier {BV}},<br> title = {Chatter detection in turning using persistent homology},<br> volume = {70-71},<br> year = {2016}<br>}<br><br>",
+            "collapseLabel": "Khasawneh2015",
+            "date": "2016",
+            "originalLink": "<a class = 'extLink' href='http://www.sciencedirect.com/science/article/pii/S0888327015004598'> Publisher Website </a>",
+            "title": "Chatter detection in turning using persistent homology",
+            "venue": "Mechanical Systems and Signal Processing"
+        },
+        {
+            "abstract": "The Reeb graph is a construction which originated in Morse theory to study a real-valued function defined on a topological space. More recently, it has been used in various applications to study noisy data which creates a desire to define a measure of similarity between these structures. Here, we exploit the fact that the category of Reeb graphs is equivalent to the category of a particular class of cosheaf. Using this equivalency, we can define an `interleaving' distance between Reeb graphs which is stable under the perturbation of a function. Along the way, we obtain a natural construction for smoothing a Reeb graph to reduce its topological complexity. The smoothed Reeb graph can be constructed in polynomial time.",
+            "authors": "de Silva, Vin and Munch, Elizabeth and Patel, Amit",
+            "bibtex": "@article{deSilva2016b,<br> author = {{de Silva}, Vin and Munch, Elizabeth and Patel, Amit},<br> doi = {10.1007/s00454-016-9763-9},<br> issn = {1432-0444},<br> journal = {Discrete \\& Computational Geometry},<br> link = {http://link.springer.com/article/10.1007/s00454-016-9763-9},<br> pages = {1--53},<br> title = {Categorified Reeb Graphs},<br> year = {2016}<br>}<br><br>",
+            "collapseLabel": "deSilva2016b",
+            "date": "2016",
+            "originalLink": "<a class = 'extLink' href='http://link.springer.com/article/10.1007/s00454-016-9763-9'> Publisher Website </a>",
+            "title": "Categorified Reeb Graphs",
+            "venue": "Discrete & Computational Geometry"
+        },
+        {
+            "abstract": "The Reeb space, which generalizes the notion of a Reeb graph, is one of the few tools in topological data analysis and visualization suitable for the study of multivariate scientific datasets. First introduced by Edelsbrunner et al. (Edelsbrunner et al. 2008), it compresses the components of the level sets of a multivariate mapping and obtains a summary representation of their relationships. A related construction called the mapper (Singh et al. 2007), and a special case of mapper called the Joint Contour Net (Carr et al. 2014) have been shown to be effective in visual analytics. Mapper and JCN are intuitively regarded as discrete approximations of the Reeb space, however without formal proofs or approximation guarantees. An open question has been proposed by Dey et al. (Dey et al. 2015) as to whether the mapper converges to the Reeb space in the limit.\nIn this paper, we are interested in developing the theoretical understanding of the relationship between the Reeb space and its discrete approximations to support its use in practical data analysis. Using tools from category theory, we formally prove the convergence between the Reeb space and mapper in terms of an interleaving distance between their categorical representations. Given a sequence of refined discretizations, we prove that these approximations converge to the Reeb space in the interleaving distance; this also helps to quantify the approximation quality of the discretization at a fixed resolution.",
+            "authors": "Elizabeth Munch and Bei Wang",
+            "bibtex": "@inproceedings{Munch2016,<br> address = {Dagstuhl, Germany},<br> author = {Elizabeth Munch and Bei Wang},<br> booktitle = {32nd International Symposium on Computational Geometry (SoCG 2016)},<br> doi = {http://dx.doi.org/10.4230/LIPIcs.SoCG.2016.53},<br> editor = {S{\\'a}ndor Fekete and Anna Lubiw},<br> isbn = {978-3-95977-009-5},<br> issn = {1868-8969},<br> link = {http://drops.dagstuhl.de/opus/volltexte/2016/5945},<br> pages = {53:1--53:16},<br> publisher = {Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik},<br> series = {Leibniz International Proceedings in Informatics (LIPIcs)},<br> title = {Convergence between Categorical Representations of {R}eeb Space and {M}apper},<br> urn = {urn:nbn:de:0030-drops-59454},<br> volume = {51},<br> year = {2016}<br>}<br><br>",
+            "collapseLabel": "Munch2016",
+            "date": "2016",
+            "originalLink": "<a class = 'extLink' href='http://drops.dagstuhl.de/opus/volltexte/2016/5945'> Publisher Website </a>",
+            "title": "Convergence between Categorical Representations of Reeb Space and Mapper",
+            "venue": "32nd International Symposium on Computational Geometry (SoCG 2016)"
+        },
+        {
+            "abstract": "This paper introduces a method to integrate target behavior into the multiple hypothesis tracker (MHT) likelihood ratio. In particular, a periodic track appraisal based on behavior is introduced. The track appraisal uses elementary topological data analysis coupled with basic machine-learning techniques, and it adjusts the traditional kinematic data association likelihood (i.e., track score) using an established formulation for feature-aided data association. The proposed method is tested and demonstrated on synthetic vehicular data representing an urban traffic scene generated by the Simulation of Urban Mobility package. The vehicles in the scene exhibit different driving behaviors. The proposed method distinguishes those behaviors and shows improved data association decisions relative to a conventional, kinematic MHT.",
+            "authors": "Paul Bendich and Sang Peter Chin and Jesse Clark and Jonathan Desena and John Harer and Elizabeth Munch and Andrew Newman and David Porter and David Rouse and Nate Strawn and Adam Watkins",
+            "bibtex": "@article{Bendich2016,<br> author = {Paul Bendich and Sang Peter Chin and Jesse Clark and Jonathan Desena and John Harer and Elizabeth Munch and Andrew Newman and David Porter and David Rouse and Nate Strawn and Adam Watkins},<br> doi = {10.1109/taes.2016.160405},<br> journal = {{IEEE} Transactions on Aerospace and Electronic Systems},<br> link = {http://ieeexplore.ieee.org/document/7855573/},<br> month = {dec},<br> number = {6},<br> pages = {2644--2661},<br> publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},<br> title = {Topological and statistical behavior classifiers for tracking applications},<br> volume = {52},<br> year = {2016}<br>}<br><br>",
+            "collapseLabel": "Bendich2016",
+            "date": "2016",
+            "originalLink": "<a class = 'extLink' href='http://ieeexplore.ieee.org/document/7855573/'> Publisher Website </a>",
+            "title": "Topological and statistical behavior classifiers for tracking applications",
+            "venue": "IEEE Transactions on Aerospace and Electronic Systems"
+        },
+        {
+            "abstract": "The Reeb graph is a construction that studies a topological space through the lens of a real valued function. It has been commonly used in applications, however its use on real data means that it is desirable and increasingly necessary to have methods for comparison of Reeb graphs. Recently, several metrics on the set of Reeb graphs have been proposed. In this paper, we focus on two: the functional distortion distance and the interleaving distance. The former is based on the Gromov-Hausdorff distance, while the latter utilizes the equivalence between Reeb graphs and a particular class of cosheaves. However, both are defined by constructing a near-isomorphism between the two graphs of study. In this paper, we show that the two metrics are strongly equivalent on the space of Reeb graphs. Our result also implies the bottleneck stability for persistence diagrams in terms of the Reeb graph interleaving distance.",
+            "authors": "Ulrich Bauer and Elizabeth Munch and Yusu Wang",
+            "bibtex": "@inproceedings{Bauer2015b,<br> address = {Dagstuhl, Germany},<br> author = {Ulrich Bauer and Elizabeth Munch and Yusu Wang},<br> booktitle = {31st International Symposium on Computational Geometry (SoCG 2015)},<br> doi = {10.4230/LIPIcs.SOCG.2015.461},<br> editor = {Lars Arge and J{\\'a}nos Pach},<br> link = {http://drops.dagstuhl.de/opus/volltexte/2015/5146/},<br> pages = {461--475},<br> publisher = {Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik},<br> series = {Leibniz International Proceedings in Informatics (LIPIcs)},<br> title = {Strong Equivalence of the Interleaving and Functional Distortion Metrics for Reeb Graphs},<br> volume = {34},<br> year = {2015}<br>}<br><br>",
+            "collapseLabel": "Bauer2015b",
+            "date": "2015",
+            "originalLink": "<a class = 'extLink' href='http://drops.dagstuhl.de/opus/volltexte/2015/5146/'> Publisher Website </a>",
+            "title": "Strong Equivalence of the Interleaving and Functional Distortion Metrics for Reeb Graphs",
+            "venue": "31st International Symposium on Computational Geometry (SoCG 2015)"
+        },
+        {
+            "abstract": "In order to use persistence diagrams as a true statistical tool,it would be very useful to have a good notion of mean and variance for a set of diagrams. In [23], Mileyko and his collaborators made the first study of the properties of the Fr\u00e9chet mean in $(D_p , W_p )$, the space of persistence diagrams equipped with the p-th Wasserstein metric. In particular, they showed that the Fr\u00e9chet mean of a finite set of diagrams always exists, but is not necessarily unique. The means of a continuously-varying\nset of diagrams do not themselves (necessarily) vary continuously, which presents obvious problems when trying to extend the Frechet mean definition to the realm of time-varying persistence diagrams, better known as vineyards.\n\nWe fix this problem by altering the original definition of Frechet mean so that it now becomes a probability measure on the set of persistence diagrams; in a nutshell, the mean of a set of diagrams will be a weighted sum of atomic measures, where each atom is itself a persistence diagram determined using a perturbation of the input diagrams. This definition gives for each N a map $(D _p )^N \\rightarrow P(D_ p )$. We show that this map is Hoelder continuous on finite diagrams and thus can be used to build a useful statistic on vineyards.",
+            "authors": "Munch, Elizabeth and Turner, Katharine and Bendich, Paul and Mukherjee, Sayan and Mattingly, Jonathan and Harer, John",
+            "bibtex": "@article{Munch2015,<br> author = {Munch, Elizabeth and Turner, Katharine and Bendich, Paul and Mukherjee, Sayan and Mattingly, Jonathan and Harer, John},<br> doi = {10.1214/15-EJS1030},<br> fjournal = {Electronic Journal of Statistics},<br> journal = {Electron. J. Statist.},<br> link = {https://projecteuclid.org/euclid.ejs/1433195858},<br> pages = {1173--1204},<br> publisher = {The Institute of Mathematical Statistics and the Bernoulli Society},<br> title = {Probabilistic Fr\\'echet means for time varying persistence diagrams},<br> volume = {9},<br> year = {2015}<br>}<br><br>",
+            "collapseLabel": "Munch2015",
+            "date": "2015",
+            "originalLink": "<a class = 'extLink' href='https://projecteuclid.org/euclid.ejs/1433195858'> Publisher Website </a>",
+            "title": "Probabilistic Frechet means for time varying persistence diagrams",
+            "venue": "Electron. J. Statist."
+        },
+        {
+            "abstract": "This paper introduces a method to integrate target behavior into the multiple hypothesis tracker (MHT) likelihood ratio. In particular, a periodic track appraisal based on behavior is introduced that uses elementary topological data analysis coupled with basic machine learning techniques. The track appraisal adjusts the traditional kinematic data association likelihood (i.e., track score) using an established formulation for classification-aided data association. The proposed method is tested and demonstrated on synthetic vehicular data representing an urban traffic scene generated by the Simulation of Urban Mobility package. The vehicles in the scene exhibit different driving behaviors. The proposed method distinguishes those behaviors and shows improved data association decisions relative to a conventional, kinematic MHT.",
+            "authors": "Rouse, David and Watkins, Adam and Porter, David and Harer, John and Bendich, Paul and Strawn, Nate and Munch, Elizabeth and DeSena, Jonathan and Clarke, Jesse and Gilbert, Jeffrey and Chin, Peter and Newman, Andrew",
+            "bibtex": "@inproceedings{Rouse2015,<br> author = {Rouse, David and Watkins, Adam and Porter, David and Harer, John and Bendich, Paul and Strawn, Nate and Munch, Elizabeth and DeSena, Jonathan and Clarke, Jesse and Gilbert, Jeffrey and Chin, Peter and Newman, Andrew},<br> booktitle = {Proc. SPIE},<br> doi = {10.1117/12.2179555},<br> link = {http://proceedings.spiedigitallibrary.org/proceeding.aspx?articleid=2299664},<br> pages = {94740L-94740L-12},<br> title = {Feature-aided multiple hypothesis tracking using topological and statistical behavior classifiers},<br> volume = {9474},<br> year = {2015}<br>}<br><br>",
+            "collapseLabel": "Rouse2015",
+            "date": "2015",
+            "originalLink": "<a class = 'extLink' href='http://proceedings.spiedigitallibrary.org/proceeding.aspx?articleid=2299664'> Publisher Website </a>",
+            "title": "Feature-aided multiple hypothesis tracking using topological and statistical behavior classifiers",
+            "venue": "Proc. SPIE"
+        },
+        {
+            "abstract": "This paper explores the possibility of using techniques from topological data analysis for studying datasets generated from dynamical systems described by stochastic delay equations. The dataset is generated using Euler-Maryuama simulation for two first order systems with stochastic parameters drawn from a normal distribution. The first system contains additive noise whereas the second one contains parametric or multiplicative noise. Using Taken's embedding, the dataset is converted into a point cloud in a high-dimensional space. Persistent homology is then employed to analyze the structure of the point cloud in order to study equilibria and periodic solutions of the underlying system. Our results show that the persistent homology successfully differentiates between different types of equilibria. Therefore, we believe this approach will prove useful for automatic data analysis of vibration measurements. For example, our approach can be used in machining processes for chatter detection and prevention.",
+            "authors": "Firas A. Khasawneh and Elizabeth Munch",
+            "bibtex": "@inproceedings{Khasawneh2014,<br> author = {Firas A. Khasawneh and Elizabeth Munch},<br> booktitle = {Proceedings of the ASME 2014 International Design Engineering Technical Conferences \\& Computers and Information in Engineering Conference, August 17-20, 2014, Buffalo, NY, USA},<br> doi = {10.1115/DETC2014-35655},<br> link = {http://proceedings.asmedigitalcollection.asme.org/proceeding.aspx?articleid=2091179},<br> title = {Exploring equilibria in stochastic delay differential equations using persistent homology},<br> year = {2014}<br>}<br><br>",
+            "collapseLabel": "Khasawneh2014",
+            "date": "2014",
+            "originalLink": "<a class = 'extLink' href='http://proceedings.asmedigitalcollection.asme.org/proceeding.aspx?articleid=2091179'> Publisher Website </a>",
+            "title": "Exploring equilibria in stochastic delay differential equations using persistent homology",
+            "venue": "Proceedings of the ASME 2014 International Design Engineering Technical Conferences & Computers and Information in Engineering Conference, August 17-20, 2014, Buffalo, NY, USA"
+        },
+        {
+            "abstract": "This paper describes a new approach for ascertaining the stability of autonomous stochastic delay equations in their parameter space by examining their time series using topological data analysis. We use a nonlinear model that describes the tool oscillations due to self-excited vibrations in turning. The time series is generated using Euler-Maruyama method and then is turned into a point cloud in a high dimensional Euclidean space using the delay embedding. The point cloud can then be analyzed using persistent homology. Specifically, in the deterministic case, the system has a stable fixed point while the loss of stability is associated with Hopf bifurcation whereby a limit cycle branches from the fixed point. Since periodicity in the signal translates into circularity in the point cloud, the persistence diagram associated to the periodic time series will have a high persistence point. This can be used to determine a threshold criteria that can automatically classify the system behavior based on its time series. The results of this study show that the described approach can be used for analyzing datasets of delay dynamical systems generated both from numerical simulation and experimental data.",
+            "authors": "Firas A. Khasawneh and Elizabeth Munch",
+            "bibtex": "@inproceedings{Khasawneh2014a,<br> author = {Firas A. Khasawneh and Elizabeth Munch},<br> booktitle = {Proceedings of the ASME 2014 International Mechanical Engineering Congress \\& Exposition, Montreal, Canada},<br> doi = {10.1115/IMECE2014-40221},<br> link = {http://proceedings.asmedigitalcollection.asme.org/proceeding.aspx?articleid=2204834},<br> title = {Stability Determiniation in Turning using Persistent Homology and Time Series Analysis},<br> year = {2014}<br>}<br><br>",
+            "collapseLabel": "Khasawneh2014a",
+            "date": "2014",
+            "originalLink": "<a class = 'extLink' href='http://proceedings.asmedigitalcollection.asme.org/proceeding.aspx?articleid=2204834'> Publisher Website </a>",
+            "title": "Stability Determiniation in Turning using Persistent Homology and Time Series Analysis",
+            "venue": "Proceedings of the ASME 2014 International Mechanical Engineering Congress & Exposition, Montreal, Canada"
+        },
+        {
+            "abstract": "In this paper we consider the question of sensor network coverage for a two-dimensional domain. We seek to compute the probability that a set of sensors fails to cover given only non-metric, local (who is talking to whom) information and a probability distribution of failure of each node. This builds on the work of de Silva and Ghrist who analyzed this problem in the deterministic situation. We first show that it is part of a slightly larger class of problems which is #P-hard, and thus fast algorithms likely do not exist unless P $=$ NP. The question of whether the specific problem is, in fact, #P-hard remains open. We then give a deterministic algorithm which is feasible in the case of a small set of sensors, and give a dynamic algorithm for an arbitrary set of sensors failing over time which utilizes a new criterion for coverage to give an early warning of potential failure. These algorithms build on the theory of topological persistence.",
+            "authors": "Munch, Elizabeth and Shapiro, Michael and Harer, John",
+            "bibtex": "@article{Munch2012,<br> author = {Munch, Elizabeth and Shapiro, Michael and Harer, John},<br> doi = {10.1177/0278364912451671},<br> journal = {The International Journal of Robotics Research},<br> link = {http://journals.sagepub.com/doi/abs/10.1177/0278364912451671},<br> number = {9},<br> pages = {1044-1056},<br> title = {Failure filtrations for fenced sensor networks},<br> volume = {31},<br> year = {2012}<br>}<br><br>",
+            "collapseLabel": "Munch2012",
+            "date": "2012",
+            "originalLink": "<a class = 'extLink' href='http://journals.sagepub.com/doi/abs/10.1177/0278364912451671'> Publisher Website </a>",
+            "title": "Failure filtrations for fenced sensor networks",
+            "venue": "The International Journal of Robotics Research"
+        }
+    ]
+}

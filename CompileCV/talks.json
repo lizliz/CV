@@ -1,0 +1,685 @@
+{
+  "talks": [
+    {
+    "title": "Making space and studying shape in a non-traditional academic setting",
+    "venue": "Keynote Address, WiDS Iowa, Virtual",
+    "date": "Apr 21, 2022"
+    },
+    {
+    "title": "The Interleaving Distance for Reeb Graphs",
+    "venue": "Math Dept Colloquium, University of Utah, Salt Lake City, UT",
+    "date": "Apr 7, 2022"
+    },
+    {
+    "title": "The Shape of Data",
+    "venue": "Keynote Address, NAPPN Annual Conference, University of Georgia, Athens, GA",
+    "date": "Twosday, Feb 22, 2022"
+    },
+    {
+    "title": "Combining network analysis and persistent homology for classifying behavior of time series",
+    "venue": "Dynamics Days, Online due to COVID-19",
+    "date": "Jan 7, 2022"
+    },
+    {
+      "title": "The Truncated Interleaving Distance for Reeb Graphs",
+      "venue": "Quivers Seminar, University of Iowa, Online due to COVID-19",
+      "date": "November 15, 2021"
+    },
+    {
+      "title": "On the inter-level-set persistence bottleneck distance for Reeb graphs",
+      "venue": "Computational Persistence Workshop, Purdue, Online due to COVID-19",
+      "date": "November 5, 2021",
+      "videoLink": "https://drive.google.com/file/d/1lnZ_g1aQBkX4W6F9SRovgQ8Bzih1Is97/view?usp=sharing"
+    },
+    {
+      "title": "The Truncated Interleaving Distance for Reeb Graphs",
+      "venue": "SIAM Conference on Applied Algebraic Geometry, Online due to COVID-19",
+      "date": "August 18, 2021"
+    },
+    {
+      "title": "The Interleaving Distance for Graphical Signatures",
+      "venue": "Mathematical Congress of the Americas, Online due to COVID-19",
+      "date": "July 16, 2021"
+    },
+    {
+      "title": "Measuring the Shape of Hurricanes",
+      "venue": "MSU SURIEM REU, Online due to COVID-19",
+      "date": "July 7, 2021"
+    },
+    {
+      "title": "Metrics for Graphical Signatures",
+      "venue": "Topological Ideas in Applications, Thematic Einstein Semester on Geometric and Topological Structure of Materials, TU Berlin, Online due to COVID-19",
+      "date": "June 24, 2021"
+    },
+    {
+      "title": "The Directional Transform: From Theory to Practice",
+      "venue": "Workshop on Computational Topology at SoCG, Gather town",
+      "date": "June 10, 2021"
+    },
+    {
+      "title": "A family of metrics from the truncated smoothing of Reeb graphs",
+      "venue": "Symposium on Computational Geometry (SoCG) Main Session, Gather town",
+      "date": "June 7, 2021"
+    },
+    {
+      "title": "Quantifying the shape of time series with TDA and network-based methods",
+      "venue": "AI and Topology Track, EPFL Applied Machine Learning Days, Online due to COVID-19",
+      "date": "May 10, 2021"
+    },
+    {
+      "title": "Combining network analysis and persistent homology for classifying behavior of time series",
+      "venue": "Applied Mathematics and Complex Systems Seminar, University of Western Australia, Online due to COVID-19",
+      "date": "May 6, 2021",
+      "videoLink": "https://www.youtube.com/watch?v=EUVk-FXbIog"
+    },
+    {
+      "title": "The Truncated Interleaving Distance for Reeb Graphs",
+      "venue": "Topological Data Analysis Workshop, IMSI, Online due to COVID-19",
+      "date": "April 27, 2021"
+    },
+    {
+      "title": "Utilizing Persistent Homology for Classifying Behavior of Time Series",
+      "venue": "Computational Topology Class, University of Utah, Online due to COVID-19",
+      "date": "April 22, 2021"
+    },
+    {
+      "title": "Measuring the Shape of Hurricanes",
+      "venue": "MSU Undergraduate Math Club, Online due to COVID-19",
+      "date": "April 6, 2021"
+    },
+    {
+      "title": "Combining network analysis and persistent homology for classifying behavior of time series",
+      "venue": "Applied Math Colloquium, University of Arizona, Online due to COVID-19",
+      "date": "March 12, 2021"
+    },
+    {
+      "title": "Averaging Merge Trees",
+      "venue": "EPFL Applied Topology Seminar, Online due to COVID-19",
+      "date": "March 9, 2021"
+    },
+    {
+      "title": "The Truncated Interleaving Distance for Reeb Graphs",
+      "venue": "Joint Mathematics Meetings, Online due to COVID-19",
+      "date": "Jan 9, 2021"
+    },
+    {
+      "title": "Python Tutorial on Topological Data Analysis (TDA)",
+      "venue": "AMS Short Course on Mathematical and Computational Methods for Complex Social Systems, Joint Mathematics Meetings, Online due to COVID-19",
+      "date": "Jan 5, 2021",
+      "videoLink": "https://github.com/lizliz/TDA-Python-Workshop-JMM21"
+    },
+    {
+      "title": "Persistent homology of complex networks for dynamic state detection in time series",
+      "venue": "Topological Data Analysis and Beyond Workshop, Neurips 2020, Online due to COVID-19",
+      "date": "Dec 11, 2020"
+    },
+    {
+      "title": "The Truncated Interleaving Distance for Reeb Graphs",
+      "venue": "TGDA Seminar, Ohio State University, Online due to COVID-19",
+      "date": "Nov 17, 2020"
+    },
+    {
+      "title": "Combining network analysis and persistent homology for classifying behavior of time series",
+      "venue": "CMSE Brownbag Seminar, MSU",
+      "videoLink": "https://mediaspace.msu.edu/media/t/1_yghdjfiz",
+      "date": "Nov 13, 2020"
+    },
+    {
+      "title": "Combining network analysis and persistent homology for classifying behavior of time series",
+      "venue": "Virtual Mathematics Colloquium, Clarkson University, Online due to COVID-19",
+      "date": "Oct 19, 2020"
+    },
+    {
+      "title": "Combining network analysis and persistent homology for classifying behavior of time series",
+      "venue": "Second Symposium on Machine Learning and Dynamical Systems, Fields Institute, Online due to COVID-19",
+      "date": "Sep 29, 2020"
+    },
+    {
+      "title": "The Truncated Interleaving Distance for Reeb Graphs",
+      "videoLink": "https://youtu.be/nyO4KQTmwzU",
+      "venue": "GEOTOP-A Online Seminar",
+      "date": "Sep 18, 2020"
+    },
+    {
+      "title": "Convergence of Mapper Graphs",
+      "pdfLink": "",
+      "venue": "MSU TDA Seminar, East Lansing, MI",
+      "date": "Aug 6, 2020"
+    },
+    {
+      "title": "Featurization of Persistence Diagrams using Template Functions for Machine Learning Tasks",
+      "venue": "Diff CVML - CVPR Keynote, Online due to COVID-19.",
+      "date": "June 29, 2020"
+    },
+    {
+      "title": "Topological Data Analysis for Quantifying Plant Morphology",
+      "videoLink": "https://youtu.be/2mscXkz_o4A",
+      "venue": "SIAM MDS, Online due to COVID-19.",
+      "date": "June 2, 2020"
+    },
+    {
+      "title": "Drawing Time-Varying Reeb Graphs",
+      "pdfLink": "",
+      "venue": "MSU AMS/AWM Grad Student Seminar",
+      "date": "Mar 9, 2020"
+    },
+    {
+      "title": "Applications of TDA: From Reeb Graphs to Diagrams, From Time Series to Plant Morphology",
+      "pdfLink": "",
+      "venue": "MSU TDA Seminar, East Lansing, MI",
+      "date": "Mar 9, 2020"
+    },
+    {
+      "title": "Featurization of Persistence Diagrams using Template Functions for Machine Learning Tasks",
+      "videoLink": "https://youtu.be/Moh9lF4UVs4",
+      "venue": "Applied Algebraic Topology Research Network (AATRN), Online Seminar",
+      "date": "Jan 29, 2020"
+    },
+    {
+      "title": "Featurization of Persistence Diagrams using Template Functions for Machine Learning Tasks",
+      "pdfLink": "",
+      "venue": "Joint Math Meetings (JMM), Denver, CO",
+      "date": "Jan 17, 2020"
+    },
+    {
+      "title": "Featurization of Persistence Diagrams using Template Functions for Machine Learning Tasks",
+      "pdfLink": "",
+      "venue": "Canadian Mathematical Society Winter Meeting, Toronto, Canada",
+      "date": "Dec 7, 2019"
+    },
+    {
+      "title": "Measuring the Shape of Data: The Shape of Hurricanes",
+      "pdfLink": "",
+      "venue": "Big Data Colloquium, Grand Valley State University, Allendale, MI",
+      "date": "Nov 22, 2019"
+    },
+    {
+      "title": "Featurization of Persistence Diagrams for Classifying Attractors",
+      "pdfLink": "",
+      "venue": "SIAM Dynamical Systems, Snowbird, Utah",
+      "date": "May 22, 2019"
+    },
+    {
+      "title": "Featurization of persistence diagrams using template functions for machine learning tasks",
+      "pdfLink": "",
+      "venue": "SIAM Great Lakes Sectional Meeting, University of Michigan, Ann Arbor, MI",
+      "date": "April 27, 2019"
+    },
+    {
+      "title": "Utilizing persistent homology for classifying behavior of time series",
+      "pdfLink": "",
+      "venue": "Workshop on Data Driven Dynamics: Algebraic Topology, Combinatorics and Analysis, CRM, Montreal, Canada",
+      "date": "April 18, 2019"
+    },
+    {
+      "title": "The Interleaving Distance for a Category with a Flow",
+      "pdfLink": "",
+      "venue": "MSU AMS/AWM Grad Student Seminar",
+      "date": "Feb 7, 2019"
+    },
+    {
+      "title": "The Interleaving Distance for a Category with a Flow",
+      "pdfLink": "",
+      "venue": "Upstate New York Topology Seminar, Albany, NY",
+      "date": "Nov 10, 2018"
+    },
+    {
+      "title": "Quantum Computation in a Topological Data Analysis Pipeline",
+      "pdfLink": "",
+      "venue": "2018 D-Wave Qubits North America, Knoxville, TN",
+      "date": "Sep 25, 2018"
+    },
+    {
+      "title": "Interleavings for categories with a flow and the hom-tree lower bound",
+      "pdfLink": "",
+      "venue": "BIRS-CMO Workshop on Multiparameter Persistent Homology, Oaxaca, Mexico",
+      "date": "Aug 9, 2018"
+    },
+    {
+      "title": "Topological Data Analysis",
+      "pdfLink": "",
+      "venue": "Summer Undergraduate Research Institute in Experimental Mathematics (SURIEM), MSU, East Lansing, MI",
+      "date": "June 21, 2018"
+    },
+    {
+      "title": "Topological Data Analysis",
+      "pdfLink": "",
+      "venue": "iCER ACRES REU, MSU, East Lansing, MI",
+      "date": "June 13, 2018"
+    },
+    {
+      "title": "Topological Data Analysis for Time Series Analysis",
+      "pdfLink": "",
+      "venue": "Abel Symposium, Geiranger, Norway",
+      "date": "June 6, 2018"
+    },
+    {
+      "title": "Reeb graphs, Mapper graphs, and Metrics",
+      "pdfLink": "",
+      "venue": "IMA Special Workshop: Bridging Statistics and Sheaves, Minneapolis, MN",
+      "date": "May 21, 2018"
+    },
+    {
+      "title": "Approximating Continuous Functions on Persistence Diagrams for Machine Learning Tasks",
+      "pdfLink": "",
+      "venue": "TRIPODS Seminar: Geometry and Topology of Data, ICERM, Brown University, Providence, RI",
+      "date": "December 13, 2017"
+    },
+    {
+      "title": "Quantifying and Comparing Shape in Data",
+      "pdfLink": "",
+      "venue": "Colloquium, Dept of Mathematics, University of Michigan at Dearborn, Dearborn, MI",
+      "date": "December 6, 2017"
+    },
+    {
+      "title": "Approximating Continuous Functions on Persistence Diagrams for Machine Learning Tasks",
+      "pdfLink": "",
+      "venue": "Geometry and Topology Seminar, Math Dept, MSU, East Lansing, MI",
+      "date": "November 16, 2017"
+    },
+    {
+      "title": "What is Topological Data Analysis",
+      "pdfLink": "",
+      "venue": "CMSE Brown-bag Lecture Series, MSU, East Lansing, MI",
+      "date": "October 17, 2017"
+    },
+    {
+      "title": "Applications of Persistence to Time Series Analysis",
+      "pdfLink": "",
+      "venue": "SIAM Central States Section 2017 Meeting, Colorado State University, Fort Collins, CO",
+      "date": "September 30, 2017"
+    },
+    {
+      "title": "Introduction to Categorical Approaches in Topological Data Analysis II",
+      "pdfLink": "",
+      "venue": "Topology, Computation and Data Analysis, Schloss Dagstuhl, Wadern, Germany",
+      "date": "July 17, 2017"
+    },
+    {
+      "title": "Applications of Persistence to Time Series Analysis",
+      "pdfLink": "",
+      "venue": "SIAM Conference on Dynamical Systems, Snowbird, Utah",
+      "date": "May 23, 2017"
+    },
+    {
+      "title": "Reeb graphs, Mapper graphs, and Metrics",
+      "pdfLink": "",
+      "venue": "47th Annual John H.~Barrett Memorial Lectures, University of Tennessee - Knoxville, TN",
+      "date": "Mar 2, 2017"
+    },
+    {
+      "title": "The Convergence of Mapper",
+      "pdfLink": "",
+      "venue": "AWM Research Symposium, UCLA, Los Angeles, CA",
+      "date": "Apr 8, 2017"
+    },
+    {
+      "title": "The Convergence of Mapper",
+      "pdfLink": "",
+      "venue": "Brown University, Providence, RI",
+      "date": "Mar 9, 2017"
+    },
+    {
+      "title": "A Topological Approach to Data Science",
+      "pdfLink": "",
+      "venue": "Dept.~of Mathematics, Montana State University, Bozeman, MT",
+      "date": "Feb 13, 2017"
+    },
+    {
+      "title": "A Topological Approach to Data Science",
+      "pdfLink": "",
+      "venue": "Dept.~of Computational Mathematics, Science, and Engineering, Michigan State University, East Lansing, MI",
+      "date": "Jan 11, 2017"
+    },
+    {
+      "title": "The interleaving distance for posets",
+      "pdfLink": "",
+      "venue": "Joint Mathematics Meetings, Atlanta, GA",
+      "date": "Jan 4, 2017"
+    },
+    {
+      "title": "The Convergence of Mapper",
+      "pdfLink": "",
+      "venue": "New York Applied Topology Meetings, Columbia University, New York, NY",
+      "date": "Dec 9, 2016"
+    },
+    {
+      "title": "The interleaving distance for posets",
+      "pdfLink": "",
+      "venue": "Union College Mathematics Conference, Schenectady, NY",
+      "date": "Dec 3, 2016"
+    },
+    {
+      "title": "The Reeb graph interleaving distance",
+      "pdfLink": "",
+      "venue": "Computer Science Seminar, St.~Louis University",
+      "date": "Oct 12, 2016"
+    },
+    {
+      "title": "Utilizing Topological Data Analysis to Detect Periodicity",
+      "pdfLink": "",
+      "venue": "International Workshop on Topological Data Analysis in Biomedicine at ACM-BCB, Seattle, WA",
+      "date": "Oct 2, 2016"
+    },
+    {
+      "title": "The interleaving distance",
+      "pdfLink": "",
+      "venue": "Geometry and Topology Seminar, Math Department, University at Buffalo, Buffalo, NY",
+      "date": "Sep 23, 2016"
+    },
+    {
+      "title": "Applications of Persistence to Time Series Analysis",
+      "pdfLink": "",
+      "venue": "Topology, Geometry, and Data Analysis Conference (TGDA), Ohio State University, Columbus, OH",
+      "date": "May 20, 2016"
+    },
+    {
+      "title": "Topological Data Analysis",
+      "pdfLink": "",
+      "venue": "Junior STEM Idea Exchange (JUSIE): Lightning event, Albany, NY",
+      "date": "May 10, 2016"
+    },
+    {
+      "title": "What Does it Mean for Data to Have Shape?",
+      "pdfLink": "",
+      "venue": "Workshop on the Shape of Educational Data, Fairfax, VA",
+      "date": "April 7, 2016"
+    },
+    {
+      "title": "The Reeb Graph Interleaving Distance and its Application to Data Analysis",
+      "pdfLink": "",
+      "venue": "Combinatorics Seminar, SUNY Binghamton, Binghamton, NY",
+      "date": "Mar 15, 2016"
+    },
+    {
+      "title": "Topological Data Analysis and its Application to Atmospheric Science Data",
+      "pdfLink": "",
+      "venue": "Dept of Atmospheric and Environmental Sciences Colloquium, UAlbany, Albany, NY",
+      "date": "Feb 15, 2016"
+    },
+    {
+      "title": "Topological Data Analysis",
+      "pdfLink": "",
+      "venue": "Math Department Student Seminar, Union College, Schenectady, NY",
+      "date": "Jan 19, 2016"
+    },
+    {
+      "title": "Applied Category Theory and the Reeb Graph Interleaving Distance",
+      "pdfLink": "",
+      "venue": "Geometry and Topology Seminar, NCSU, Raleigh, NC",
+      "date": "Jan 13, 2016"
+    },
+    {
+      "title": "Complexity of the Reeb Graph Interleaving Distance",
+      "pdfLink": "",
+      "venue": "CS Theory Seminar, NCSU, Raleigh, NC",
+      "date": "Jan 11, 2016"
+    },
+    {
+      "title": "Reeb Graph Approximation with Guarantees",
+      "pdfLink": "",
+      "venue": "Joint Mathematics Meetings, Seattle, WA",
+      "date": "Jan 9, 2016"
+    },
+    {
+      "title": "Reeb Graph Approximation with Guarantees",
+      "pdfLink": "",
+      "venue": "Fall Workshop on Computational Geometry (FWCG), Buffalo, NY",
+      "date": "Oct 23, 2015"
+    },
+    {
+      "title": "The Reeb Graph Interleaving Distance ",
+      "pdfLink": "",
+      "venue": "UAlbany - Algebra/Topology Seminar",
+      "date": "Sep 3 (Part I) and Sep 10 (Part II), 2015"
+    },
+    {
+      "title": "A New Metric for $\\mathbb{R}$-graph Comparison",
+      "pdfLink": "",
+      "venue": "AFRL Annual Applied Topology Workshop, Rome, NY",
+      "date": "Aug 7, 2015"
+    },
+    {
+      "title": "Demo: Using Perseus to Compute Persistent Homology",
+      "pdfLink": "",
+      "venue": "UAlbany Applied Topology Reading Group",
+      "date": "Aug 6, 2015"
+    },
+    {
+      "title": "The Interleaving Distance",
+      "pdfLink": "",
+      "venue": "CG Week, Symposium on Computational Geometry (SoCG), Eindhoven, Netherlands",
+      "date": "June 25, 2015"
+    },
+    {
+      "title": "Strong Equivalence of the Interleaving and Functional Distortion Metrics for Reeb Graphs",
+      "pdfLink": "",
+      "venue": "Symposium on Computational Geometry (SoCG), Eindhoven, Netherlands",
+      "date": "June 24, 2015"
+    },
+    {
+      "title": "Using Topology to Understand Big Data",
+      "pdfLink": "",
+      "venue": "Junior STEM Idea Exchange (JUSIE), University at Albany - SUNY",
+      "date": "Mar 25, 2015"
+    },
+    {
+      "title": "Strong Equivalence of Reeb Graph Metrics",
+      "pdfLink": "",
+      "venue": "Invited Lecture, TU Munich, Munich, Germany",
+      "date": "Mar 17, 2015"
+    },
+    {
+      "title": "The Cosheaf-Less Reeb Graph Interleaving Distance",
+      "pdfLink": "",
+      "venue": "Seminar on Computational Geometry, Schloss Dagstuhl, Wadern, Germany",
+      "date": "Mar 12, 2015"
+    },
+    {
+      "title": "The Interleaving Distance for Reeb Graphs",
+      "pdfLink": "",
+      "venue": "Applied Algebraic Topology Research Network - Online Seminar",
+      "date": "Feb 25, 2015"
+    },
+    {
+      "title": "Using Topology to Understand Big Data",
+      "pdfLink": "",
+      "venue": "Women in Science and Engineering (WISH) Lunch, University at Albany, Albany, NY",
+      "date": "Jan 15, 2015"
+    },
+    {
+      "title": "Towards Predicting and Preventing Machine Chatter Using Persistent Homology",
+      "pdfLink": "",
+      "venue": "Invited lecture, Workshop on Topology : Identifying Order in Complex System, Rutgers, New Brunswick, NJ",
+      "date": "Oct 18, 2014"
+    },
+    {
+      "title": "Using Topology to Understand Big Data",
+      "pdfLink": "",
+      "venue": "Invited lecture, Modern Math Workshop, Los Angeles, CA",
+      "date": "Oct 16, 2014"
+    },
+    {
+      "title": "Interleavings of Reeb Graphs",
+      "pdfLink": "",
+      "venue": "Invited Lecture, AIM Workshop on Generalized Persistence and Applications",
+      "date": "Sept 18, 2014"
+    },
+    {
+      "title": "Interleavings of Reeb Graphs",
+      "pdfLink": "",
+      "venue": "Invited Lecture, ATMCS 6, Vancouver, Canada",
+      "date": "May 29, 2014"
+    },
+    {
+      "title": "Topological Data Analysis :: Persistent Homology and Applications",
+      "pdfLink": "",
+      "venue": "Invited Lecture, Systems Information Learning Optimization (SILO), University of Wisconsin - Madison, Madison, WI",
+      "date": "April 23, 2014"
+    },
+    {
+      "title": "A Distance Measure on Reeb Graphs",
+      "pdfLink": "",
+      "venue": "Invited Lecture, Topology, Geometry and Data Seminar, Ohio State University, Columbus, OH",
+      "date": "April 11, 2014"
+    },
+    {
+      "title": "Using Persistence to Explore Equilibria of Delay Equations",
+      "pdfLink": "",
+      "venue": "Invited Lecture, Spring Topology and Dynamics Conference, University of Richmond, Richmond, VA",
+      "date": "March 14, 2014"
+    },
+    {
+      "title": "Categorification of Reeb Graphs",
+      "pdfLink": "http://www.ima.umn.edu/videos/index.php?id=2609",
+      "venue": "Invited Lecture, Workshop on Topological Systems : Communication, Sensing, and Actuation, IMA, Minneapolis, MN",
+      "date": "March 6, 2014"
+    },
+    {
+      "title": "Using Persistence to Explore Equilibria of Delay Equations",
+      "pdfLink": "",
+      "venue": "Poster: Workshop on Algebraic Topology in Dynamics, Differential Equations, and Experimental Data, IMA, Minneapolis, MN",
+      "date": "February 11, 2014",
+      "type": "poster"
+    },
+    {
+      "title": "Categorification of Reeb Graphs",
+      "pdfLink": "",
+      "venue": "SAMSI Workshop, LDHD: Topological Data Analysis, Durham, NC",
+      "date": "February 5, 2014"
+    },
+    {
+      "title": "Extending Statistical Methods to Computational Topology",
+      "pdfLink": "",
+      "venue": "SIAM Minisymposium on Applied and Computational Geometry, JMM, Baltimore, MD",
+      "date": "January 17, 2014"
+    },
+    {
+      "title": "A Statistical Approach for Improving Topological Data Analysis",
+      "pdfLink": "",
+      "venue": "University of Rochester, Rochester, NY",
+      "date": "January 10, 2014"
+    },
+    {
+      "title": "Categorification of Reeb Graphs",
+      "pdfLink": "",
+      "venue": "Topology Seminar, Tulane University, New Orleans, LA",
+      "date": "November 5, 2013"
+    },
+    {
+      "title": "Categorification of Reeb Graphs",
+      "pdfLink": "",
+      "venue": "IMA Postdoc Seminar, University of Minnesota, Minneapolis, MN",
+      "date": "October 22, 2013"
+    },
+    {
+      "title": "A Continuous Mean for Finite Sets of Persistence Diagrams",
+      "pdfLink": "",
+      "venue": "Invited Lecture, Workshop: Topological Data Analysis, IMA, University of Minnesota, Minneapolis, MN",
+      "date": "October 10, 2013"
+    },
+    {
+      "title": "A Continuous Mean for Distributions of Persistence Diagrams",
+      "pdfLink": "<a class='pdf' href='/math/talks/SIAM-AG2013-FortCollins.pdf'>PDF of Slides</a>",
+      "venue": "Invited Lecture, SIAM Conference on Applied Algebraic Geometry, Fort Collins, CO",
+      "date": "August 2, 2013"
+    },
+    {
+      "title": "An Introduction to Topological Data Analysis",
+      "pdfLink": "<a class='pdf' href='/math/talks/SUNYIT-June2013.pdf'>PDF of Slides</a>",
+      "venue": "Invited Lecture, SUNYIT, Utica, NY",
+      "date": "June 11, 2013"
+    },
+    {
+      "title": "Applications of Persistent Homology to Time Varying Systems",
+      "pdfLink": "<a class='pdf' href='/math/talks/DefenseVineyards.pdf'>PDF of Slides</a>",
+      "venue": "PhD Defense, Duke University",
+      "date": "March 28, 2013"
+    },
+    {
+      "title": "Using Persistent Homology to Analyze Behavior in Dynamic Point Clouds",
+      "pdfLink": "",
+      "pdfText": "",
+      "venue": "SIAM Student Chapter Lecture Series, Colorado State University, Fort Collins, CO",
+      "date": "November 5, 2012"
+    },
+    {
+      "title": "Using Persistent Homology to Analyze Dynamic Point Clouds",
+      "pdfLink": "",
+      "pdfText": "",
+      "venue": "Data Research Training Grant Seminar, Duke University, Durham, NC",
+      "date": "October 22, 2012"
+    },
+    {
+      "title": "An Intro to Persistent Homology and Some Applications",
+      "pdfLink": "",
+      "pdfText": "",
+      "venue": "Graduate/Faculty Seminar, Duke University, Durham, NC",
+      "date": "September 7, 2012"
+    },
+    {
+      "title": "Metrics on Vineyards",
+      "pdfLink": "",
+      "pdfText": "",
+      "venue": "Computational Geometry Week, Chapel Hill, NC",
+      "date": "June 20, 2012"
+    },
+    {
+      "title": "Using vineyards to verify results of an agent-based model of primate group fission and fusion",
+      "pdfLink": "<a class='pdf' href='/math/talks/primates/FACM-Poster-Primates.pdf'>PDF of Poster</a>",
+      "pdfText": "",
+      "venue": "Poster: Frontiers in Applied and Computational Mathematics, New Jersey Institute of Technology, Newark, NJ",
+      "date": "May 18-20, 2012",
+      "type": "poster"
+    },
+    {
+      "title": "Primates and Vineyards",
+      "pdfLink": "",
+      "pdfText": "",
+      "venue": "Duke University Math Slam, Duke University, Durham, NC",
+      "date": "March 23, 2012"
+    },
+    {
+      "title": "Utilizing Ideas from Persistent Homology to Compute Probabilistic Sensor Network Coverage",
+      "pdfLink": "<a class='pdf' href='/math/talks/NCSU-Jan2012.pdf'>PDF of Slides</a>",
+      "pdfText": "",
+      "venue": "Algebra/Combinatorics Seminar, NC State University, Raleigh,NC",
+      "date": "January 13, 2012"
+    },
+    {
+      "title": "Applied Topology: Basic Ideas and a Mess of Applications",
+      "pdfLink": "",
+      "pdfText": "",
+      "venue": "Graduate/Faculty Seminar, Duke University, Durham, NC",
+      "date": "October 14, 2011"
+    },
+    {
+      "title": "Using Persistent Homology to Compute Probabalistic Failure of a Sensor Network",
+      "pdfLink": "",
+      "pdfText": "",
+      "venue": "SIAM Conference on Applied Algebraic Geometry, Raleigh, NC",
+      "date": "October 6, 2011"
+    },
+    {
+      "title": "Computing Probabilistic Sensor Network Coverage via Algorithms Utilizing Persistent Homology",
+      "pdfLink": "",
+      "pdfText": "",
+      "venue": "Geometry and Topology Reading Group, Institute of Science and Technology, Klosterneuburg, Austria",
+      "date": "June 20, 2011"
+    },
+    {
+      "title": "Computing Probabilistic Sensor Network Coverage via Algorithms Utilizing Persistent Homology",
+      "pdfLink": "",
+      "pdfText": "",
+      "venue": "Computational Geometry Seminar, UNC Chapel Hill, Chapel Hill, NC",
+      "date": "February 3, 2011"
+    },
+    {
+      "title": "Failure Filtrations and Coverage of Fenced Sensor Networks",
+      "pdfLink": "",
+      "pdfText": "",
+      "venue": "Graduate/Faculty Seminar, Duke University",
+      "date": "November 19, 2010"
+    }
+  ]
+}

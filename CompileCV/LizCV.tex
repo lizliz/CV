@@ -1,0 +1,1208 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+
+
+%-----------Mess with column widths for teaching table----------------%
+\newcolumntype{L}{>{\centering\arraybackslash}m{6.5cm}}
+
+
+
+%------------bibliography-------------------$
+\usepackage[backend=bibtex, sorting = ydnt, defernumbers=true, maxbibnames=99, url=false]{biblatex}
+\bibliography{MyPublications} % or
+%  \usepackage[style=authoryear, backend=bibtex]{biblatex}
+% \addbibresource{MyPublications.bib}
+
+
+%-------Remove the reference title from publications section----------%
+\usepackage{etoolbox}
+\patchcmd{\thebibliography}{\section*{\refname}}{}{}{}
+
+
+\usepackage{amsfonts}
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage{colortbl}
+\usepackage[usenames,dvipsnames]{xcolor}
+
+
+\usepackage{etaremune}
+\usepackage{color,hyperref}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
+\hypersetup{colorlinks,breaklinks,
+            linkcolor=darkblue,urlcolor=darkblue,
+            anchorcolor=darkblue,citecolor=darkblue}
+
+\usepackage[symbol]{footmisc}
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+% \footnote[num]{text}.... see https://tex.stackexchange.com/questions/826/symbols-instead-of-numbers-as-footnote-markers
+
+\name{Elizabeth Munch} % Your name
+\address{Dept of Computational Mathematics, Science, and Engineering \\ Dept of Mathematics}
+\address{Michigan State University \\ East Lansing, MI} % Your address
+\address{517-432-0619 \\ muncheli@msu.edu} % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+\college
+{\href{http://www.duke.edu/}{Duke University}}
+{Durham, NC}
+\begin{DegreeList}{Ph.D.~Dept.~of Mathematics}{May 2013}
+%  \item Advisor: John Harer
+ \item Thesis: Applications of Persistent Homology to Time Varying Systems
+\end{DegreeList}
+\Degree
+{M.A.~Dept.~of Mathematics}
+{Dec 2010}
+
+
+\college
+{\href{http://www.rochester.edu}{\textbf{University of Rochester}}}
+{Rochester, NY}
+\Degree
+{B.S.~Mathematics, Summa Cum Laude, School of Arts and Sciences}
+{May 2008}\\
+\Degree
+{B.M.~Harp Performance with High Distinction,  Eastman School of Music}
+{May 2008}
+
+
+
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Research Experience}
+
+\college
+{\href{http://msu.edu/}{Michigan State University}}
+{East Lansing, MI}
+Dept.~of Computational Mathematics, Science and Engineering (CMSE)\\
+ Dept.~of Mathematics\\
+\Degree
+{Associate Professor}
+{July 2022 -- Present}\\
+\Degree
+{Assistant Professor}
+{Aug 2017 -- July 2022}
+
+\college
+{\href{http://www.albany.edu/}{University at Albany -- SUNY}}
+{Albany, NY}
+ Dept.~of Mathematics \& Statistics\\
+\Degree
+{Assistant Professor}
+{Sept 2014 -- July 2017}\\
+ Dept.~of Computer Science\\
+\Degree
+{Affiliated Faculty}
+{July 2015 -- July 2017}
+
+\college
+{\href{http://www.umn.edu/}{University of Minnesota}}
+{Minneapolis, MN}
+Institute for Mathematics and Its Applications\\
+\Degree
+{Postdoctoral Fellow}
+{Sept 2013 -- Aug 2014}
+
+\college
+{\href{http://www.duke.edu/}{Duke University}}
+{Durham, NC}
+Dept.~of Mathematics\\
+\Degree
+{Visiting Assistant Professor}
+{June 2013 -- Aug 2013}\\
+\Degree
+{Graduate Research Assistant}
+{Sept 2008 -- May 2013}
+
+
+% %------------------------------------------------
+%
+% \begin{rSubsection}{AJAX Hosting}{December 2009 - October 2010}{Lead Developer}{Austin, TX}
+% \item Aenean ut gravida lorem. Ut turpis felis, Perl pulvinar a semper sed, adipiscing id dolor.
+% \item Curabitur dapibus enim sit amet elit pharetra tincidunt website feugiat nisl imperdiet. Ut convallis AJAX libero in urna ultrices accumsan.
+% \item Cum sociis natoque penatibus et magnis dis MySQL parturient montes, nascetur ridiculus mus.
+% \item In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.
+% \item Nullam cursus suscipit nisi, et ultrices justo sodales nec. Fusce venenatis facilisis lectus ac semper.
+% \end{rSubsection}
+%
+% %------------------------------------------------
+%
+% \begin{rSubsection}{TinySoft}{January 2008 - April 2010}{Web Designer \& Developer}{Gainesville, GA}
+% \item Vivamus PostgreSQL fermentum semper porta. Nunc diam velit PHP, adipiscing ut tristique vitae
+% \item Maecenas convallis ullamcorper ultricies stylesheets.
+% \item Quisque mi metus, unit tests CSS ornare sit amet fermentum et, tincidunt et orci.
+% \item Curabitur venenatis pulvinar tellus gravida ornare. Sed et erat faucibus nunc euismod ultricies ut id
+% \end{rSubsection}
+
+\end{rSection}
+
+
+% \newpage
+%----------------------------------------------------------------------------------------
+%	Awards and Honors
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Awards and Honors}
+
+% \begin{list}{}{}
+\begin{list}{}{\leftmargin=0em}
+   \itemsep -0.6em %\vspace{-0.5em} % Compress items in list together for aesthetics
+\item NSF CAREER Award, 2022
+\item
+Jo Rae Wright Fellowship for Outstanding Women in Science, Duke University, 2012-2013
+
+\item
+Phi Beta Kappa, University of Rochester, May 2008
+
+
+\item
+Performer's Certificate in Harp, May 2008
+
+
+
+\item
+Lois S. Rogers Scholarship, Eastman School of Music, 2004-2008
+%Eileen Malone Memorial Scholarship, Eastman School of Music, 2007.\\
+%Did I get this one????
+
+\item Performer's Certificate, Eastman School of Music, 2008
+
+\item
+Presser Scholarship, Eastman School of Music, 2007
+
+
+\end{list}
+
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	Publications
+%----------------------------------------------------------------------------------------
+\newpage
+
+\begin{rSection}{Publications}
+\textit{Due to working in an interdisciplinary setting, my work follows many different conventions for authorship.
+Theoretical mathematics and theoretical computer science tend to be published alphabetically.
+Applied mathematics and other domain settings tend to be published in descending order of contribution, with graduate students and postdocs listed first; followed by PIs.
+% Symbols used to denote authorship:
+}
+% \begin{itemize}{}{\leftmargin=0em}
+%    \itemsep -0.6em %\vspace{-0.5em} % Compress items in list together for aesthetics
+%   \item [$\dagger$] \textit{MSU Graduate Student Advisee}
+%   \item [$\ddagger$] \textit{Non-MSU Graduate Student Advisee}
+%   \item [$\circ$] \textit{MSU Postdoc Advisee}
+%   \item [$\star$] \textit{Other MSU Graduate Students and Postdocs}
+%   \item [$\diamond$] \textit{REU Undergraduate}
+%
+%
+%   % \item [$\oplus$] Corresponding author
+% \end{itemize}
+
+
+\nocite{*}
+
+\textbf{Preprints}
+% --- If you want all preprints --
+% \printbibliography[keyword = preprint, heading=none]
+% --- If you only want posted preprints --
+% \printbibliography[keyword = arxiv, heading=none]
+% --- If you only want in submission preprints --
+\printbibliography[keyword = inSubmission, heading=none]
+
+
+\textbf{Journal Articles}\\
+\textit{Whenever possible, I post preprints of my papers to the arXiv. Where available, I include links to both the publised versions (via DOI or URL), as well as to the arXiv posting.}
+% \printbibliography[keyword = journal, heading=none, resetnumbers = true]
+\printbibliography[keyword = journal, heading=none]
+
+
+\textbf{Computer Science Conference Proceedings}\\
+\textit{My work is interdisciplinary and often crosses between mathematics and theoretical computer science.
+In CS, both journals and selective proceedings are highly regarded venues for publications.
+The proceedings have the advantage of high visibility and a shortened time to press. These venues are peer-reviewed by a general minimum of between 3 and 5 evaluators and can be highly competitive. Acceptance rates are provided when known. Most notable conferences in my work are the \emph{Symposium on Computational Geometry (SoCG)}, which is the top conference in Applied Topology and Geometry \cite{Chambers2020,Munch2016,Bauer2015b}; and IEEE Scientific Visualization (SciVis) published in the journal TVCG, which is the top conference in visualization \cite{Yan2019a}.}
+\printbibliography[keyword = conferenceTop, heading=none]
+
+
+\textbf{Other Conference Proceedings}
+
+\textit{This section includes conference papers either from non-computer science conferences, or from papers submitted to workshops where the paper is not part of the main session.}
+
+\printbibliography[keyword = conference, heading=none]
+
+\textbf{Book Chapters}
+\printbibliography[keyword = book, heading=none]
+
+
+\textbf{Published Datasets}
+\printbibliography[keyword = dataset, heading=none]
+
+\textbf{Other Published Work}
+\printbibliography[keyword = other, heading=none]
+
+% \nocite{*}
+
+% \nocite{deSilva2015, Munch2012}
+%
+% Second
+% \nocite{deSilva2015, Munch2012}
+% \bibliographystyle{plainyrRev}
+% \bibliography{MyPublications}
+
+% \begin{refsection}
+% \end{refsection}
+% \printbibliography[keyword=journal]
+%
+% \printbibliography[keyword=conference]
+% \printbibliography[keyword=preprint]
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%
+%----------------------------------------------------------------------------------------
+
+
+
+% \newpage
+\begin{rSection}{Grants: Funded and Recommended for Funding}
+
+
+
+
+\textbf{\textit{Collaborative Research: AF: Medium: A Unified Framework for Geometric and Topological Signature-Based Shape Comparison}}
+\vspace{-.1in}
+\begin{itemize}{}{\leftmargin=0em}
+   \itemsep -0.6em %\vspace{-0.5em} % Compress items in list together for aesthetics
+   \item
+NSF \href{https://nsf.gov/awardsearch/showAward?AWD_ID=2106578}{CCF-2106578}:  \$409,945
+\item
+Jun 2021 - May 2025
+   \item
+Role: Principal Investigator
+\item Collaborative with
+  Erin Chambers, Computer Science, St.~Louis University; Carola Wenk, Computer Science, Tulane University
+
+\end{itemize}
+
+\textbf{\textit{AF: Small: Collaborative Research: Reeb graph flows: Metrics, Drawings, and Analysis}}
+\vspace{-.1in}
+\begin{itemize}{}{\leftmargin=0em}
+   \itemsep -0.6em %\vspace{-0.5em} % Compress items in list together for aesthetics
+   \item
+NSF \href{https://nsf.gov/awardsearch/showAward?AWD_ID=1907591}{CCF-1907591}:  \$246,596
+\item
+Oct 2019 - Sept 2022
+   \item
+Role: Principal Investigator
+\item Collaborative with
+  Erin Chambers, (PI: CCF-1907612) Computer Science, St.~Louis University
+
+\end{itemize}
+
+%-------------
+% \vspace{-.1in}
+%-------------
+\textbf{\textit{Role of transport processes in formation of optimal microbial habitats and the root-microbe-soil carbon accrual continuum}}
+\vspace{-.1in}
+\begin{itemize}{}{\leftmargin=0em}
+   \itemsep -0.6em %\vspace{-0.5em} % Compress items in list together for aesthetics
+   \item
+NSF DEB-\href{https://nsf.gov/awardsearch/showAward?AWD_ID=1904267}{1904267}: \$624,995
+\item
+Sept 2019 - Aug 2024
+   \item
+Role: Co-PI
+\item Collaborative with
+   \vspace{-.1in}
+\begin{itemize}{}{\leftmargin=0em}
+   \itemsep -0.6em %\vspace{-0.5em} % Compress items in list together for aesthetics
+  \item Alexandra Kravchenko (PI),  Dept of Plant, Soil, and Microbial Sciences, MSU
+  \item Daniel Chitwood (Co-PI), Depts of Horticulture and CMSE, MSU
+  \item Lisa Tiemann (Co-PI), Dept of Plant, Soil, and Microbial Sciences, MSU
+  \item Andrey Guber (Co-PI), Dept of Plant, Soil, and Microbial Sciences, MSU
+\end{itemize}
+\end{itemize}
+%-------
+\textbf{\textit{Zigzag Persistent Homology and Network Methods for Topological Signal Processing}}
+\vspace{-.1in}
+\begin{itemize}{}{\leftmargin=0em}
+   \itemsep -0.6em %\vspace{-0.5em} % Compress items in list together for aesthetics
+   \item Air Force Office of Scientific Research, \$375,000
+\item
+Oct 2021 - Sep 2024
+   \item
+Role: Co-PI
+\item Collaborative with Firas Khasawneh (PI), Mechanical Engineering, MSU
+
+\end{itemize}
+%-------
+\textbf{\textit{CAREER: Reeb graph learning: Classification, Clustering, and Embedding of Graphical Signatures
+}}
+\vspace{-.1in}
+\begin{itemize}{}{\leftmargin=0em}
+   \itemsep -0.6em %\vspace{-0.5em} % Compress items in list together for aesthetics
+   \item NSF CCF-\href{https://nsf.gov/awardsearch/showAward?AWD_ID=2142713}{2142713}:  \$507,462
+\item
+May 2022 - May 2027
+   \item
+Role: PI
+
+\end{itemize}
+
+
+
+%-------------
+% \vspace{-.1in}
+%-------------
+%=============
+\end{rSection}
+\begin{rSection}{Grants: Completed Projects}
+%=============
+\textbf{\textit{Collaborative Research: A Unified Framework for the Investigation of Time Series Using Topological Data Analysis}}
+\vspace{-.1in}
+\begin{itemize}{}{\leftmargin=0em}
+   \itemsep -0.6em %\vspace{-0.5em} % Compress items in list together for aesthetics
+   \item
+NSF CMMI-\href{https://nsf.gov/awardsearch/showAward?AWD_ID=1562012}{1562012}/\href{https://nsf.gov/awardsearch/showAward?AWD_ID=1800466}{1800466}: (UAlbany/MSU)  \$178,736 \footnote{Double grant numbers caused by transfer of grants to MSU.}
+\item
+April 2016 - Mar 2020
+   \item
+Role: Principal Investigator
+\item Collaborative with
+  Firas Khasawneh, (PI: CMMI-1562459/1759823) Mechanical Eng., MSU
+%    \item
+% NSF CMMI-1562459/1759823: (SUNY Poly/MSU) \$196,499 (PI Khasawneh)
+
+\end{itemize}
+
+%-------------
+% \vspace{-.1in}
+%-------------
+
+\textbf{\textit{CDS\&E: Collaborative Research: Machine Learning on Dynamical Systems\\ via Topological Features}}
+\vspace{-.1in}
+\begin{itemize}{}{\leftmargin=0em}
+   \itemsep -0.6em %\vspace{-0.5em} % Compress items in list together for aesthetics
+   \item
+NSF DMS-\href{https://nsf.gov/awardsearch/showAward?AWD_ID=1622320}{1622320}/\href{https://nsf.gov/awardsearch/showAward?AWD_ID=1800446}{1800446}: (UAlbany/MSU)  \$101,672
+\item
+Sept 2016 - Aug 2019
+   \item
+Role: Principal Investigator
+\item Collaborative with
+   \vspace{-.1in}
+\begin{itemize}{}{\leftmargin=0em}
+   \itemsep -0.6em %\vspace{-0.5em} % Compress items in list together for aesthetics
+   \item Firas Khasawneh, (PI: DMS-1622293/1759824) Mechanical Eng., MSU
+   \item Jos\'e Perea, (PI: DMS-1622301) Depts.~of Math, \& CMSE, MSU
+   \end{itemize}
+   % \item
+% NSF DMS-1622301: (MSU)  \$105,000 (PI Perea)
+   % \item
+% NSF DMS-1622293/1759824: (SUNY Poly/MSU)  \$93,111 (PI Khasawneh)
+
+
+\end{itemize}
+
+
+
+% \newpage
+
+\textbf{\textit{Kaleidoscope: Turning System Design Inside-Out}}
+\vspace{-.1in}
+\begin{itemize}{}{\leftmargin=0em}
+   \itemsep -0.6em %\vspace{-0.5em} % Compress items in list together for aesthetics
+   \item
+DARPA
+\item
+Aug 2016-July 2017
+   \item
+Role: Technical POC
+\item Collaborative with
+Raytheon BBN Technologies Corp., Boston, MA
+   % \item
+% Total award amount: \$308,089
+% \vspace{-.1in}
+% \begin{itemize}
+% {}{\leftmargin=0em}
+%    \itemsep -0.6em %\vspace{-0.5em} % Compress items in list together for aesthetics
+%    \item
+% NSF DMS-1622320: (UAlbany)  \$101,672 (PI Munch)
+%    \item
+% NSF DMS-1622301: (MSU)  \$105,000 (PI Perea)
+%    \item
+% NSF DMS-1622293: (SUNY Poly)  \$93,111 (PI Khasawneh)
+
+% \end{itemize}
+
+\end{itemize}
+\vspace{-.1in}
+
+\end{rSection}
+
+
+%
+% ----------------------------------------------------------------------------------------
+% \newpage
+\begin{rSection}{Invited Speaker}
+\noindent{Talk titles with hyperlinks have recordings or supplementary  material available.}
+
+\begin{etaremune}
+\item\emph{Making space and studying shape in a non-traditional academic setting}. Keynote Address, WiDS Iowa, Virtual, Apr 21, 2022. 
+
+\item\emph{The Interleaving Distance for Reeb Graphs}. Math Dept Colloquium, University of Utah, Salt Lake City, UT, Apr 7, 2022. 
+
+\item\emph{The Shape of Data}. Keynote Address, NAPPN Annual Conference, University of Georgia, Athens, GA, Twosday, Feb 22, 2022. 
+
+\item\emph{Combining network analysis and persistent homology for classifying behavior of time series}. Dynamics Days, Online due to COVID-19, Jan 7, 2022. 
+
+\item\emph{The Truncated Interleaving Distance for Reeb Graphs}. Quivers Seminar, University of Iowa, Online due to COVID-19, November 15, 2021. 
+
+\item\emph{\href{https://drive.google.com/file/d/1lnZ_g1aQBkX4W6F9SRovgQ8Bzih1Is97/view?usp=sharing}{On the inter-level-set persistence bottleneck distance for Reeb graphs}}. Computational Persistence Workshop, Purdue, Online due to COVID-19, November 5, 2021. 
+
+\item\emph{The Truncated Interleaving Distance for Reeb Graphs}. SIAM Conference on Applied Algebraic Geometry, Online due to COVID-19, August 18, 2021. 
+
+\item\emph{The Interleaving Distance for Graphical Signatures}. Mathematical Congress of the Americas, Online due to COVID-19, July 16, 2021. 
+
+\item\emph{Measuring the Shape of Hurricanes}. MSU SURIEM REU, Online due to COVID-19, July 7, 2021. 
+
+\item\emph{Metrics for Graphical Signatures}. Topological Ideas in Applications, Thematic Einstein Semester on Geometric and Topological Structure of Materials, TU Berlin, Online due to COVID-19, June 24, 2021. 
+
+\item\emph{The Directional Transform: From Theory to Practice}. Workshop on Computational Topology at SoCG, Gather town, June 10, 2021. 
+
+\item\emph{A family of metrics from the truncated smoothing of Reeb graphs}. Symposium on Computational Geometry (SoCG) Main Session, Gather town, June 7, 2021. 
+
+\item\emph{Quantifying the shape of time series with TDA and network-based methods}. AI and Topology Track, EPFL Applied Machine Learning Days, Online due to COVID-19, May 10, 2021. 
+
+\item\emph{\href{https://www.youtube.com/watch?v=EUVk-FXbIog}{Combining network analysis and persistent homology for classifying behavior of time series}}. Applied Mathematics and Complex Systems Seminar, University of Western Australia, Online due to COVID-19, May 6, 2021. 
+
+\item\emph{The Truncated Interleaving Distance for Reeb Graphs}. Topological Data Analysis Workshop, IMSI, Online due to COVID-19, April 27, 2021. 
+
+\item\emph{Utilizing Persistent Homology for Classifying Behavior of Time Series}. Computational Topology Class, University of Utah, Online due to COVID-19, April 22, 2021. 
+
+\item\emph{Measuring the Shape of Hurricanes}. MSU Undergraduate Math Club, Online due to COVID-19, April 6, 2021. 
+
+\item\emph{Combining network analysis and persistent homology for classifying behavior of time series}. Applied Math Colloquium, University of Arizona, Online due to COVID-19, March 12, 2021. 
+
+\item\emph{Averaging Merge Trees}. EPFL Applied Topology Seminar, Online due to COVID-19, March 9, 2021. 
+
+\item\emph{The Truncated Interleaving Distance for Reeb Graphs}. Joint Mathematics Meetings, Online due to COVID-19, Jan 9, 2021. 
+
+\item\emph{\href{https://github.com/lizliz/TDA-Python-Workshop-JMM21}{Python Tutorial on Topological Data Analysis (TDA)}}. AMS Short Course on Mathematical and Computational Methods for Complex Social Systems, Joint Mathematics Meetings, Online due to COVID-19, Jan 5, 2021. 
+
+\item\emph{Persistent homology of complex networks for dynamic state detection in time series}. Topological Data Analysis and Beyond Workshop, Neurips 2020, Online due to COVID-19, Dec 11, 2020. 
+
+\item\emph{The Truncated Interleaving Distance for Reeb Graphs}. TGDA Seminar, Ohio State University, Online due to COVID-19, Nov 17, 2020. 
+
+\item\emph{\href{https://mediaspace.msu.edu/media/t/1_yghdjfiz}{Combining network analysis and persistent homology for classifying behavior of time series}}. CMSE Brownbag Seminar, MSU, Nov 13, 2020. 
+
+\item\emph{Combining network analysis and persistent homology for classifying behavior of time series}. Virtual Mathematics Colloquium, Clarkson University, Online due to COVID-19, Oct 19, 2020. 
+
+\item\emph{Combining network analysis and persistent homology for classifying behavior of time series}. Second Symposium on Machine Learning and Dynamical Systems, Fields Institute, Online due to COVID-19, Sep 29, 2020. 
+
+\item\emph{\href{https://youtu.be/nyO4KQTmwzU}{The Truncated Interleaving Distance for Reeb Graphs}}. GEOTOP-A Online Seminar, Sep 18, 2020. 
+
+\item\emph{Convergence of Mapper Graphs}. MSU TDA Seminar, East Lansing, MI, Aug 6, 2020. 
+
+\item\emph{Featurization of Persistence Diagrams using Template Functions for Machine Learning Tasks}. Diff CVML - CVPR Keynote, Online due to COVID-19., June 29, 2020. 
+
+\item\emph{\href{https://youtu.be/2mscXkz_o4A}{Topological Data Analysis for Quantifying Plant Morphology}}. SIAM MDS, Online due to COVID-19., June 2, 2020. 
+
+\item\emph{Drawing Time-Varying Reeb Graphs}. MSU AMS/AWM Grad Student Seminar, Mar 9, 2020. 
+
+\item\emph{Applications of TDA: From Reeb Graphs to Diagrams, From Time Series to Plant Morphology}. MSU TDA Seminar, East Lansing, MI, Mar 9, 2020. 
+
+\item\emph{\href{https://youtu.be/Moh9lF4UVs4}{Featurization of Persistence Diagrams using Template Functions for Machine Learning Tasks}}. Applied Algebraic Topology Research Network (AATRN), Online Seminar, Jan 29, 2020. 
+
+\item\emph{Featurization of Persistence Diagrams using Template Functions for Machine Learning Tasks}. Joint Math Meetings (JMM), Denver, CO, Jan 17, 2020. 
+
+\item\emph{Featurization of Persistence Diagrams using Template Functions for Machine Learning Tasks}. Canadian Mathematical Society Winter Meeting, Toronto, Canada, Dec 7, 2019. 
+
+\item\emph{Measuring the Shape of Data: The Shape of Hurricanes}. Big Data Colloquium, Grand Valley State University, Allendale, MI, Nov 22, 2019. 
+
+\item\emph{Featurization of Persistence Diagrams for Classifying Attractors}. SIAM Dynamical Systems, Snowbird, Utah, May 22, 2019. 
+
+\item\emph{Featurization of persistence diagrams using template functions for machine learning tasks}. SIAM Great Lakes Sectional Meeting, University of Michigan, Ann Arbor, MI, April 27, 2019. 
+
+\item\emph{Utilizing persistent homology for classifying behavior of time series}. Workshop on Data Driven Dynamics: Algebraic Topology, Combinatorics and Analysis, CRM, Montreal, Canada, April 18, 2019. 
+
+\item\emph{The Interleaving Distance for a Category with a Flow}. MSU AMS/AWM Grad Student Seminar, Feb 7, 2019. 
+
+\item\emph{The Interleaving Distance for a Category with a Flow}. Upstate New York Topology Seminar, Albany, NY, Nov 10, 2018. 
+
+\item\emph{Quantum Computation in a Topological Data Analysis Pipeline}. 2018 D-Wave Qubits North America, Knoxville, TN, Sep 25, 2018. 
+
+\item\emph{Interleavings for categories with a flow and the hom-tree lower bound}. BIRS-CMO Workshop on Multiparameter Persistent Homology, Oaxaca, Mexico, Aug 9, 2018. 
+
+\item\emph{Topological Data Analysis}. Summer Undergraduate Research Institute in Experimental Mathematics (SURIEM), MSU, East Lansing, MI, June 21, 2018. 
+
+\item\emph{Topological Data Analysis}. iCER ACRES REU, MSU, East Lansing, MI, June 13, 2018. 
+
+\item\emph{Topological Data Analysis for Time Series Analysis}. Abel Symposium, Geiranger, Norway, June 6, 2018. 
+
+\item\emph{Reeb graphs, Mapper graphs, and Metrics}. IMA Special Workshop: Bridging Statistics and Sheaves, Minneapolis, MN, May 21, 2018. 
+
+\item\emph{Approximating Continuous Functions on Persistence Diagrams for Machine Learning Tasks}. TRIPODS Seminar: Geometry and Topology of Data, ICERM, Brown University, Providence, RI, December 13, 2017. 
+
+\item\emph{Quantifying and Comparing Shape in Data}. Colloquium, Dept of Mathematics, University of Michigan at Dearborn, Dearborn, MI, December 6, 2017. 
+
+\item\emph{Approximating Continuous Functions on Persistence Diagrams for Machine Learning Tasks}. Geometry and Topology Seminar, Math Dept, MSU, East Lansing, MI, November 16, 2017. 
+
+\item\emph{What is Topological Data Analysis}. CMSE Brown-bag Lecture Series, MSU, East Lansing, MI, October 17, 2017. 
+
+\item\emph{Applications of Persistence to Time Series Analysis}. SIAM Central States Section 2017 Meeting, Colorado State University, Fort Collins, CO, September 30, 2017. 
+
+\item\emph{Introduction to Categorical Approaches in Topological Data Analysis II}. Topology, Computation and Data Analysis, Schloss Dagstuhl, Wadern, Germany, July 17, 2017. 
+
+\item\emph{Applications of Persistence to Time Series Analysis}. SIAM Conference on Dynamical Systems, Snowbird, Utah, May 23, 2017. 
+
+\item\emph{Reeb graphs, Mapper graphs, and Metrics}. 47th Annual John H.~Barrett Memorial Lectures, University of Tennessee - Knoxville, TN, Mar 2, 2017. 
+
+\item\emph{The Convergence of Mapper}. AWM Research Symposium, UCLA, Los Angeles, CA, Apr 8, 2017. 
+
+\item\emph{The Convergence of Mapper}. Brown University, Providence, RI, Mar 9, 2017. 
+
+\item\emph{A Topological Approach to Data Science}. Dept.~of Mathematics, Montana State University, Bozeman, MT, Feb 13, 2017. 
+
+\item\emph{A Topological Approach to Data Science}. Dept.~of Computational Mathematics, Science, and Engineering, Michigan State University, East Lansing, MI, Jan 11, 2017. 
+
+\item\emph{The interleaving distance for posets}. Joint Mathematics Meetings, Atlanta, GA, Jan 4, 2017. 
+
+\item\emph{The Convergence of Mapper}. New York Applied Topology Meetings, Columbia University, New York, NY, Dec 9, 2016. 
+
+\item\emph{The interleaving distance for posets}. Union College Mathematics Conference, Schenectady, NY, Dec 3, 2016. 
+
+\item\emph{The Reeb graph interleaving distance}. Computer Science Seminar, St.~Louis University, Oct 12, 2016. 
+
+\item\emph{Utilizing Topological Data Analysis to Detect Periodicity}. International Workshop on Topological Data Analysis in Biomedicine at ACM-BCB, Seattle, WA, Oct 2, 2016. 
+
+\item\emph{The interleaving distance}. Geometry and Topology Seminar, Math Department, University at Buffalo, Buffalo, NY, Sep 23, 2016. 
+
+\item\emph{Applications of Persistence to Time Series Analysis}. Topology, Geometry, and Data Analysis Conference (TGDA), Ohio State University, Columbus, OH, May 20, 2016. 
+
+\item\emph{Topological Data Analysis}. Junior STEM Idea Exchange (JUSIE): Lightning event, Albany, NY, May 10, 2016. 
+
+\item\emph{What Does it Mean for Data to Have Shape?}. Workshop on the Shape of Educational Data, Fairfax, VA, April 7, 2016. 
+
+\item\emph{The Reeb Graph Interleaving Distance and its Application to Data Analysis}. Combinatorics Seminar, SUNY Binghamton, Binghamton, NY, Mar 15, 2016. 
+
+\item\emph{Topological Data Analysis and its Application to Atmospheric Science Data}. Dept of Atmospheric and Environmental Sciences Colloquium, UAlbany, Albany, NY, Feb 15, 2016. 
+
+\item\emph{Topological Data Analysis}. Math Department Student Seminar, Union College, Schenectady, NY, Jan 19, 2016. 
+
+\item\emph{Applied Category Theory and the Reeb Graph Interleaving Distance}. Geometry and Topology Seminar, NCSU, Raleigh, NC, Jan 13, 2016. 
+
+\item\emph{Complexity of the Reeb Graph Interleaving Distance}. CS Theory Seminar, NCSU, Raleigh, NC, Jan 11, 2016. 
+
+\item\emph{Reeb Graph Approximation with Guarantees}. Joint Mathematics Meetings, Seattle, WA, Jan 9, 2016. 
+
+\item\emph{Reeb Graph Approximation with Guarantees}. Fall Workshop on Computational Geometry (FWCG), Buffalo, NY, Oct 23, 2015. 
+
+\item\emph{The Reeb Graph Interleaving Distance }. UAlbany - Algebra/Topology Seminar, Sep 3 (Part I) and Sep 10 (Part II), 2015. 
+
+\item\emph{A New Metric for $\mathbb{R}$-graph Comparison}. AFRL Annual Applied Topology Workshop, Rome, NY, Aug 7, 2015. 
+
+\item\emph{Demo: Using Perseus to Compute Persistent Homology}. UAlbany Applied Topology Reading Group, Aug 6, 2015. 
+
+\item\emph{The Interleaving Distance}. CG Week, Symposium on Computational Geometry (SoCG), Eindhoven, Netherlands, June 25, 2015. 
+
+\item\emph{Strong Equivalence of the Interleaving and Functional Distortion Metrics for Reeb Graphs}. Symposium on Computational Geometry (SoCG), Eindhoven, Netherlands, June 24, 2015. 
+
+\item\emph{Using Topology to Understand Big Data}. Junior STEM Idea Exchange (JUSIE), University at Albany - SUNY, Mar 25, 2015. 
+
+\item\emph{Strong Equivalence of Reeb Graph Metrics}. Invited Lecture, TU Munich, Munich, Germany, Mar 17, 2015. 
+
+\item\emph{The Cosheaf-Less Reeb Graph Interleaving Distance}. Seminar on Computational Geometry, Schloss Dagstuhl, Wadern, Germany, Mar 12, 2015. 
+
+\item\emph{The Interleaving Distance for Reeb Graphs}. Applied Algebraic Topology Research Network - Online Seminar, Feb 25, 2015. 
+
+\item\emph{Using Topology to Understand Big Data}. Women in Science and Engineering (WISH) Lunch, University at Albany, Albany, NY, Jan 15, 2015. 
+
+\item\emph{Towards Predicting and Preventing Machine Chatter Using Persistent Homology}. Invited lecture, Workshop on Topology : Identifying Order in Complex System, Rutgers, New Brunswick, NJ, Oct 18, 2014. 
+
+\item\emph{Using Topology to Understand Big Data}. Invited lecture, Modern Math Workshop, Los Angeles, CA, Oct 16, 2014. 
+
+\item\emph{Interleavings of Reeb Graphs}. Invited Lecture, AIM Workshop on Generalized Persistence and Applications, Sept 18, 2014. 
+
+\item\emph{Interleavings of Reeb Graphs}. Invited Lecture, ATMCS 6, Vancouver, Canada, May 29, 2014. 
+
+\item\emph{Topological Data Analysis :: Persistent Homology and Applications}. Invited Lecture, Systems Information Learning Optimization (SILO), University of Wisconsin - Madison, Madison, WI, April 23, 2014. 
+
+\item\emph{A Distance Measure on Reeb Graphs}. Invited Lecture, Topology, Geometry and Data Seminar, Ohio State University, Columbus, OH, April 11, 2014. 
+
+\item\emph{Using Persistence to Explore Equilibria of Delay Equations}. Invited Lecture, Spring Topology and Dynamics Conference, University of Richmond, Richmond, VA, March 14, 2014. 
+
+\item\emph{Categorification of Reeb Graphs}. Invited Lecture, Workshop on Topological Systems : Communication, Sensing, and Actuation, IMA, Minneapolis, MN, March 6, 2014. 
+
+\item\emph{Categorification of Reeb Graphs}. SAMSI Workshop, LDHD: Topological Data Analysis, Durham, NC, February 5, 2014. 
+
+\item\emph{Extending Statistical Methods to Computational Topology}. SIAM Minisymposium on Applied and Computational Geometry, JMM, Baltimore, MD, January 17, 2014. 
+
+\item\emph{A Statistical Approach for Improving Topological Data Analysis}. University of Rochester, Rochester, NY, January 10, 2014. 
+
+\item\emph{Categorification of Reeb Graphs}. Topology Seminar, Tulane University, New Orleans, LA, November 5, 2013. 
+
+\item\emph{Categorification of Reeb Graphs}. IMA Postdoc Seminar, University of Minnesota, Minneapolis, MN, October 22, 2013. 
+
+\item\emph{A Continuous Mean for Finite Sets of Persistence Diagrams}. Invited Lecture, Workshop: Topological Data Analysis, IMA, University of Minnesota, Minneapolis, MN, October 10, 2013. 
+
+\item\emph{A Continuous Mean for Distributions of Persistence Diagrams}. Invited Lecture, SIAM Conference on Applied Algebraic Geometry, Fort Collins, CO, August 2, 2013. 
+
+\item\emph{An Introduction to Topological Data Analysis}. Invited Lecture, SUNYIT, Utica, NY, June 11, 2013. 
+
+\item\emph{Applications of Persistent Homology to Time Varying Systems}. PhD Defense, Duke University, March 28, 2013. 
+
+\item\emph{Using Persistent Homology to Analyze Behavior in Dynamic Point Clouds}. SIAM Student Chapter Lecture Series, Colorado State University, Fort Collins, CO, November 5, 2012. 
+
+\item\emph{Using Persistent Homology to Analyze Dynamic Point Clouds}. Data Research Training Grant Seminar, Duke University, Durham, NC, October 22, 2012. 
+
+\item\emph{An Intro to Persistent Homology and Some Applications}. Graduate/Faculty Seminar, Duke University, Durham, NC, September 7, 2012. 
+
+\item\emph{Metrics on Vineyards}. Computational Geometry Week, Chapel Hill, NC, June 20, 2012. 
+
+\item\emph{Primates and Vineyards}. Duke University Math Slam, Duke University, Durham, NC, March 23, 2012. 
+
+\item\emph{Utilizing Ideas from Persistent Homology to Compute Probabilistic Sensor Network Coverage}. Algebra/Combinatorics Seminar, NC State University, Raleigh,NC, January 13, 2012. 
+
+\item\emph{Applied Topology: Basic Ideas and a Mess of Applications}. Graduate/Faculty Seminar, Duke University, Durham, NC, October 14, 2011. 
+
+\item\emph{Using Persistent Homology to Compute Probabalistic Failure of a Sensor Network}. SIAM Conference on Applied Algebraic Geometry, Raleigh, NC, October 6, 2011. 
+
+\item\emph{Computing Probabilistic Sensor Network Coverage via Algorithms Utilizing Persistent Homology}. Geometry and Topology Reading Group, Institute of Science and Technology, Klosterneuburg, Austria, June 20, 2011. 
+
+\item\emph{Computing Probabilistic Sensor Network Coverage via Algorithms Utilizing Persistent Homology}. Computational Geometry Seminar, UNC Chapel Hill, Chapel Hill, NC, February 3, 2011. 
+
+\item\emph{Failure Filtrations and Coverage of Fenced Sensor Networks}. Graduate/Faculty Seminar, Duke University, November 19, 2010. 
+
+\end{etaremune}
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%
+%----------------------------------------------------------------------------------------
+
+\newpage
+\begin{rSection}{Teaching Experience}
+
+\begin{tabular}{cLccc}
+\textbf{Course} & \textbf{Title} & \textbf{Institution} & \textbf{Semesters}& \textbf{Eval.}\\
+% \color{gray}{\rule{1em}{\textwidth}}
+\arrayrulecolor{Gray}\hline
+CMSE 201 & Intro to Computational Modeling and Data Analysis & MSU & Spring, 2018
+ & 1.81*
+\\
+\hline
+CMSE 381 & Fundamentals of Data Science Methods & MSU & Spring, 2022
+ & 
+\\
+\hline
+CMSE 801 & Intro to Computational Modeling & MSU & Spring, 2020
+ & 1.36*
+\\
+\hline
+CMSE 802 & Methods Computational Modeling & MSU & Spring, 2021
+ & 1.12*
+\\
+\hline
+CMSE 491/890 & Topological Analysis of Large Datasets & MSU & \begin{tabular}{@{}c@{}} Fall, 2017\\Fall, 2021\end{tabular} & \begin{tabular}{@{}c@{}} 1.75/1.18*\\\phantom{x}\end{tabular}\\
+\hline
+MTH 132 & Calculus I & MSU & Fall, 2020
+ & 1.52*\textsuperscript{\textdagger}
+\\
+\hline
+MTH 481 & Discrete Mathematics I & MSU & Fall, 2018
+ & 1.42*
+\\
+\hline
+AMAT 840 & Applied Topology & UAlbany & Spring, 2015
+ & 4.50
+\\
+\hline
+AMAT 587 & Graph Theory & UAlbany & Fall, 2015
+ & 5.00
+\\
+\hline
+AMAT 540B & Topology II & UAlbany & Spring, 2017
+ & 4.60
+\\
+\hline
+AMAT 502 & Modern Computing for Mathematicians & UAlbany & Spring, 2016
+ & 5.00
+\\
+\hline
+AMAT 363 & Statistics & UAlbany & \begin{tabular}{@{}c@{}} Fall, 2014\\Fall, 2015\\Spring, 2016\\Spring, 2017\end{tabular} & \begin{tabular}{@{}c@{}} 4.96\\4.87\\4.84\\4.67\end{tabular}\\
+\hline
+TIP & Mobius Strips, Klein Bottles, and Fractals: The Mathematics of Distortion & Duke TIP & July, 2012
+ & 4.82
+\\
+\hline
+Math 32L & Laboratory Calculus II & Duke & Spring, 2011
+ & 4.00
+\\
+\hline
+Math 31L & Laboratory Calculus I & Duke & Fall, 2009
+ & 3.00
+\\
+\hline
+Math 25L & Laboratory Calculus and Functions I & Duke & Fall, 2008
+ & 
+\\
+\hline
+% × & × & × & ×\\
+% × & × & × & ×
+\end{tabular}
+
+*Note that while all evaluation scores are provided out of 5, MSU defines a score of 1 to be the best, while all other scores are based on 5 as the best.
+Those evaluations using a best score of 1 are marked with an asterisk.
+
+\textdagger Aggregated score.  Due to Covid-19, course was taught online, with 337 official students of record across 13 sections.
+
+
+% Listed evaluation scores based on
+% \textit{Composite Profile Factors: Instructor Involvement} for CMSE courses and
+% the \textit{Question 15: What is your overall rating of this instructor?} for MTH 481.
+% See \cref{sec-SIRS} for complete SIRS scores.
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+
+% \newpage
+\begin{rSection}{Students Advised}
+
+
+\textbf{\textit{Current Graduate Students}}
+\begin{list}{}{\leftmargin=1em}
+   \itemsep -0.1em %\vspace{-0.5em} % Compress items in list together for aesthetics
+
+
+
+
+
+
+   \item \textbf{Erik Am\'ezquita}, PhD Student, MSU CMSE \hfill Sep 2018 - Present
+\\
+   \phantom{XXX} \textit{Jointly advised with Dan Chitwood}
+   \item \textbf{Sarah McGuire}, PhD Student, MSU CMSE \hfill Sep 2019 - Present
+\\
+   \phantom{XXX} \textit{Jointly advised with Matthew Hirn}
+
+
+%    \item \textbf{Kayla Makela}, PhD Student, MSU CMSE \hfill Sep 2020 - Present
+% \\
+%    \phantom{XXX} \textit{Jointly advised with Dan Chitwood}
+
+   \item \textbf{Xinyi (Elena) Wang}, PhD Student, MSU CMSE \hfill Sep 2020 - Present
+\\
+   \phantom{XXX} \textit{Jointly advised with Matt Hirn and Andrew Christlieb}
+
+   \item \textbf{Christopher Potvin}, PhD Student, MSU Math \hfill Jan 2021 - Present
+
+   \item \textbf{Rachel Roca}, PhD Student, MSU CMSE \hfill Sep 2021 - Present
+\\
+   \phantom{XXX} \textit{Jointly advised with Danny Caballero}
+
+\end{list}
+
+
+\textbf{\textit{Postdocs}}
+\begin{list}{}{\leftmargin=1em}
+   \itemsep -0.1em %\vspace{-0.5em} % Compress items in list together for aesthetics
+
+
+   \item \textbf{Sourabh Palande}, Postdoc, MSU CMSE \hfill Sep 2020 - Present\\
+   \phantom{XXX} \textit{Jointly advised with Dan Chitwood}
+
+   \item \textbf{Sarah Percival}, Postdoc, MSU CMSE \hfill Sep 2021 - Present\\
+   \phantom{XXX} \textit{Jointly advised with Dan Chitwood, Beronda Montgomery, Arjun Krishnan,}\\
+   \phantom{XXX} \textit{and Aman Husbands (OSU)}
+
+   \item \textbf{Michelle Quigley}, Postdoc, MSU Horticulture \hfill Sep 2018 - Present\\
+   \phantom{XXX} \textit{Jointly advised with Dan Chitwood}
+
+\end{list}
+
+\textbf{\textit{Former PhD Students}}
+\begin{list}{}{\leftmargin=1em}
+   \itemsep -0.1em %\vspace{-0.5em} % Compress items in list together for aesthetics
+
+
+   \item \textbf{Anastasios Stefanou}, PhD student, UAlbany Math\hfill Oct 2015 - Aug 2018
+\\
+   \phantom{XXX} \textit{Jointly advised with Justin Curry}
+\\
+   \phantom{XXX} \textit{First job post-PhD: Postdoc, Ohio State University}
+
+
+   \item \textbf{Sarah Tymochko}, PhD Student, MSU CMSE \hfill Sept 2017 - May 2022
+\\
+   \phantom{XXX} \textit{First job post-PhD: Postdoc, UCLA}
+ \end{list}
+
+\textbf{\textit{Former Masters Students}}
+\begin{list}{}{\leftmargin=1em}
+   \itemsep -0.1em %\vspace{-0.5em} % Compress items in list together for aesthetics
+
+   \item \textbf{Christopher Sukhu}, MS Student, MSU CMSE \hfill May 2017 - May 2019
+
+   \item \textbf{Mitchell Eithun}, MS Student, MSU CMSE \hfill Jan 2018 - Aug 2019
+\\
+   \phantom{XXX} \textit{Jointly advised with Dan Chitwood}
+
+
+
+%    \item \textbf{Matthew Piekenbrock}, PhD Student, MSU CMSE \hfill Sep 2019 - Dec 2020
+% \\
+%    \phantom{XXX} \textit{Switched research advisors Jos\'e Perea}
+
+\end{list}
+
+
+
+
+\textbf{\textit{Former Postdocs}}
+\begin{list}{}{\leftmargin=1em}
+   \itemsep -0.1em %\vspace{-0.5em} % Compress items in list together for aesthetics
+
+   \item \textbf{Shelley Kandola}, Postdoc, MSU Math \hfill Sep 2019 - July 2021
+   % \phantom{XXX} \textit{Jointly advised with Dan Chitwood}
+
+   \item \textbf{Tim Ophelders}, Postdoc, MSU CMSE \hfill Sep 2018 - Aug 2020\\
+   \phantom{XXX} \textit{Jointly advised with Dan Chitwood}
+\end{list}
+
+\textbf{\textit{Committee Membership}}
+\begin{list}{}{\leftmargin=1em}
+   \itemsep -0.1em %\vspace{-0.5em} % Compress items in list together for aesthetics
+
+
+   \item \textbf{Danielle Barnes}, PhD Student, Advisor: Jos\'e Perea, MSU CMSE\hfill Sept 2017 - Present
+
+
+
+   % \item \textbf{Megan Kress}, Masters Student, Advisor: Andy Finley, MSU Forestry,\hfill Oct 2017 - Present
+
+   \item \textbf{Chris St.~Clair}, PhD Student, Advisor: Matt Hedden, MSU Math\hfill Oct 2020 - Present
+    \item \textbf{Brian Bollen}, PhD Student, Advisor: Josh Levine, \hfill Sept 2020 - Present\\
+    \phantom{xxx}Arizona State University Program in Applied Mathematics
+   \item \textbf{Alexander Harnisch}, PhD Student, \hfill March 2021 - Present\\
+   \phantom{xxx}Advisor: Claudio Kopper, MSU PA/CMSE
+   \item \textbf{Michael Quail}, PhD Student, \hfill Nov 2021 - Present\\
+   \phantom{xxx}Advisor: Kristen Bieda, MSU Program in Mathematics Education
+
+   \item \textbf{Rachel Domagalski}, PhD Student, Advisor: Bruce Sagan, MSU Math\hfill Graduated Aug 2021
+   \item \textbf{Nick Young}, PhD Student, Advisor: Danny Caballero, \hfill Graduated August 2021\\
+   \phantom{xxx}MSU Physics/CMSE
+
+   \item \textbf{Zixuan Cang}, PhD Student, Advisor: Guowei Wei, MSU Math\hfill Graduated July 2018
+
+   \item \textbf{Hitesh Gakhar}, PhD Student, Advisor: Jos\'e Perea, MSU Math\hfill Graduated May 2020
+
+   \item \textbf{Luis Polanco}, PhD Student, Advisor: Jos\'e Perea, MSU CMSE/Math\hfill Graduated May 2022
+   % \item \textbf{Matthew Piekenbrock}, PhD Student, Advisor: Jos\'e Perea, MSU CMSE\hfill Sept 2019 - Present
+
+   \item \textbf{Audun Myers}, PhD Student, Advisor: Firas Khasawneh, MSU ME\hfill Graduated May 2022
+   \item \textbf{Melih Yesili}, PhD Student, Advisor: Firas Khasawneh, MSU ME\hfill Graduated May 2022
+\end{list}
+
+% \vspace{1em}
+
+\textbf{\textit{Undergraduate and High School Students}}
+\begin{list}{}{\leftmargin=1em}
+   \itemsep -0.1em %\vspace{-0.5em} % Compress items in list together for aesthetics
+   \item \textbf{Yash Gautam}, Undergraduate Student, Professorial Assistant, MSU\hfill Sep 2020 - Present
+
+   \item \textbf{Vee Kalkunte and Sean Bergen}, Undergraduate Students, ACRES REU, MSU\hfill Summer 2021
+
+   \item \textbf{Levent Batakci, Abby Branson, Bryan Castillo, Candace Todd}\hfill Summer 2020\\
+   SURIEM REU, MSU
+
+   \item \textbf{Kayla Makela}, Undergraduate Student, MSU\hfill Jan 2018 - Aug 2020
+
+   \item \textbf{Joseph Sigler}, Undergraduate Student, Professorial Assistant, MSU\hfill Sep 2017 - May 2019
+
+   \item \textbf{Monika Francsics}, Undergraduate Student, MSU\hfill Summer 2018
+
+   \item \textbf{Brian Bollen}, Undergraduate Student, UAlbany \hfill May 2016 - Aug 2017
+   % Project title: \textit{Characterizing Chaos using Persistent Homology}
+
+   \item \textbf{Akanksha Atrey}, Undergraduate Student, UAlbany \hfill Jan 2015 - June 2016
+   % Project title: \textit{Reeb Graph Based Validation of Statistical Predictive Models for the Spread of AIDS}
+
+   \item \textbf{Bill Dong}, High School Student, UAlbany \hfill Jun 2015 - Aug 2016
+   % Project title: \textit{Using Persistent Homology to Quantify a Diurnal Cycle in Hurricanes}
+\end{list}
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%
+%----------------------------------------------------------------------------------------
+% \newpage
+\begin{rSection}{Service}
+
+
+
+\textbf{Departmental and University Service}
+\begin{list}{}{\leftmargin=1em}
+   \itemsep -0.6em \vspace{-0.5em} % Compress items in list together for aesthetics
+
+\item
+MSU TDA Seminar, Creator and Co-Organizer with Shelley Kandola  \hfill Mar 2020 - Present
+
+\item
+CMSE Advisory Committee (AdCom), MSU\\
+\phantom{xxx} \textit{Secretary} \hfill  Sept 2017 - Aug 2018\\
+\phantom{xxx} \textit{Member} \hfill Sept 2020 - present
+
+\item CMSE Hiring Committees, MSU \\
+\phantom{xxx} \textit{TT Data Science} \hfill  Sept 2021- Feb 2022\\
+\phantom{xxx} \textit{1855 Data Science } \hfill Mar 2022 - present
+
+\item
+CMSE Graduate Studies Committee, MSU
+\\
+\phantom{xxx} \textit{Chair} \hfill  Sept 2018 - Aug 2020\\
+\phantom{xxx} \textit{Member} \hfill Sept 2020 - Aug 2021
+\item
+Member of College of Engineering Graduate Studies Commitee, MSU \hfill Sept 2018 - Aug 2020
+\item
+Member of CMSE Awards Committee, MSU \hfill Sept 2019 - Aug 2020
+\item
+CNS Strategic Plan Integration Committee, MSU \hfill Jan 2020 - Dec 2020
+\item
+Panel on Academic Careers for Engineering Graduate Students, MSU \hfill Nov 26, 2019
+\item Member, Executive Committee for PlantBio NSF-NRT Grant, MSU
+\hfill Sept 2018 - Aug 2019
+
+\item
+Math Dept.~Graduate Committee, UAlbany \hfill Sept 2016 - Aug 2017
+\item
+Math Dept Representative, UAlbany Undergraduate Research  \hfill Mar 2016\\
+\phantom{MMM}Information Session and Forum
+\item
+Faculty Speaker, UAlbany Math Department Graduation Ceremony \hfill May 2015
+\item
+{Organizer, UAlbany Reading Group on Applied Topology } \hfill Summer 2015
+% \item
+% {Organizer, Coffee for Women in Math with Jill Pipher, Invited Speaker } \hfill Apr 2015
+\item
+{UAlbany Math Dept Colloquium Committee} \hfill Sept 2014-Aug 2017
+\item
+{Organizer for the IMA Postdoc Seminar} \hfill Sept 2013-Aug 2014
+\item
+{President, Noetherian Ring of Duke University} \hfill Sept 2012-May 2013
+\item
+{Mathbio Seminar Organizer, Duke Math Dept} \hfill Spring 2012
+\item
+{Project Mentor: Duke Workshop on Applications of Math to}
+\hfill May 16-20, 2011\\
+\phantom{MMM}{Physiology and Medicine}
+
+\item
+{Tea Organizer for Duke Mathematics Dept} \hfill Sept 2010 - May 2011
+% \item
+% {Panelist for Duke Math Dept on Getting a job after your PhD} \hfill Mar 2013
+% \item
+% {Panelist for Duke Math Dept Recruitment Weekend Info Session} \hfill March 2010, March 2011
+\item
+{Graduate Student Representative for Duke Math Department}\hfill Jan 2009 - Dec 2009
+\end{list}
+
+\textbf{Professional Service}
+\begin{list}{}{\leftmargin=1em}
+   \itemsep -0.6em \vspace{-0.5em} % Compress items in list together for aesthetics
+\item Organizer, \href{https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=71292}
+{Workshop on Topological Signal Processing} at SIAM DS 21 \hfill May 2021
+\item
+Workshop Committee Member, \href{https://socg20.inf.ethz.ch/}{Symposium on Computational Geomtry (SoCG)} \hfill 2020
+\item
+Program Committee Member, \href{https://women-plus-datascience.github.io/}{Women+ Data Science Monthly Meetup}, MSU \hfill Fall 2020 % Note: footnote[2] gives the dagger
+\item Mentor, \href{https://mathalliance.org/mentor/liz-munch/}{National Alliance for Doctoral Studies in the Mathematical Sciences} \hfill Fall 2020 - present
+\item
+Steering Committee Member, ATMCS \hfill Mar 2017 - present
+\item
+Steering Committee Member, \href{https://awmadvance.org/research-networks/wincomptop-women-in-computational-topology/}{Women in Computational Topology} \hfill Sep 2016 - present
+\item
+Organizer, \href{https://www.ima.umn.edu/2017-2018/SW5.21-25.18}{IMA Workshop: Bridging Statistics and Sheaves} \hfill May 2018
+\item
+{Organizer for Special Session on Sheaves in TDA at the Joint Math Meetings} \hfill Jan 2017
+\item
+{Organizer, The 4th Annual Minisymposium on Computational Topology,  } \hfill Jun 2015\\
+\phantom{MMM}{CG Week at the Symposium on Computational Geometry}
+\item
+{Session Organizer, AWM Research Symposium} \hfill Apr 2015
+\item
+{Organizer for Special Session at the Joint Math Meetings} \hfill Jan 2013
+\end{list}
+
+
+\textbf{Community Outreach}
+\begin{list}{}{\leftmargin=1em}
+   \itemsep -0.6em \vspace{-0.5em} % Compress items in list together for aesthetics
+\item
+Panelist on Careers in Academia, Women in Science Conference, Notre Dame \hfill Oct 2018
+\item Interview for The Girls' Angle Bulletin,  ISSN 2151-5700 \hfill Oct/Nov 2015
+\item
+{NYS Master Teacher Program Application Review Committee} \hfill Sept 2014
+\item
+{Volunteer for FEMMES  Capstone Events} \hfill April 2011, April 2012
+\end{list}
+
+\textbf{Editorial Boards \& Conference Program Committees}
+
+\begin{list}{}{\leftmargin=1em}
+   \itemsep -0.6em \vspace{-0.5em} % Compress items in list together for aesthetics
+   \item Inaugural Editorial Board Member, Computing in Geometry and Topology (CGT)  \hfill 2021-Present
+\item
+Program Committee Member, ``Applications of Topological Data Analysis \hfill 2021\\
+\phantom{MMM}to Big Data" Workshop, IEEE Big Data Conference
+\item
+Program Committee Member, \href{https://www.renyi.hu/conferences/socg18/}{Symposium on Computational Geometry (SoCG)} \hfill 2018
+\item {Program Committee Member, Fall Workshop on Computational Geometry} \hfill 2014, 2016
+\item
+{Scientific Committee,
+ATMCS7, Torino, Italy} \hfill Jul 2016\\
+ \phantom{MMM}{Applied Topology: Methods, Computation, and Science}
+\end{list}
+
+
+
+
+\textbf{Review and Referee}
+
+\textit{Journals}
+\begin{list}{}{\leftmargin=1em}
+   \itemsep -0.6em \vspace{-0.5em} % Compress items in list together for aesthetics
+   \item AMS Notices \hfill 2022
+   \item Chaos \hfill 2021
+   \item Climate Dynamics \hfill 2021
+   \item Computational Geometry: Theory and Applications \hfill 2016
+   \item Discrete and Computational Geometry \hfill 2015, 2019
+   \item Image and Vision Computing \hfill 2020
+   \item Medical Image Analysis \hfill 2020
+   \item Journal of Applied and Computational Topology (JACT) \hfill
+   2018-2021
+   % 2019, %x2
+   % 2020
+   \item Journal of Computational Geometry (JoCG) \hfill 2018, 2019, 2021
+   \item Journal of Machine Learning Research (JMLR) \hfill 2017
+   \item Patterns \hfill 2021
+   \item PLOS ONE \hfill 2015, 2016
+   \item PNAS \hfill 2022
+   \item Science Advances \hfill 2021
+   \item SIAM Journal on Applied Algebra and Geometry (SIAGA) \hfill 2017
+   \item SIAM Journal on Mathematics of Data Science (SIMODS) \hfill 2022
+   \item SIAM Review \hfill 2021
+   \item IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) \hfill 2019, 2020
+   \item WIRES Computational Statistics \hfill 2019
+%    \item Fall Workshop on Computational Geometry \hfill 2014
+\end{list}
+\textit{Conferences}
+\begin{list}{}{\leftmargin=1em}
+   \itemsep -0.6em \vspace{-0.5em} % Compress items in list together for aesthetics
+   \item International Symposium on Algorithms and Computation (ISAAC) \hfill 2017
+   \item Symposium on Computational Geometry (SoCG) \hfill 2014, 2016, 2018, 2019, 2020, 2021
+   \item Symposium on Discrete Algorithms (SoDA) \hfill 2017, 2020
+   \item International Conference on Robotics and Automation (ICRA) \hfill 2019
+   \item IEEE Scientific Visualization (SciVis) \hfill 2019
+\end{list}
+\textit{Funding agencies}
+\begin{list}{}{\leftmargin=1em}
+   \itemsep -0.6em \vspace{-0.5em} % Compress items in list together for aesthetics
+   \item NSF: CISE  \hfill 2016, 2018, 2019, 2021, 2022
+   \item NSF: DMS \hfill 2018, 2019
+\end{list}
+\textit{Other}
+\begin{list}{}{\leftmargin=1em}
+   \itemsep -0.6em \vspace{-0.5em} % Compress items in list together for aesthetics
+   \item MathSciNet \hfill 2018-Present
+   \item zbMath \hfill 2021-Present
+\end{list}
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	Professional Affiliations
+%----------------------------------------------------------------------------------------
+% \newpage
+\begin{rSection}{Professional Affiliations}
+
+\begin{list}{}{\leftmargin=0em}
+   \itemsep -0.6em %\vspace{-0.5em} % Compress items in list together for aesthetics
+ \item American Mathematical Society (AMS)
+ \item Society for Industrial and Applied Mathematics (SIAM)
+ \item Association for Women in Mathematics (AWM)
+ \item Association for Computing Machinery (ACM)
+ \item \href{https://mathalliance.org/mentor/liz-munch/}{Math Alliance Mentor}
+ \item National Association of Mathematicians (NAM)
+ \item American Harp Society (AHS)
+\end{list}
+
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Technical Strengths}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Software and Coding & Python, MATLAB, R, \LaTeX, Inkscape, HTML, CSS\\
+Operating Systems & Linux, Windows, Android
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Section Name}
+
+%Section content\ldots
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

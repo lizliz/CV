@@ -1,0 +1,65 @@
+{
+  "CRII": {
+    "Division": "CISE/CCF",
+    "ProposalNumber": 1566046,
+    "Proposal Title": "CRII: AF: Comparing Phylogenetic Trees Using the Merge Tree Interleaving Distance",
+    "Status": "Pending",
+    "Date Submitted": "10/01/2015",
+    "Requested Amount": "$143,576.00",
+    "Program Officer": "Tracy J. Kimbrel"
+  },
+  "Bei2": {
+    "Division": "CISE/IIS",
+    "ProposalNumber": 1563719,
+    "Proposal Title": "III: Medium: Collaborative Research: Modeling Feature Uncertainty with Category Theory in Ensemble Data",
+    "Status": "Pending",
+    "Date Submitted": "9/16/2015",
+    "Requested Amount": "$318,314.00",
+    "Program Officer": "Laurin A. Battle"
+  },
+  "Firas3": {
+    "Division": "ENG/CMMI",
+    "ProposalNumber": 1562012,
+    "Proposal Title": "Collaborative Research: A Unified Framework for the Investigation of Time Series Using Topological Data Analysis",
+    "Status": "Pending",
+    "Date Submitted": "9/16/2015",
+    "Requested Amount": "$178,736.00",
+    "Program Officer": "Massimo Ruzzene"
+  },
+  "Career": {
+    "Division": "CISE/CCF",
+    "ProposalNumber": 1553205,
+    "Proposal Title": "CAREER: A Theoretical  and Computational Investigation of Topological Signatures for Data Using the Reeb Graph Interleaving Distance",
+    "Status": "Pending",
+    "Date Submitted": "7/29/2015",
+    "Requested Amount": "$557,823.00",
+    "Program Officer": "Jack Snoeyink"
+  },
+  "Firas2": {
+    "Division": "ENG/CMMI",
+    "ProposalNumber": 1537276,
+    "Proposal Title": "Collaborative Research: Understanding Chatter Through the Advancement of a Persistent Homology Based Approach for Time Series Analysis",
+    "Status": "Declined",
+    "Date Submitted": "06/02/2015",
+    "Requested Amount": "$145,358.00",
+    "Program Officer": "Zhijian Pei"
+  },
+  "Bei1": {
+    "Division": "CISE/IIS",
+    "ProposalNumber": 1527322,
+    "Proposal Title": "III: Small: Collaborative Research: Modeling and Visualizing Uncertainty in Data Using Topological Structures",
+    "Status": "Declined",
+    "Date Submitted": "06/13/2015",
+    "Requested Amount": "$164,875.00",
+    "Program Officer": "Maria Zemankova"
+  },
+  "Firas1": {
+    "Division": "ENG/CMMI",
+    "ProposalNumber": 1433930,
+    "Proposal Title": "Collaborative Research: Topological Data Analysis for Stochastic Dynamical Systems With Applications to Machining Processes",
+    "Status": "Declined",
+    "Date Submitted": "06/04/2014",
+    "Requested Amount": "$58,185.00",
+    "Program Officer": "Massimo Ruzzene"
+  }
+}

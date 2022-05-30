@@ -1,0 +1,230 @@
+[
+  {
+    "CourseNum": "CMSE 201",
+    "School": "MSU",
+    "Position": "Instructor",
+    "CourseTitle": "Intro to Computational Modeling and Data Analysis",
+    "Semester": [
+      {
+        "Semester": "Spring",
+        "Year": 2018,
+        "Eval": "1.81*"
+        }
+    ]
+  },
+  {
+    "CourseNum": "CMSE 381",
+    "School": "MSU",
+    "Position": "Instructor",
+    "CourseTitle": "Fundamentals of Data Science Methods",
+    "Semester": [
+      {
+        "Semester": "Spring",
+        "Year": 2022,
+        "Eval": ""
+        }
+    ]
+  },
+    {
+    "CourseNum": "CMSE 801",
+    "School": "MSU",
+    "Position": "Instructor",
+    "CourseTitle": "Intro to Computational Modeling",
+    "Semester": [
+      {
+        "Semester": "Spring",
+        "Year": 2020,
+        "Eval": "1.36*"
+        }
+    ]
+  },
+    {
+    "CourseNum": "CMSE 802",
+    "School": "MSU",
+    "Position": "Instructor",
+    "CourseTitle": "Methods Computational Modeling",
+    "Semester": [
+      {
+        "Semester": "Spring",
+        "Year": 2021,
+        "Eval": "1.12*"
+        }
+    ]
+  },
+    {
+    "CourseNum": "CMSE 491/890",
+    "School": "MSU",
+    "Position": "Instructor",
+    "CourseTitle": "Topological Analysis of Large Datasets",
+    "Semester": [
+      {
+        "Semester": "Fall",
+        "Year": 2017,
+        "Eval": "1.75/1.18*"
+      },
+      {
+        "Semester": "Fall",
+        "Year": 2021,
+        "Eval": ""
+      }
+    ]
+  },
+  {
+  "CourseNum": "MTH 132",
+  "School": "MSU",
+  "Position": "Instructor",
+  "CourseTitle": "Calculus I",
+  "Semester": [
+    {
+      "Semester": "Fall",
+      "Year": 2020,
+      "Eval": "1.52*\\textsuperscript{\\textdagger}"
+    }
+  ]
+},
+  {
+  "CourseNum": "MTH 481",
+  "School": "MSU",
+  "Position": "Instructor",
+  "CourseTitle": "Discrete Mathematics I",
+  "Semester": [
+    {
+      "Semester": "Fall",
+      "Year": 2018,
+      "Eval": "1.42*"
+    }
+  ]
+},
+  {
+    "CourseNum": "AMAT 840",
+    "School": "UAlbany",
+    "Position": "Instructor",
+    "CourseTitle": "Applied Topology",
+    "Semester": [
+      {
+        "Semester": "Spring",
+        "Year": 2015,
+        "Eval": "4.50"
+      }
+    ]
+  },
+  {
+    "CourseNum": "AMAT 587",
+    "School": "UAlbany",
+    "Position": "Instructor",
+    "CourseTitle": "Graph Theory",
+    "Semester": [
+      {
+        "Semester": "Fall",
+        "Year": 2015,
+        "Eval": "5.00"
+      }
+    ]
+  },
+  {
+    "CourseNum": "AMAT 540B",
+    "School": "UAlbany",
+    "Position": "Instructor",
+    "CourseTitle": "Topology II",
+    "Semester": [
+      {
+        "Semester": "Spring",
+        "Year": 2017,
+        "Eval": "4.60"
+      }
+    ]
+  },
+  {
+    "CourseNum": "AMAT 502",
+    "School": "UAlbany",
+    "Position": "Instructor",
+    "CourseTitle": "Modern Computing for Mathematicians",
+    "Semester": [
+      {
+        "Semester": "Spring",
+        "Year": 2016,
+        "Eval": "5.00"
+      }
+    ]
+  },
+  {
+    "CourseNum": "AMAT 363",
+    "CourseTitle": "Statistics",
+    "School": "UAlbany",
+    "Position": "Instructor",
+    "Semester": [
+      {
+        "Semester": "Fall",
+        "Year": 2014,
+        "Eval": "4.96"
+      },
+      {
+        "Semester": "Fall",
+        "Year": 2015,
+        "Eval": "4.87"
+      },
+      {
+        "Semester": "Spring",
+        "Year": 2016,
+        "Eval": "4.84"
+      },
+      {
+        "Semester": "Spring",
+        "Year": 2017,
+        "Eval": "4.67"
+      }
+    ]
+  },
+  {
+    "CourseNum": "TIP",
+    "School": "Duke TIP",
+    "Position": "Instructor",
+    "CourseTitle": "Mobius Strips, Klein Bottles, and Fractals: The Mathematics of Distortion",
+    "Semester": [
+      {
+        "Semester": "July",
+        "Year": 2012,
+        "Eval": "4.82"
+      }
+    ]
+  },
+  {
+    "CourseNum": "Math 32L",
+    "School": "Duke",
+    "Position": "Instructor",
+    "CourseTitle": "Laboratory Calculus II",
+    "Semester": [
+      {
+        "Semester": "Spring",
+        "Year": 2011,
+        "Eval": "4.00"
+      }
+    ]
+  },
+  {
+    "CourseNum": "Math 31L",
+    "School": "Duke",
+    "Position": "Instructor",
+    "CourseTitle": "Laboratory Calculus I",
+    "Semester": [
+      {
+        "Semester": "Fall",
+        "Year": 2009,
+        "Eval": "3.00"
+      }
+    ]
+  },
+  {
+    "CourseNum": "Math 25L",
+    "School": "Duke",
+    "Position": "Lab Assistant",
+    "CourseTitle": "Laboratory Calculus and Functions I",
+    "Semester": [
+      {
+        "Semester": "Fall",
+        "Year": 2008,
+        "Eval": ""
+      }
+    ]
+  }
+]
