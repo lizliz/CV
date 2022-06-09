@@ -290,7 +290,7 @@ def convertToJSON():
 
 
 	# os.system('cp papersNew.json ~/Dropbox/Website/ElizabethMunch/contents/math/research/index.json')
-	os.system('cp research.js ~/Dropbox/Website/ElizabethMunch/json/research.js')
+	os.system('cp research.js ../Website/ElizabethMunch/json/research.js')
 
 
 	return d, bibtex_database

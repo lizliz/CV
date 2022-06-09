@@ -168,6 +168,7 @@ def writeTeaching(filename = 'teaching.json'):
 
 
 def main():
+    os.system('cd CompileCV/')
     bibRemoveAbstracts()
     # fetchFiles()
     origname = 'LizCV-EDIT-ME.tex'
@@ -181,12 +182,13 @@ def main():
     os.system('latexmk -pdf LizCV.tex')
 
     if platform.system() == "Linux":
-        os.system('rm *.bbl')
-        os.system('rm *.blg')
-        os.system('rm *.aux')
-        os.system('rm *.log')
+        # os.system('rm *.bbl')
+        # os.system('rm *.blg')
+        # os.system('rm *.aux')
+        # os.system('rm *.log')
+        os.system('latexmk -c')
         os.system('cp LizCV.pdf ../LizCV.pdf')
-        os.system('cp LizCV.pdf ~/Dropbox/Website/ElizabethMunch/pdf/Elizabeth-Munch-CV.pdf')
+        os.system('cp LizCV.pdf ../Website/ElizabethMunch/pdf/Elizabeth-Munch-CV.pdf')
     elif platform.system() == 'Windows':
 
         for ending in ['bbl', 'blg', 'aux', 'log', 'fls', 'out', 'fdb_latexmk']:
