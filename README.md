@@ -11,6 +11,6 @@ The main things to find in here are:
 - `talks.json` where I track talks I give and they also get automatically included into the CV
 - `teaching.json` same as above.
 
-# Wesbite
+# Website
 
 The raw files are also included for generating Liz's website. The orignal framework was developed by Lindsay Stanek Wild. Now all content is included and maintained by Liz. 
