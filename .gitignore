@@ -1,3 +1,26 @@
+# Latex stuff 
+
+*~
+*.bak
+*.tmp 
+*.dvi 
+*.fdb_latexmk 
+*.fls 
+*.out
+*-blx.bib 
+*.aux 
+*.bbl
+*.blg
+*.synctex.gz 
+*.run.xml
+*.backup
+
+# Specific to this repo
+CompileCV/LizCV-EDIT-ME.pdf 
+CompileCV/LizCV.pdf 
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
