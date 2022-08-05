@@ -1,6 +1,16 @@
 {
   "talks": [
     {
+    "title": "Crafting Topological Features",
+    "venue": "BIRS Deep Exploration of non-Euclidean Data with Geometric and Topological Representation Learning, Kelowna, BC, Canada",
+    "date": "July 12, 2022"
+    },
+    {
+    "title": "The many faces of the interleaving distance",
+    "venue": "Plenary talk, ATMCS 10, Oxford, UK",
+    "date": "June 23, 2022"
+    },
+    {
     "title": "Making space and studying shape in a non-traditional academic setting",
     "venue": "Keynote Address, WiDS Iowa, Virtual",
     "date": "Apr 21, 2022"
