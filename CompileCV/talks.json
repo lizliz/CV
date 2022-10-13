@@ -1,6 +1,21 @@
 {
   "talks": [
     {
+      "title": "The Directional Transform, or how to look at your data from every direction at once",
+      "venue": "Data-oriented Mathematical \\& Statistical Sciences (DoMSS) Seminar, Arizona State University, Virtual",
+      "date": "Oct 17, 2022"
+      },
+    {
+    "title": "The Directional Transform, or how to look at your data from every direction at once",
+    "venue": "AATRN STMS Joint Seminar Series, Virtual",
+    "date": "Oct 14, 2022"
+    },
+    {
+    "title": "Graph Classification Using the Interleaving Distance",
+    "venue": "SIAM-MDS, San Diego, CA",
+    "date": "Sep 29, 2022"
+    },
+    {
     "title": "Crafting Topological Features",
     "venue": "BIRS Deep Exploration of non-Euclidean Data with Geometric and Topological Representation Learning, Kelowna, BC, Canada",
     "date": "July 12, 2022"
