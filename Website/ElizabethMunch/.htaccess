@@ -1,0 +1,40 @@
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html
+
+IndexIgnore .htaccess */.??* *~ *# */HEADER* */README* */_vti*
+
+<Limit GET POST>
+order deny,allow
+deny from all
+allow from all
+</Limit>
+<Limit PUT DELETE>
+order deny,allow
+deny from all
+</Limit>
+AuthName elizabethmunch.com
+
+RewriteCond %{HTTP_HOST} ^elizabethmunch.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www.elizabethmunch.com$
+RewriteRule ^Harp\/?(.*)$ "http\:\/\/www\.elizabethmunch\.com\/harp\/$1" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^elizabethmunch.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www.elizabethmunch.com$
+RewriteRule ^Math\/?(.*)$ "http\:\/\/www\.elizabethmunch\.com\/math\/$1" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^elizabethmunch\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.elizabethmunch\.com$
+RewriteRule ^firaskhasawneh\.com$ "http\:\/\/firaskhasawneh\.com\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^elizabethmunch\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.elizabethmunch\.com$
+RewriteRule ^firaskhasawneh\.com\/?(.*)$ "http\:\/\/firaskhasawneh\.com\/$1" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^elizabethmunch\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.elizabethmunch\.com$
+RewriteRule ^lizandfiras\.com$ "http\:\/\/www\.lizandfiras\.com\.\/" [R=301,L]
+
