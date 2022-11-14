@@ -115,6 +115,16 @@ var researchJSON = {
             "venue": "bioRxiv"
         },
         {
+            "abstract": "Graphs drawn in the plane are ubiquitous, arising from data sets through a variety of methods ranging from GIS analysis to image classification to shape analysis. A fundamental problem in this type of data is comparison: given a set of such graphs, can we rank how similar they are, in such a way that we capture their geometric \"shape\" in the plane? In this paper we explore a method to compare two such embedded graphs, via a simplified combinatorial representation called a tail-less merge tree which encodes the structure based on a fixed direction. First, we examine the properties of a distance designed to compare merge trees called the branching distance, and show that the distance as defined in previous work fails to satisfy some of the requirements of a metric. We incorporate this into a new distance function called average branching distance to compare graphs by looking at the branching distance for merge trees defined over many directions. Despite the theoretical issues, we show that the definition is still quite useful in practice by using our open-source code to cluster data sets of embedded graphs.",
+            "arXivLink": "https://arxiv.org/abs/2210.10181",
+            "authors": "Levent Batakci, Abigail Branson, Bryan Castillo, Candace Todd, Erin Wolf Chambers, and Elizabeth Munch",
+            "bibtex": "@article{Batakci2022,<br> archiveprefix = {arXiv},<br> author = {Levent Batakci and Abigail Branson and Bryan Castillo and Candace Todd and Erin Wolf Chambers and Elizabeth Munch},<br> eprint = {2210.10181},<br> journal = {To appear: Involve, a Journal of Mathematics},<br> keywords = {journal},<br> month = {oct},<br> primaryclass = {cs.CG},<br> title = {Comparing Embedded Graphs Using Average Branching Distance},<br> year = {2022}<br>}<br><br>",
+            "collapseLabel": "Batakci2022",
+            "date": 2022,
+            "title": "Comparing Embedded Graphs Using Average Branching Distance",
+            "venue": "To appear: Involve, a Journal of Mathematics"
+        },
+        {
             "abstract": "Reeb graphs are widely used in a range of fields for the purposes of analyzing and comparing complex spaces via a simpler combinatorial object. Further, they are closely related to extended persistence diagrams, which largely but not completely encode the information of the Reeb graph. In this paper, we investigate the effect on the persistence diagram of a particular continuous operation on Reeb graphs; namely the (truncated) smoothing operation. This construction arises in the context of the Reeb graph interleaving distance, but separately from that viewpoint provides a simplification of the Reeb graph which continuously shrinks small loops. We then use this characterization to initiate the study of inverse problems for Reeb graphs using smoothing by showing which paths in persistence diagram space (commonly known as vineyards) can be realized by a path in the space of Reeb graphs via these simple operations. This allows us to solve the inverse problem on a certain family of piecewise linear vineyards when fixing an initial Reeb graph.",
             "altText": "A figure from the paper.",
             "arXivLink": "https://arxiv.org/abs/2107.04654",
