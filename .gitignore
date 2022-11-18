@@ -18,7 +18,11 @@
 # Specific to this repo
 CompileCV/LizCV-EDIT-ME.pdf 
 CompileCV/LizCV.pdf 
-
+Website/accessinstructions.txt
+Website/ElizabethMunch/slides
+Website/ElizabethMunch/topo2048
+CV.code-workspace
+.vscode/
 
 
 # Byte-compiled / optimized / DLL files
