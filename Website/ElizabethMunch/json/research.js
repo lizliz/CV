@@ -1,12 +1,28 @@
 var researchJSON = {
     "paperInfo": [
         {
+            "altText": "A figure from the paper.",
             "authors": "Maike Buchin, Erin Chambers, Pan Fang, Brittany Terese Fasy, Ellen Gasparovic, Elizabeth Munch, and Carola Wenk",
-            "bibtex": "@article{Buchin2021,<br> author = {Buchin, Maike and Chambers, Erin and Fang, Pan and Fasy, Brittany Terese and Gasparovic, Ellen and Munch, Elizabeth and Wenk, Carola},<br> journal = {To appear: La Mathematica},<br> keywords = {journal},<br> title = {Distances Between Immersed Graphs: Metric Properties},<br> year = {2022}<br>}<br><br>",
-            "collapseLabel": "Buchin2021",
-            "date": 2022,
+            "bibtex": "@article{Buchin2023,<br> author = {Buchin, Maike and Chambers, Erin and Fang, Pan and Fasy, Brittany Terese and Gasparovic, Ellen and Munch, Elizabeth and Wenk, Carola},<br> doi = {10.1007/s44007-022-00037-8},<br> journal = {La Mathematica},<br> keywords = {journal},<br> month = {jan},<br> publisher = {Springer Science and Business Media {LLC}},<br> title = {Distances Between Immersed Graphs: Metric Properties},<br> year = {2023}<br>}<br><br>",
+            "collapseLabel": "Buchin2023",
+            "date": 2023,
+            "image": "img/Buchin2023.png",
+            "publishedLink": "https://doi.org/10.1007/s44007-022-00037-8",
             "title": "Distances Between Immersed Graphs: Metric Properties",
-            "venue": "To appear: La Mathematica"
+            "venue": "La Mathematica"
+        },
+        {
+            "abstract": "We explore a novel application of zero-dimensional persistent homology from Topological Data Analysis (TDA) for bracketing zero-crossings of both one-dimensional continuous functions, and uniformly sampled time series. We present an algorithm and show its robustness in the presence of noise for a range of sampling frequencies. In comparison to state-of-the-art software-based methods for finding zeros of a time series, our method generally converges faster, provides higher accuracy, and is capable of finding all the roots in a given interval instead of converging only to one of them. We also present and compare options for automatically setting the persistence threshold parameter that influences the accurate bracketing of the roots.",
+            "altText": "A figure from the paper.",
+            "arXivLink": "https://arxiv.org/abs/2301.07703",
+            "authors": "Sunia Tanweer, Firas A. Khasawneh, and Elizabeth Munch",
+            "bibtex": "@article{Tanweer2023,<br> archiveprefix = {arXiv},<br> author = {Tanweer, Sunia and Khasawneh, Firas A. and Munch, Elizabeth},<br> copyright = {arXiv.org perpetual, non-exclusive license},<br> doi = {10.48550/ARXIV.2301.07703},<br> eprint = {2301.07703},<br> keywords = {Computational Geometry (cs.CG), Signal Processing (eess.SP), FOS: Computer and information sciences, FOS: Electrical engineering, electronic engineering, information engineering, preprint, arxiv, inSubmission},<br> month = {jan},<br> primaryclass = {cs.CG},<br> publisher = {arXiv},<br> title = {Robust Zero-crossings Detection in Noisy Signals using Topological Signal Processing},<br> year = {2023}<br>}<br><br>",
+            "collapseLabel": "Tanweer2023",
+            "date": 2023,
+            "image": "img/Tanweer2023.png",
+            "publishedLink": "https://doi.org/10.48550/ARXIV.2301.07703",
+            "title": "Robust Zero-crossings Detection in Noisy Signals using Topological Signal Processing",
+            "venue": "arXiv:2301.07703"
         },
         {
             "altText": "A figure from the paper.",
@@ -116,11 +132,13 @@ var researchJSON = {
         },
         {
             "abstract": "Graphs drawn in the plane are ubiquitous, arising from data sets through a variety of methods ranging from GIS analysis to image classification to shape analysis. A fundamental problem in this type of data is comparison: given a set of such graphs, can we rank how similar they are, in such a way that we capture their geometric \"shape\" in the plane? In this paper we explore a method to compare two such embedded graphs, via a simplified combinatorial representation called a tail-less merge tree which encodes the structure based on a fixed direction. First, we examine the properties of a distance designed to compare merge trees called the branching distance, and show that the distance as defined in previous work fails to satisfy some of the requirements of a metric. We incorporate this into a new distance function called average branching distance to compare graphs by looking at the branching distance for merge trees defined over many directions. Despite the theoretical issues, we show that the definition is still quite useful in practice by using our open-source code to cluster data sets of embedded graphs.",
+            "altText": "A figure from the paper.",
             "arXivLink": "https://arxiv.org/abs/2210.10181",
             "authors": "Levent Batakci, Abigail Branson, Bryan Castillo, Candace Todd, Erin Wolf Chambers, and Elizabeth Munch",
             "bibtex": "@article{Batakci2022,<br> archiveprefix = {arXiv},<br> author = {Levent Batakci and Abigail Branson and Bryan Castillo and Candace Todd and Erin Wolf Chambers and Elizabeth Munch},<br> eprint = {2210.10181},<br> journal = {To appear: Involve, a Journal of Mathematics},<br> keywords = {journal},<br> month = {oct},<br> primaryclass = {cs.CG},<br> title = {Comparing Embedded Graphs Using Average Branching Distance},<br> year = {2022}<br>}<br><br>",
             "collapseLabel": "Batakci2022",
             "date": 2022,
+            "image": "img/Batakci2022.png",
             "title": "Comparing Embedded Graphs Using Average Branching Distance",
             "venue": "To appear: Involve, a Journal of Mathematics"
         },
@@ -339,7 +357,7 @@ var researchJSON = {
             "altText": "A figure from the paper.",
             "arXivLink": "https://arxiv.org/abs/1910.12359",
             "authors": "Melih C. Yesilli, Sarah Tymochko, Firas A. Khasawneh, and Elizabeth Munch",
-            "bibtex": "@article{Yesilli2019,<br> author = {Melih C. Yesilli and Sarah Tymochko and Firas A. Khasawneh and Elizabeth Munch},<br> creationdate = {2019-10-29T00:00:00},<br> doi = {10.1109/ICMLA.2019.00200},<br> eprint = {1910.12359},<br> eprinttype = {arXiv},<br> journal = {2019 18th IEEE International Conference On Machine Learning And Applications (ICMLA)},<br> keywords = {eess.SP, cs.CG, cs.LG, stat.ML, conference},<br> priority = {prio1},<br> title = {Chatter Diagnosis in Milling Using Supervised Learning and Topological Features Vector},<br> year = {2019}<br>}<br><br>",
+            "bibtex": "@article{Yesilli2019,<br> author = {Melih C. Yesilli and Sarah Tymochko and Firas A. Khasawneh and Elizabeth Munch},<br> creationdate = {2019-10-29T00:00:00},<br> doi = {10.1109/ICMLA.2019.00200},<br> eprint = {1910.12359},<br> eprinttype = {arXiv},<br> journal = {2019 18th IEEE International Conference On Machine Learning And Applications (ICMLA)},<br> keywords = {eess.SP, cs.CG, cs.LG, stat.ML, conference},<br> title = {Chatter Diagnosis in Milling Using Supervised Learning and Topological Features Vector},<br> year = {2019}<br>}<br><br>",
             "collapseLabel": "Yesilli2019",
             "date": 2019,
             "image": "img/Yesilli2019.png",
@@ -352,7 +370,7 @@ var researchJSON = {
             "altText": "A figure from the paper.",
             "arXivLink": "https://arxiv.org/abs/1910.08506",
             "authors": "Sarah Tymochko, Elizabeth Munch, and Firas A. Khasawneh",
-            "bibtex": "@article{Tymochko2019a,<br> author = {Sarah Tymochko and Elizabeth Munch and Firas A. Khasawneh},<br> creationdate = {2019-10-29T00:00:00},<br> doi = {10.1109/ICMLA.2019.00202},<br> eprint = {1910.08506},<br> eprinttype = {arXiv},<br> journal = {2019 18th IEEE International Conference On Machine Learning And Applications (ICMLA)},<br> keywords = {cs.CG, cs.LG, conference},<br> priority = {prio1},<br> title = {Adaptive Partitioning for Template Functions on Persistence Diagrams},<br> year = {2019}<br>}<br><br>",
+            "bibtex": "@article{Tymochko2019a,<br> author = {Sarah Tymochko and Elizabeth Munch and Firas A. Khasawneh},<br> creationdate = {2019-10-29T00:00:00},<br> doi = {10.1109/ICMLA.2019.00202},<br> eprint = {1910.08506},<br> eprinttype = {arXiv},<br> journal = {2019 18th IEEE International Conference On Machine Learning And Applications (ICMLA)},<br> keywords = {cs.CG, cs.LG, conference},<br> title = {Adaptive Partitioning for Template Functions on Persistence Diagrams},<br> year = {2019}<br>}<br><br>",
             "collapseLabel": "Tymochko2019a",
             "date": 2019,
             "image": "img/Tymochko2019a_Dgms_all_partitioned_split1.png",
