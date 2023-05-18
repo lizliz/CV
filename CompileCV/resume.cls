@@ -67,7 +67,7 @@
 % \printname is used to print the name as a page header
 \def \printname {
   \begingroup
-    \hfil{\MakeUppercase{\namesize\bf \@name}}\hfil
+    \hfil{\MakeUppercase{\namesize\bfseries \@name}}\hfil
     \nameskip\break
   \endgroup
 }
@@ -95,7 +95,8 @@
 % Defines the rSection environment for the large sections within the CV
 \newenvironment{rSection}[1]{ % 1 input argument - section name
   \sectionskip
-  \MakeUppercase{\bf #1} % Section title
+  \MakeUppercase{{\bfseries #1}} % Section title
+  % \MakeUppercase{ #1} % Section title
   \sectionlineskip
   \hrule % Horizontal line
   \begin{list}{}{ % List for each individual item in the section
@@ -112,7 +113,8 @@
 
 %----- Added Liz Munch, 4/15/15
 
-\newcommand{\college}[2]{  {\bf #1}, {\it #2}\\ }		% Bold University left and location italics right
+\newcommand{\college}[2]{  {\bfseries #1}, {\itshape #2}\\ }		% Bold University left and location italics right
+% \newcommand{\college}[2]{  #1, #2\\ }		% Bold University left and location italics right
 
 
 \newcommand{\Degree}[2]
@@ -135,7 +137,7 @@
 %-----
 
 \newenvironment{rSubsection}[4]{ % 4 input arguments - company name, year(s) employed, job title and location
- {\bf #1} \hfill {#2} % Bold company name and date on the right
+ {\bfseries #1} \hfill {#2} % Bold company name and date on the right
  \ifthenelse{\equal{#3}{}}{}{ % If the third argument is not specified, don't print the job title and location line
   \\
   {\em #3} \hfill {\em #4} % Italic job title and location
