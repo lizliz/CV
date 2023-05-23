@@ -101,6 +101,19 @@
   ]
 },
   {
+  "CourseNum": "MTH 994",
+  "School": "MSU",
+  "Position": "Instructor",
+  "CourseTitle": "Topics: The Interleaving Distance",
+  "Semester": [
+    {
+      "Semester": "Spring",
+      "Year": 2023,
+      "Eval": "1.00*"
+    }
+  ]
+},
+  {
     "CourseNum": "AMAT 840",
     "School": "UAlbany",
     "Position": "Instructor",

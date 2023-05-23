@@ -1,6 +1,27 @@
 {
   "talks": [
     {
+      "title": "Graph Comparison using the Interleaving Distance",
+      "venue": "UCLA Math Department Colloquium",
+      "date": "Feb 23, 2023"
+      },
+    {
+      "title": "Combining network analysis and persistent homology for classifying behavior of time series",
+      "venue": "One World MINDS Seminar, Virtual",
+      "date": "Feb 9, 2023",
+      "videoLink": "https://youtu.be/EYOTp1I0mwY"
+      },
+    {
+      "title": "The Directional Transform, or how to look at your data from every direction at once",
+      "venue": "Workshop on Computational Topology and Quantum Computing, Kigali, Rwanda (virtual)",
+      "date": "Feb 8, 2023"
+      },
+    {
+      "title": "The Directional Transform, or how to look at your data from every direction at once",
+      "venue": "MSU Undergraduate Math Club, Michigan State University",
+      "date": "Nov 29, 2022"
+      },
+    {
       "title": "The Directional Transform, or how to look at your data from every direction at once",
       "venue": "Data-oriented Mathematical \\& Statistical Sciences (DoMSS) Seminar, Arizona State University, Virtual",
       "date": "Oct 17, 2022"
