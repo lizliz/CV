@@ -8,7 +8,7 @@ var researchJSON = {
             "bibtex": "@article{Myers2022a,<br> archiveprefix = {arXiv},<br> author = {Audun Myers and David Mu\u00f1oz and Firas A. Khasawneh and Elizabeth Munch},<br> doi = {10.1140/epjds/s13688-023-00379-5},<br> eprint = {2205.11338},<br> journal = {EPJ Data Science},<br> keywords = {cs.CG, nlin.CD, journal, arxiv},<br> month = {mar},<br> number = {6},<br> primaryclass = {cs.CG},<br> title = {Temporal Network Analysis Using Zigzag Persistence},<br> volume = {12},<br> year = {2023}<br>}<br><br>",
             "collapseLabel": "Myers2022a",
             "date": 2023,
-            "image": "img/Myers2022a-zigzag.png",
+            "image": "../img/Myers2022a-zigzag.png",
             "publishedLink": "https://doi.org/10.1140/epjds/s13688-023-00379-5",
             "title": "Temporal Network Analysis Using Zigzag Persistence",
             "venue": "EPJ Data Science"
@@ -19,7 +19,7 @@ var researchJSON = {
             "bibtex": "@article{Buchin2023,<br> author = {Buchin, Maike and Chambers, Erin and Fang, Pan and Fasy, Brittany Terese and Gasparovic, Ellen and Munch, Elizabeth and Wenk, Carola},<br> doi = {10.1007/s44007-022-00037-8},<br> journal = {La Mathematica},<br> keywords = {journal},<br> month = {jan},<br> publisher = {Springer Science and Business Media {LLC}},<br> title = {Distances Between Immersed Graphs: Metric Properties},<br> year = {2023}<br>}<br><br>",
             "collapseLabel": "Buchin2023",
             "date": 2023,
-            "image": "img/Buchin2023.png",
+            "image": "../img/Buchin2023.png",
             "publishedLink": "https://doi.org/10.1007/s44007-022-00037-8",
             "title": "Distances Between Immersed Graphs: Metric Properties",
             "venue": "La Mathematica"
@@ -32,7 +32,7 @@ var researchJSON = {
             "bibtex": "@article{Tanweer2023,<br> archiveprefix = {arXiv},<br> author = {Tanweer, Sunia and Khasawneh, Firas A. and Munch, Elizabeth},<br> copyright = {arXiv.org perpetual, non-exclusive license},<br> doi = {10.48550/ARXIV.2301.07703},<br> eprint = {2301.07703},<br> keywords = {Computational Geometry (cs.CG), Signal Processing (eess.SP), FOS: Computer and information sciences, FOS: Electrical engineering, electronic engineering, information engineering, preprint, arxiv, inSubmission},<br> month = {jan},<br> primaryclass = {cs.CG},<br> publisher = {arXiv},<br> title = {Robust Zero-crossings Detection in Noisy Signals using Topological Signal Processing},<br> year = {2023}<br>}<br><br>",
             "collapseLabel": "Tanweer2023",
             "date": 2023,
-            "image": "img/Tanweer2023.png",
+            "image": "../img/Tanweer2023.png",
             "publishedLink": "https://doi.org/10.48550/ARXIV.2301.07703",
             "title": "Robust Zero-crossings Detection in Noisy Signals using Topological Signal Processing",
             "venue": "arXiv:2301.07703"
@@ -45,7 +45,7 @@ var researchJSON = {
             "bibtex": "@article{Myers2023,<br> archiveprefix = {arXiv},<br> author = {Audun Myers and Firas A. Khasawneh and Elizabeth Munch},<br> doi = {10.1137/22m1476848},<br> eprint = {2205.08349},<br> journal = {{SIAM} Journal on Applied Dynamical Systems},<br> keywords = {stat.ML, cs.LG, eess.SP, arxiv, journal},<br> month = {feb},<br> number = {1},<br> pages = {65--89},<br> primaryclass = {stat.ML,},<br> publisher = {Society for Industrial {\\&} Applied Mathematics ({SIAM})},<br> title = {Persistence of Weighted Ordinal Partition Networks for Dynamic State Detection},<br> volume = {22},<br> year = {2023}<br>}<br><br>",
             "collapseLabel": "Myers2023",
             "date": 2023,
-            "image": "img/Myers2022.png",
+            "image": "../img/Myers2022.png",
             "publishedLink": "https://doi.org/10.1137/22m1476848",
             "title": "Persistence of Weighted Ordinal Partition Networks for Dynamic State Detection",
             "venue": "SIAM Journal on Applied Dynamical Systems"
@@ -58,7 +58,7 @@ var researchJSON = {
             "bibtex": "@article{Myers2023a,<br> archiveprefix = {arXiv},<br> author = {Myers, Audun D. and Chumley, Max M. and Khasawneh, Firas A. and Munch, Elizabeth},<br> doi = {10.1103/PhysRevE.107.034303},<br> eprint = {2206.02530},<br> issue = {3},<br> journal = {Phys. Rev. E},<br> keywords = {stat.ML, cs.LG, math.AT, preprint, arxiv, journal},<br> month = {Mar},<br> numpages = {17},<br> pages = {034303},<br> primaryclass = {stat.ML},<br> publisher = {American Physical Society},<br> title = {Persistent homology of coarse-grained state-space networks},<br> url = {https://link.aps.org/doi/10.1103/PhysRevE.107.034303},<br> volume = {107},<br> year = {2023}<br>}<br><br>",
             "collapseLabel": "Myers2023a",
             "date": 2023,
-            "image": "img/Myers2022b.png",
+            "image": "../img/Myers2022b.png",
             "publishedLink": "https://doi.org/10.1103/PhysRevE.107.034303",
             "title": "Persistent homology of coarse-grained state-space networks",
             "venue": "Phys. Rev. E"
@@ -79,10 +79,23 @@ var researchJSON = {
             "bibtex": "@article{Tanweer2023a,<br> archiveprefix = {arXiv},<br> author = {Tanweer, Sunia and Khasawneh, Firas A. and Munch, Elizabeth and Tempelman, Joshua R.},<br> copyright = {arXiv.org perpetual, non-exclusive license},<br> doi = {10.48550/ARXIV.2305.03118},<br> eprint = {2305.03118},<br> keywords = {Dynamical Systems (math.DS), FOS: Mathematics, preprint, arxiv, inSubmission},<br> month = {may},<br> primaryclass = {math.DS},<br> publisher = {arXiv},<br> title = {A Topological Framework for Identifying Phenomenological Bifurcations in Stochastic Dynamical Systems},<br> year = {2023}<br>}<br><br>",
             "collapseLabel": "Tanweer2023a",
             "date": 2023,
-            "image": "img/Tanweer2023a.png",
+            "image": "../img/Tanweer2023a.png",
             "publishedLink": "https://doi.org/10.48550/ARXIV.2305.03118",
             "title": "A Topological Framework for Identifying Phenomenological Bifurcations in Stochastic Dynamical Systems",
             "venue": "arXiv:2305.03118"
+        },
+        {
+            "abstract": "For deep learning problems on graph-structured data, pooling layers are important for down sampling, reducing computational cost, and to minimize overfitting. We define a pooling layer, NervePool, for data structured as simplicial complexes, which are generalizations of graphs that include higher-dimensional simplices beyond vertices and edges; this structure allows for greater flexibility in modeling higher-order relationships. The proposed simplicial coarsening scheme is built upon partitions of vertices, which allow us to generate hierarchical representations of simplicial complexes, collapsing information in a learned fashion. NervePool builds on the learned vertex cluster assignments and extends to coarsening of higher dimensional simplices in a deterministic fashion. While in practice, the pooling operations are computed via a series of matrix operations, the topological motivation is a set-theoretic construction based on unions of stars of simplices and the nerve complex",
+            "altText": "A figure from the paper.",
+            "arXivLink": "https://arxiv.org/abs/2305.06315",
+            "authors": "Sarah McGuire, Elizabeth Munch, and Matthew Hirn",
+            "bibtex": "@article{McGuire2023,<br> archiveprefix = {arXiv},<br> author = {McGuire, Sarah and Munch, Elizabeth and Hirn, Matthew},<br> copyright = {arXiv.org perpetual, non-exclusive license},<br> doi = {10.48550/ARXIV.2305.06315},<br> eprint = {2305.06315},<br> keywords = {Computational Geometry (cs.CG), Machine Learning (cs.LG), Neural and Evolutionary Computing (cs.NE), FOS: Computer and information sciences, 62R40, 05E45, 68T07, 68R10, preprint, arxiv, inSubmission},<br> month = {may},<br> primaryclass = {cs.CG},<br> publisher = {arXiv},<br> title = {NervePool: A Simplicial Pooling Layer},<br> year = {2023}<br>}<br><br>",
+            "collapseLabel": "McGuire2023",
+            "date": 2023,
+            "image": "../img/McGuire2023.png",
+            "publishedLink": "https://doi.org/10.48550/ARXIV.2305.06315",
+            "title": "NervePool: A Simplicial Pooling Layer",
+            "venue": "arXiv:2305.06315"
         },
         {
             "altText": "A figure from the paper.",
@@ -90,7 +103,7 @@ var researchJSON = {
             "bibtex": "@inproceedings{Chambers2022,<br> author = {Erin Chambers and Elizabeth Munch and Tim Ophelders},<br> booktitle = {EuroCG},<br> keywords = {conference},<br> title = {A quality measure for Reeb graph drawings},<br> url = {https://eurocg2022.unipg.it/booklet/EuroCG2022-Booklet.pdf#paper63.1},<br> year = {2022}<br>}<br><br>",
             "collapseLabel": "Chambers2022",
             "date": 2022,
-            "image": "img/Chambers2022.png",
+            "image": "../img/Chambers2022.png",
             "publishedLink": "https://eurocg2022.unipg.it/booklet/EuroCG2022-Booklet.pdf#paper63.1",
             "title": "A quality measure for Reeb graph drawings",
             "venue": "EuroCG"
@@ -103,7 +116,7 @@ var researchJSON = {
             "bibtex": "@inproceedings{Guezel2022,<br> archiveprefix = {arXiv},<br> author = {\u0130smail G\u00fczel and Elizabeth Munch and Firas Khasawneh},<br> booktitle = {Proceedings of TDA at SDM (SIAM Data Mining)},<br> doi = {10.48550/arXiv.2204.06321},<br> editor = {R. W. R. Darling and John A. Emanuello and Emilie Purvine and Ahmad Ridley},<br> eprint = {2204.06321},<br> keywords = {math.DS, math.AT, nlin.CD, 55N31, 62R40, 37M20, conference},<br> month = {apr},<br> organization = {SIAM Data Mining},<br> primaryclass = {math.DS},<br> publisher = {arXiv Proceedings},<br> title = {A Case Study on Identifying Bifurcation and Chaos with CROCKER Plots},<br> url = {https://arxiv.org/html/2204.01142},<br> year = {2022}<br>}<br><br>",
             "collapseLabel": "Guezel2022",
             "date": 2022,
-            "image": "img/Guzel2022.png",
+            "image": "../img/Guzel2022.png",
             "publishedLink": "https://doi.org/10.48550/arXiv.2204.06321",
             "title": "A Case Study on Identifying Bifurcation and Chaos with CROCKER Plots",
             "venue": "Proceedings of TDA at SDM (SIAM Data Mining)"
@@ -114,7 +127,7 @@ var researchJSON = {
             "bibtex": "@article{Amezquita2022,<br> author = {Erik J. Am{\\'{e}}zquita and Michelle Y. Quigley and Tim Ophelders and Danelle Seymour and Elizabeth Munch and Daniel H. Chitwood},<br> doi = {10.1002/ppp3.10333},<br> journal = {Plants, People, Planet},<br> keywords = {journal},<br> month = {apr},<br> publisher = {Cold Spring Harbor Laboratory},<br> title = {The shape of aroma: measuring and modeling citrus oil gland distribution},<br> year = {2022}<br>}<br><br>",
             "collapseLabel": "Amezquita2022",
             "date": 2022,
-            "image": "img/Amezquita2022.png",
+            "image": "../img/Amezquita2022.png",
             "publishedLink": "https://doi.org/10.1002/ppp3.10333",
             "title": "The shape of aroma: measuring and modeling citrus oil gland distribution",
             "venue": "Plants, People, Planet"
@@ -127,7 +140,7 @@ var researchJSON = {
             "bibtex": "@article{Perea2022,<br> author = {Jose A. Perea and Elizabeth Munch and Firas A. Khasawneh},<br> creationdate = {2019-02-20T00:00:00},<br> doi = {10.1007/s10208-022-09567-7},<br> eprint = {1902.07190},<br> eprintclass = {cs.CG, math.AT, math.ST, stat.ML, stat.TH},<br> eprinttype = {arXiv},<br> journal = {Foundations of Computational Mathematics},<br> keywords = {cs.CG, math.AT, math.ST, stat.ML, stat.TH, journal},<br> month = {jun},<br> priority = {prio1},<br> publisher = {Springer Science and Business Media {LLC}},<br> readstatus = {skimmed},<br> title = {Approximating Continuous Functions on Persistence Diagrams Using Template Functions},<br> year = {2022}<br>}<br><br>",
             "collapseLabel": "Perea2022",
             "date": 2022,
-            "image": "img/Perea2019_RegressionCoeff-Line-Poly.png",
+            "image": "../img/Perea2019_RegressionCoeff-Line-Poly.png",
             "publishedLink": "https://doi.org/10.1007/s10208-022-09567-7",
             "title": "Approximating Continuous Functions on Persistence Diagrams Using Template Functions",
             "venue": "Foundations of Computational Mathematics"
@@ -140,7 +153,7 @@ var researchJSON = {
             "bibtex": "@article{Guezel2022a,<br> archiveprefix = {arXiv},<br> author = {\u0130smail G\u00fczel and Elizabeth Munch and Firas A. Khasawneh},<br> doi = {10.1063/5.0102421},<br> eprint = {2206.04861},<br> journal = {CHAOS},<br> keywords = {math.DS, math.AT, 55N31, 62R40, 37M20, journal, arXiv},<br> month = {jun},<br> number = {093111},<br> primaryclass = {math.DS},<br> title = {Detecting bifurcations in dynamical systems with CROCKER plots},<br> volume = {32},<br> year = {2022}<br>}<br><br>",
             "collapseLabel": "Guezel2022a",
             "date": 2022,
-            "image": "img/Guezel2022a.png",
+            "image": "../img/Guezel2022a.png",
             "publishedLink": "https://doi.org/10.1063/5.0102421",
             "title": "Detecting bifurcations in dynamical systems with CROCKER plots",
             "venue": "CHAOS"
@@ -162,7 +175,7 @@ var researchJSON = {
             "bibtex": "@article{Batakci2022,<br> archiveprefix = {arXiv},<br> author = {Levent Batakci and Abigail Branson and Bryan Castillo and Candace Todd and Erin Wolf Chambers and Elizabeth Munch},<br> eprint = {2210.10181},<br> journal = {To appear: Involve, a Journal of Mathematics},<br> keywords = {journal},<br> month = {oct},<br> primaryclass = {cs.CG},<br> title = {Comparing Embedded Graphs Using Average Branching Distance},<br> year = {2022}<br>}<br><br>",
             "collapseLabel": "Batakci2022",
             "date": 2022,
-            "image": "img/Batakci2022.png",
+            "image": "../img/Batakci2022.png",
             "title": "Comparing Embedded Graphs Using Average Branching Distance",
             "venue": "To appear: Involve, a Journal of Mathematics"
         },
@@ -174,7 +187,7 @@ var researchJSON = {
             "bibtex": "@article{Alharbi2021,<br> archiveprefix = {arXiv},<br> author = {Rehab Alharbi and Erin Wolf Chambers and Elizabeth Munch},<br> date = {2021-07-09},<br> eprint = {2107.04654},<br> eprinttype = {arXiv},<br> keywords = {cs.CG, arXiv, inSubmission},<br> month = {jul},<br> primaryclass = {cs.CG},<br> title = {Realizable piecewise linear paths of persistence diagrams with Reeb graphs},<br> year = {2021}<br>}<br><br>",
             "collapseLabel": "Alharbi2021",
             "date": 2021,
-            "image": "img/Alharbi2021.png",
+            "image": "../img/Alharbi2021.png",
             "title": "Realizable piecewise linear paths of persistence diagrams with Reeb graphs",
             "venue": "arXiv:2107.04654"
         },
@@ -185,7 +198,7 @@ var researchJSON = {
             "bibtex": "@article{Brown2020,<br> author = {Adam Brown and Omer Bobrowski and Elizabeth Munch and Bei Wang},<br> doi = {10.1007/s41468-020-00063-x},<br> eprint = {1909.03488v1},<br> eprinttype = {arXiv},<br> journal = {Journal of Applied and Computational Topology},<br> keywords = {journal},<br> month = {dec},<br> publisher = {Springer Science and Business Media {LLC}},<br> title = {Probabilistic convergence and stability of random mapper graphs},<br> year = {2021}<br>}<br><br>",
             "collapseLabel": "Brown2020",
             "date": 2021,
-            "image": "img/Brown2019_enhanced-mapper-revisited.png",
+            "image": "../img/Brown2019_enhanced-mapper-revisited.png",
             "publishedLink": "https://doi.org/10.1007/s41468-020-00063-x",
             "title": "Probabilistic convergence and stability of random mapper graphs",
             "venue": "Journal of Applied and Computational Topology"
@@ -198,7 +211,7 @@ var researchJSON = {
             "bibtex": "@inproceedings{Chambers2020,<br> address = {Dagstuhl, Germany},<br> author = {Erin Wolf Chambers and Elizabeth Munch and Tim Ophelders},<br> booktitle = {37th International Symposium on Computational Geometry (SoCG 2021)},<br> creationdate = {2020-07-20T00:00:00},<br> doi = {10.4230/LIPIcs.SoCG.2021.22},<br> editor = {Buchin, Kevin and Colin de Verdi\\`{e}re, \\'{E}ric},<br> eprint = {2007.07795},<br> eprintclass = {cs.CG},<br> eprinttype = {arXiv},<br> isbn = {978-3-95977-184-9},<br> issn = {1868-8969},<br> keywords = {cs.CG, arXiv, conferenceTop},<br> pages = {22:1--22:17},<br> publisher = {Schloss Dagstuhl -- Leibniz-Zentrum f{\\\"u}r Informatik},<br> series = {Leibniz International Proceedings in Informatics (LIPIcs)},<br> title = {A Family of Metrics from the Truncated Smoothing of {R}eeb Graphs},<br> url = {https://drops.dagstuhl.de/opus/volltexte/2021/13821},<br> urn = {urn:nbn:de:0030-drops-138218},<br> volume = {189},<br> year = {2021}<br>}<br><br>",
             "collapseLabel": "Chambers2020",
             "date": 2021,
-            "image": "img/Chambers2020.png",
+            "image": "../img/Chambers2020.png",
             "publishedLink": "https://doi.org/10.4230/LIPIcs.SoCG.2021.22",
             "title": "A Family of Metrics from the Truncated Smoothing of Reeb Graphs",
             "venue": "37th International Symposium on Computational Geometry (SoCG 2021)"
@@ -210,7 +223,7 @@ var researchJSON = {
             "bibtex": "@incollection{Basu2021,<br> author = {Prithwish Basu and Imdat As and Elizabeth Munch},<br> booktitle = {The Routledge Companion to Artificial Intelligence in Architecture},<br> keywords = {book},<br> publisher = {Taylor Francis},<br> title = {Generating new architectural designs using topological AI},<br> url = {https://www.taylorfrancis.com/chapters/edit/10.4324/9780367824259-11/generating-new-architectural-designs-using-topological-ai-prithwish-basu-imdat-elizabeth-munch},<br> year = {2021}<br>}<br><br>",
             "collapseLabel": "Basu2021",
             "date": 2021,
-            "image": "img/Basu2021.png",
+            "image": "../img/Basu2021.png",
             "publishedLink": "https://www.taylorfrancis.com/chapters/edit/10.4324/9780367824259-11/generating-new-architectural-designs-using-topological-ai-prithwish-basu-imdat-elizabeth-munch",
             "title": "Generating new architectural designs using topological AI",
             "venue": "The Routledge Companion to Artificial Intelligence in Architecture"
@@ -223,7 +236,7 @@ var researchJSON = {
             "bibtex": "@article{Bollen2021,<br> archiveprefix = {arXiv},<br> author = {Brian Bollen and Erin Wolf Chambers and Joshua Levine and Elizabeth Munch},<br> eprint = {2110.05631},<br> keywords = {cs.CG, math.AT, inSubmission, arxiv},<br> primaryclass = {cs.CG},<br> title = {Reeb Graph Metrics from the Ground Up},<br> year = {2021}<br>}<br><br>",
             "collapseLabel": "Bollen2021",
             "date": 2021,
-            "image": "img/Bollen2021.png",
+            "image": "../img/Bollen2021.png",
             "title": "Reeb Graph Metrics from the Ground Up",
             "venue": "arXiv:2110.05631"
         },
@@ -233,7 +246,7 @@ var researchJSON = {
             "bibtex": "@article{Amezquita2021,<br> author = {Erik J Am{\\'{e}}zquita and Michelle Y Quigley and Tim Ophelders and Jacob B. Landis and Daniel Koenig and Elizabeth Munch and Daniel H Chitwood},<br> doi = {10.1093/insilicoplants/diab033},<br> journal = {in silico Plants},<br> keywords = {journal},<br> month = {dec},<br> publisher = {Oxford University Press ({OUP})},<br> title = {Measuring hidden phenotype: Quantifying the shape of barley seeds using the Euler Characteristic Transform},<br> year = {2021}<br>}<br><br>",
             "collapseLabel": "Amezquita2021",
             "date": 2021,
-            "image": "img/Amezquita2021.png",
+            "image": "../img/Amezquita2021.png",
             "publishedLink": "https://doi.org/10.1093/insilicoplants/diab033",
             "title": "Measuring hidden phenotype: Quantifying the shape of barley seeds using the Euler Characteristic Transform",
             "venue": "in silico Plants"
@@ -246,7 +259,7 @@ var researchJSON = {
             "bibtex": "@article{Makela2020,<br> author = {Kayla Makela and Tim Ophelders and Michelle Quigley and Elizabeth Munch and Daniel Chitwood and Asia Dowtin},<br> date = {2020-10-17},<br> eprint = {2010.08691},<br> eprintclass = {cs.CV},<br> eprinttype = {arXiv},<br> keywords = {cs.CV, cs.CG, arXiv, other},<br> title = {Automatic Tree Ring Detection using Jacobi Sets}<br>}<br><br>",
             "collapseLabel": "Makela2020",
             "date": 2020,
-            "image": "img/Makela2020_TreeCookies.png",
+            "image": "../img/Makela2020_TreeCookies.png",
             "title": "Automatic Tree Ring Detection using Jacobi Sets",
             "venue": "arXiv:2010.08691"
         },
@@ -258,7 +271,7 @@ var researchJSON = {
             "bibtex": "@article{Botnan2020,<br> author = {Magnus Bakke Botnan and Justin Curry and Elizabeth Munch},<br> date = {2020-04-29},<br> eprint = {2004.14286v1},<br> eprintclass = {math.CT},<br> eprinttype = {arXiv},<br> keywords = {math.CT, cs.CG, math.AT, arxiv, other},<br> title = {A Relative Theory of Interleavings}<br>}<br><br>",
             "collapseLabel": "Botnan2020",
             "date": 2020,
-            "image": "img/Botnan2020.png",
+            "image": "../img/Botnan2020.png",
             "title": "A Relative Theory of Interleavings",
             "venue": "arXiv:2004.14286v1"
         },
@@ -270,7 +283,7 @@ var researchJSON = {
             "bibtex": "@article{Tymochko2019,<br> author = {Sarah Tymochko and Elizabeth Munch and Jason Dunion and Kristen Corbosiero and Ryan Torn},<br> creationdate = {2019-02-19T00:00:00},<br> doi = {10.1016/j.patrec.2020.02.022},<br> eprint = {1902.06202},<br> eprinttype = {arXiv},<br> issn = {0167-8655},<br> journal = {Pattern Recognition Letters},<br> keywords = {journal},<br> month = {May},<br> pages = {137-143},<br> publisher = {North-Holland},<br> title = {Using Persistent Homology to Quantify a Diurnal Cycle in Hurricane Felix},<br> volume = {133},<br> year = {2020}<br>}<br><br>",
             "collapseLabel": "Tymochko2019",
             "date": 2020,
-            "image": "img/Tymochko2019_difference_ex.png",
+            "image": "../img/Tymochko2019_difference_ex.png",
             "publishedLink": "https://doi.org/10.1016/j.patrec.2020.02.022",
             "title": "Using Persistent Homology to Quantify a Diurnal Cycle in Hurricane Felix",
             "venue": "Pattern Recognition Letters"
@@ -282,7 +295,7 @@ var researchJSON = {
             "bibtex": "@article{Amezquita2020,<br> author = {Erik J. Am{\\'{e}}zquita and Michelle Y. Quigley and Tim Ophelders and Elizabeth Munch and Daniel H. Chitwood},<br> creationdate = {2020-07-02T00:00:00},<br> doi = {10.1002/dvdy.175},<br> journal = {Developmental Dynamics},<br> keywords = {journal},<br> month = {apr},<br> publisher = {Wiley},<br> title = {The shape of things to come: Topological data analysis and biology, from molecules to organisms},<br> year = {2020}<br>}<br><br>",
             "collapseLabel": "Amezquita2020",
             "date": 2020,
-            "image": "img/Amezquita2020-cover.jpg",
+            "image": "../img/Amezquita2020-cover.jpg",
             "publishedLink": "https://doi.org/10.1002/dvdy.175",
             "title": "The shape of things to come: Topological data analysis and biology, from molecules to organisms",
             "venue": "Developmental Dynamics"
@@ -295,7 +308,7 @@ var researchJSON = {
             "bibtex": "@article{Tymochko2020,<br> author = {Sarah Tymochko and Elizabeth Munch and Firas A. Khasawneh},<br> doi = {10.3390/a13110278},<br> eprint = {2009.08972},<br> eprinttype = {arXiv},<br> journal = {Algorithms},<br> keywords = {cs.CG, journal},<br> number = {11},<br> pages = {278},<br> title = {Using Zigzag Persistent Homology to Detect Hopf Bifurcations in Dynamical Systems},<br> volume = {13},<br> year = {2020}<br>}<br><br>",
             "collapseLabel": "Tymochko2020",
             "date": 2020,
-            "image": "img/Tymochko2020.png",
+            "image": "../img/Tymochko2020.png",
             "publishedLink": "https://doi.org/10.3390/a13110278",
             "title": "Using Zigzag Persistent Homology to Detect Hopf Bifurcations in Dynamical Systems",
             "venue": "Algorithms"
@@ -308,7 +321,7 @@ var researchJSON = {
             "bibtex": "@article{Cang2020,<br> author = {Zixuan Cang and Elizabeth Munch and Guo-Wei Wei},<br> creationdate = {2020-07-14T00:00:00},<br> doi = {10.1007/s41468-020-00057-9},<br> eprint = {1802.04677},<br> eprinttype = {arXiv},<br> journal = {Journal of Applied and Computational Topology},<br> keywords = {math.AT, math.DS, q-bio.QM, journal},<br> month = {jul},<br> publisher = {Springer Science and Business Media {LLC}},<br> title = {Evolutionary homology on coupled dynamical systems with applications to protein flexibility analysis},<br> year = {2020}<br>}<br><br>",
             "collapseLabel": "Cang2020",
             "date": 2020,
-            "image": "img/Cang2018-Disordered_Small.png",
+            "image": "../img/Cang2018-Disordered_Small.png",
             "publishedLink": "https://doi.org/10.1007/s41468-020-00057-9",
             "title": "Evolutionary homology on coupled dynamical systems with applications to protein flexibility analysis",
             "venue": "Journal of Applied and Computational Topology"
@@ -321,7 +334,7 @@ var researchJSON = {
             "bibtex": "@article{Gasparovic2019,<br> author = {Ellen Gasparovic and Elizabeth Munch and Steve Oudot and Katharine Turner and Bei Wang and Yusu Wang},<br> creationdate = {2020-06-09T00:00:00},<br> date = {2019-07-31},<br> eprint = {1908.00063},<br> eprintclass = {cs.CG},<br> eprinttype = {arXiv},<br> keywords = {cs.CG, math.AT, preprint, arxiv, inSubmission},<br> title = {Intrinsic Interleaving Distance for Merge Trees}<br>}<br><br>",
             "collapseLabel": "Gasparovic2019",
             "date": 2019,
-            "image": "img/Gasparovic2019_MergeTreesAndMatrices2.png",
+            "image": "../img/Gasparovic2019_MergeTreesAndMatrices2.png",
             "title": "Intrinsic Interleaving Distance for Merge Trees",
             "venue": "arXiv:1908.00063"
         },
@@ -332,7 +345,7 @@ var researchJSON = {
             "bibtex": "@inproceedings{Chitwood2019,<br> author = {Daniel H. Chitwood and Mitchell Eithun and Elizabeth Munch and Tim Ophelders},<br> booktitle = {ISMM 2019: Mathematical Morphology and Its Applications to Signal and Image Processing},<br> doi = {10.1007/978-3-030-20867-7_7},<br> editor = {Burgeth, Bernhard and Kleefeld, Andreas and Naegel, Beno{\\^i}t and Passat, Nicolas and Perret, Benjamin},<br> keywords = {conference},<br> pages = {84--95},<br> priority = {prio1},<br> publisher = {Springer International Publishing},<br> title = {Topological Mapper for {3D} Volumetric Images},<br> year = {2019}<br>}<br><br>",
             "collapseLabel": "Chitwood2019",
             "date": 2019,
-            "image": "img/Chitwood2019_mapper_flowchart.png",
+            "image": "../img/Chitwood2019_mapper_flowchart.png",
             "publishedLink": "https://doi.org/10.1007/978-3-030-20867-7_7",
             "title": "Topological Mapper for 3D Volumetric Images",
             "venue": "ISMM 2019: Mathematical Morphology and Its Applications to Signal and Image Processing"
@@ -345,7 +358,7 @@ var researchJSON = {
             "bibtex": "@article{Eithun2018,<br> author = {Mitchell Eithun and Daniel H. Chitwood and James Larson and Gregory Lang and Elizabeth Munch},<br> creationdate = {2020-06-28T00:00:00},<br> doi = {10.1186/s13007-019-0496-7},<br> eprint = {1812.03321},<br> eprinttype = {arXiv},<br> journal = {Plant Methods},<br> keywords = {q-bio.QM, journal},<br> month = {oct},<br> number = {1},<br> publisher = {Springer Science and Business Media {LLC}},<br> readstatus = {skimmed},<br> title = {Isolating phyllotactic patterns embedded in the secondary growth of sweet cherry (Prunus avium L.) using magnetic resonance imaging},<br> volume = {15},<br> year = {2019}<br>}<br><br>",
             "collapseLabel": "Eithun2018",
             "date": 2019,
-            "image": "img/Eithun2018_Anatomy.png",
+            "image": "../img/Eithun2018_Anatomy.png",
             "publishedLink": "https://doi.org/10.1186/s13007-019-0496-7",
             "title": "Isolating phyllotactic patterns embedded in the secondary growth of sweet cherry (Prunus avium L.) using magnetic resonance imaging",
             "venue": "Plant Methods"
@@ -358,7 +371,7 @@ var researchJSON = {
             "bibtex": "@incollection{Munch2019,<br> author = {Elizabeth Munch and Anastasios Stefanou},<br> booktitle = {Research in Data Science},<br> creationdate = {2020-06-28T00:00:00},<br> doi = {10.1007/978-3-030-11566-1_5},<br> eprint = {1803.07609},<br> eprinttype = {arXiv},<br> keywords = {book},<br> pages = {109--127},<br> priority = {prio1},<br> publisher = {Springer International Publishing},<br> series = {Association for Women in Mathematics Series},<br> title = {The $\\ell^\\infty$-Cophenetic Metric for Phylogenetic Trees As an Interleaving Distance},<br> year = {2019}<br>}<br><br>",
             "collapseLabel": "Munch2019",
             "date": 2019,
-            "image": "img/Munch2018_LabeledMergeTree.png",
+            "image": "../img/Munch2018_LabeledMergeTree.png",
             "publishedLink": "https://doi.org/10.1007/978-3-030-11566-1_5",
             "title": "The $\\ell^\\infty$-Cophenetic Metric for Phylogenetic Trees As an Interleaving Distance",
             "venue": "Research in Data Science"
@@ -371,7 +384,7 @@ var researchJSON = {
             "bibtex": "@article{Yan2019a,<br> author = {Lin Yan and Yusu Wang and Elizabeth Munch and Ellen Gasparovic and Bei Wang},<br> creationdate = {2020-06-28T00:00:00},<br> doi = {10.1109/tvcg.2019.2934242},<br> eprint = {1908.00113},<br> eprinttype = {arXiv},<br> journal = {{IEEE} Transactions on Visualization and Computer Graphics},<br> keywords = {conferenceTop},<br> pages = {1--1},<br> publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},<br> title = {A Structural Average of Labeled Merge Trees for Uncertainty Visualization},<br> year = {2019}<br>}<br><br>",
             "collapseLabel": "Yan2019a",
             "date": 2019,
-            "image": "img/Yan2019_interface-4.png",
+            "image": "../img/Yan2019_interface-4.png",
             "publishedLink": "https://doi.org/10.1109/tvcg.2019.2934242",
             "title": "A Structural Average of Labeled Merge Trees for Uncertainty Visualization",
             "venue": "IEEE Transactions on Visualization and Computer Graphics"
@@ -384,7 +397,7 @@ var researchJSON = {
             "bibtex": "@article{Yesilli2019,<br> author = {Melih C. Yesilli and Sarah Tymochko and Firas A. Khasawneh and Elizabeth Munch},<br> creationdate = {2019-10-29T00:00:00},<br> doi = {10.1109/ICMLA.2019.00200},<br> eprint = {1910.12359},<br> eprinttype = {arXiv},<br> journal = {2019 18th IEEE International Conference On Machine Learning And Applications (ICMLA)},<br> keywords = {eess.SP, cs.CG, cs.LG, stat.ML, conference},<br> title = {Chatter Diagnosis in Milling Using Supervised Learning and Topological Features Vector},<br> year = {2019}<br>}<br><br>",
             "collapseLabel": "Yesilli2019",
             "date": 2019,
-            "image": "img/Yesilli2019.png",
+            "image": "../img/Yesilli2019.png",
             "publishedLink": "https://doi.org/10.1109/ICMLA.2019.00200",
             "title": "Chatter Diagnosis in Milling Using Supervised Learning and Topological Features Vector",
             "venue": "2019 18th IEEE International Conference On Machine Learning And Applications (ICMLA)"
@@ -397,7 +410,7 @@ var researchJSON = {
             "bibtex": "@article{Tymochko2019a,<br> author = {Sarah Tymochko and Elizabeth Munch and Firas A. Khasawneh},<br> creationdate = {2019-10-29T00:00:00},<br> doi = {10.1109/ICMLA.2019.00202},<br> eprint = {1910.08506},<br> eprinttype = {arXiv},<br> journal = {2019 18th IEEE International Conference On Machine Learning And Applications (ICMLA)},<br> keywords = {cs.CG, cs.LG, conference},<br> title = {Adaptive Partitioning for Template Functions on Persistence Diagrams},<br> year = {2019}<br>}<br><br>",
             "collapseLabel": "Tymochko2019a",
             "date": 2019,
-            "image": "img/Tymochko2019a_Dgms_all_partitioned_split1.png",
+            "image": "../img/Tymochko2019a_Dgms_all_partitioned_split1.png",
             "publishedLink": "https://doi.org/10.1109/ICMLA.2019.00202",
             "title": "Adaptive Partitioning for Template Functions on Persistence Diagrams",
             "venue": "2019 18th IEEE International Conference On Machine Learning And Applications (ICMLA)"
@@ -410,7 +423,7 @@ var researchJSON = {
             "bibtex": "@article{Myers2019,<br> author = {Audun Myers and Elizabeth Munch and Firas A. Khasawneh},<br> creationdate = {2020-06-09T00:00:00},<br> doi = {10.1103/PhysRevE.100.022314},<br> eprint = {1904.07403},<br> eprinttype = {arXiv},<br> journal = {Physical Review E},<br> keywords = {nlin.CD, cs.CG, cs.IT, math.IT, physics.data-an, journal},<br> month = {aug},<br> number = {2},<br> pages = {022314},<br> publisher = {American Physical Society ({APS})},<br> title = {Persistent Homology of Complex Networks for Dynamic State Detection},<br> volume = {100},<br> year = {2019}<br>}<br><br>",
             "collapseLabel": "Myers2019",
             "date": 2019,
-            "image": "img/Myers2019_chaotic_vs_periodic.png",
+            "image": "../img/Myers2019_chaotic_vs_periodic.png",
             "publishedLink": "https://doi.org/10.1103/PhysRevE.100.022314",
             "title": "Persistent Homology of Complex Networks for Dynamic State Detection",
             "venue": "Physical Review E"
@@ -423,7 +436,7 @@ var researchJSON = {
             "bibtex": "@inproceedings{Khasawneh2018a,<br> author = {Firas A. Khasawneh and Elizabeth Munch and Jose A. Perea},<br> booktitle = {14th IFAC Workshop on Time Delay Systems TDS 2018: Budapest, Hungary, 28\u201330 June 2018},<br> creationdate = {2018-09-01T00:00:00},<br> doi = {10.1016/j.ifacol.2018.07.222},<br> editor = {Tamas Insperger},<br> eprint = {1804.02261},<br> eprinttype = {arXiv},<br> keywords = {c, stat.ML, cs.CG, cs.LG, conference},<br> number = {14},<br> pages = {195--200},<br> priority = {prio1},<br> readstatus = {read},<br> title = {Chatter Classification in Turning Using Machine Learning and Topological Data Analysis},<br> volume = {51},<br> year = {2018}<br>}<br><br>",
             "collapseLabel": "Khasawneh2018a",
             "date": 2018,
-            "image": "img/Khasawneh2018a-ChatterPredict-0p05-normalized-WithLine_Small.png",
+            "image": "../img/Khasawneh2018a-ChatterPredict-0p05-normalized-WithLine_Small.png",
             "publishedLink": "https://doi.org/10.1016/j.ifacol.2018.07.222",
             "title": "Chatter Classification in Turning Using Machine Learning and Topological Data Analysis",
             "venue": "14th IFAC Workshop on Time Delay Systems TDS 2018: Budapest, Hungary, 28\u201330 June 2018"
@@ -436,7 +449,7 @@ var researchJSON = {
             "bibtex": "@article{Khasawneh2018b,<br> author = {Firas A. Khasawneh and Elizabeth Munch},<br> creationdate = {2018-10-03T00:00:00},<br> doi = {10.1098/rspa.2018.0027},<br> eprint = {1805.06403},<br> eprinttype = {arXiv},<br> journal = {Proceedings of the Royal Society A: Mathematical, Physical and Engineering Science},<br> keywords = {journal},<br> month = {oct},<br> number = {2218},<br> pages = {20180027},<br> priority = {prio1},<br> publisher = {The Royal Society},<br> readstatus = {read},<br> title = {Topological data analysis for true step detection in periodic piecewise constant signals},<br> volume = {474},<br> year = {2018}<br>}<br><br>",
             "collapseLabel": "Khasawneh2018b",
             "date": 2018,
-            "image": "img/Khasawneh2018b_ExampleSubsetsPulseTrain.jpg",
+            "image": "../img/Khasawneh2018b_ExampleSubsetsPulseTrain.jpg",
             "publishedLink": "https://doi.org/10.1098/rspa.2018.0027",
             "title": "Topological data analysis for true step detection in periodic piecewise constant signals",
             "venue": "Proceedings of the Royal Society A: Mathematical, Physical and Engineering Science"
@@ -449,7 +462,7 @@ var researchJSON = {
             "bibtex": "@article{deSilva2018,<br> author = {{de Silva}, Vin and Munch, Elizabeth and Anastasios Stefanou},<br> creationdate = {2018-06-06T00:00:00},<br> eprint = {1706.04095},<br> eprinttype = {arXiv},<br> journal = {Theory and Applications of Categories},<br> keywords = {Topological Data Analysis, Persistent Homology, Category Theory, Lawvere Metric Spaces, journal},<br> number = {21},<br> pages = {583-607},<br> priority = {prio2},<br> title = {Theory of interleavings on categories with a flow},<br> url = {http://www.tac.mta.ca/tac/volumes/33/21/33-21.pdf},<br> volume = {33},<br> year = {2018}<br>}<br><br>",
             "collapseLabel": "deSilva2018",
             "date": 2018,
-            "image": "img/deSilva2018_Pentagon_Small.png",
+            "image": "../img/deSilva2018_Pentagon_Small.png",
             "publishedLink": "http://www.tac.mta.ca/tac/volumes/33/21/33-21.pdf",
             "title": "Theory of interleavings on categories with a flow",
             "venue": "Theory and Applications of Categories"
@@ -461,7 +474,7 @@ var researchJSON = {
             "bibtex": "@inbook{Khasawneh2017,<br> address = {Cham},<br> author = {Khasawneh, Firas A. and Munch, Elizabeth},<br> booktitle = {Time Delay Systems: Theory, Numerics, Applications, and Experiments},<br> creationdate = {2018-05-30T00:00:00},<br> doi = {10.1007/978-3-319-53426-8_7},<br> editor = {Insperger, Tam{\\'a}s and Ersal, Tulga and Orosz, G{\\'a}bor},<br> keywords = {book},<br> pages = {93--106},<br> publisher = {Springer International Publishing},<br> readstatus = {read},<br> title = {Utilizing Topological Data Analysis for Studying Signals of Time-Delay Systems},<br> year = {2017}<br>}<br><br>",
             "collapseLabel": "Khasawneh2017",
             "date": 2017,
-            "image": "img/Khasawneh2017-MaxPers-Mathieu-0p01_Small.jpg",
+            "image": "../img/Khasawneh2017-MaxPers-Mathieu-0p01_Small.jpg",
             "publishedLink": "https://doi.org/10.1007/978-3-319-53426-8_7",
             "title": "Utilizing Topological Data Analysis for Studying Signals of Time-Delay Systems",
             "venue": "Time Delay Systems: Theory, Numerics, Applications, and Experiments"
@@ -473,7 +486,7 @@ var researchJSON = {
             "bibtex": "@article{Munch2017,<br> author = {Elizabeth Munch},<br> creationdate = {2018-05-30T00:00:00},<br> doi = {10.18608/jla.2017.42.6},<br> journal = {Journal of Learning Analytics},<br> keywords = {journal},<br> number = {2},<br> priority = {prio2},<br> readstatus = {read},<br> title = {A User's Guide to Topological Data Analysis},<br> volume = {4},<br> year = {2017}<br>}<br><br>",
             "collapseLabel": "Munch2017",
             "date": 2017,
-            "image": "img/Munch2017_MapperEx.png",
+            "image": "../img/Munch2017_MapperEx.png",
             "publishedLink": "https://doi.org/10.18608/jla.2017.42.6",
             "title": "A User's Guide to Topological Data Analysis",
             "venue": "Journal of Learning Analytics"
@@ -485,7 +498,7 @@ var researchJSON = {
             "bibtex": "@article{Khasawneh2015,<br> author = {Firas A. Khasawneh and Elizabeth Munch},<br> creationdate = {2017-06-14T00:00:00},<br> doi = {10.1016/j.ymssp.2015.09.046},<br> issn = {0888-3270},<br> journal = {Mechanical Systems and Signal Processing},<br> keywords = {journal},<br> month = {mar},<br> pages = {527--541},<br> publisher = {Elsevier {BV}},<br> title = {Chatter detection in turning using persistent homology},<br> volume = {70-71},<br> year = {2016}<br>}<br><br>",
             "collapseLabel": "Khasawneh2015",
             "date": 2016,
-            "image": "img/Khasawneh2015_MaxPersNoNoise_Small.jpg",
+            "image": "../img/Khasawneh2015_MaxPersNoNoise_Small.jpg",
             "publishedLink": "https://doi.org/10.1016/j.ymssp.2015.09.046",
             "title": "Chatter detection in turning using persistent homology",
             "venue": "Mechanical Systems and Signal Processing"
@@ -498,7 +511,7 @@ var researchJSON = {
             "bibtex": "@article{deSilva2016b,<br> author = {{de Silva}, Vin and Munch, Elizabeth and Patel, Amit},<br> doi = {10.1007/s00454-016-9763-9},<br> eprint = {1501.04147},<br> eprinttype = {arXiv},<br> issn = {1432-0444},<br> journal = {Discrete \\& Computational Geometry},<br> keywords = {journal},<br> pages = {1--53},<br> title = {Categorified Reeb Graphs},<br> year = {2016}<br>}<br><br>",
             "collapseLabel": "deSilva2016b",
             "date": 2016,
-            "image": "img/deSilva2016_cosheafCondition_Small.png",
+            "image": "../img/deSilva2016_cosheafCondition_Small.png",
             "publishedLink": "https://doi.org/10.1007/s00454-016-9763-9",
             "title": "Categorified Reeb Graphs",
             "venue": "Discrete & Computational Geometry"
@@ -511,7 +524,7 @@ var researchJSON = {
             "bibtex": "@inproceedings{Munch2016,<br> address = {Dagstuhl, Germany},<br> author = {Elizabeth Munch and Bei Wang},<br> booktitle = {32nd International Symposium on Computational Geometry (SoCG 2016)},<br> doi = {10.4230/LIPIcs.SoCG.2016.53},<br> editor = {S{\\'a}ndor Fekete and Anna Lubiw},<br> eprint = {1512.04108},<br> eprinttype = {arXiv},<br> isbn = {978-3-95977-009-5},<br> issn = {1868-8969},<br> keywords = {conferenceTop},<br> pages = {53:1--53:16},<br> publisher = {Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik},<br> series = {Leibniz International Proceedings in Informatics (LIPIcs)},<br> title = {Convergence between Categorical Representations of {R}eeb Space and {M}apper},<br> urn = {urn:nbn:de:0030-drops-59454},<br> volume = {51},<br> year = {2016}<br>}<br><br>",
             "collapseLabel": "Munch2016",
             "date": 2016,
-            "image": "img/Munch2016_Mapper-converge-Full_Small.png",
+            "image": "../img/Munch2016_Mapper-converge-Full_Small.png",
             "publishedLink": "https://doi.org/10.4230/LIPIcs.SoCG.2016.53",
             "title": "Convergence between Categorical Representations of Reeb Space and Mapper",
             "venue": "32nd International Symposium on Computational Geometry (SoCG 2016)"
@@ -524,7 +537,7 @@ var researchJSON = {
             "bibtex": "@article{Bendich2016,<br> author = {Paul Bendich and Sang Peter Chin and Jesse Clark and Jonathan Desena and John Harer and Elizabeth Munch and Andrew Newman and David Porter and David Rouse and Nate Strawn and Adam Watkins},<br> creationdate = {2017-06-14T00:00:00},<br> doi = {10.1109/taes.2016.160405},<br> eprint = {1406.0214},<br> eprinttype = {arXiv},<br> journal = {{IEEE} Transactions on Aerospace and Electronic Systems},<br> keywords = {journal},<br> month = {dec},<br> number = {6},<br> pages = {2644--2661},<br> publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},<br> title = {Topological and statistical behavior classifiers for tracking applications},<br> volume = {52},<br> year = {2016}<br>}<br><br>",
             "collapseLabel": "Bendich2016",
             "date": 2016,
-            "image": "img/Bendich2016.gif",
+            "image": "../img/Bendich2016.gif",
             "publishedLink": "https://doi.org/10.1109/taes.2016.160405",
             "title": "Topological and statistical behavior classifiers for tracking applications",
             "venue": "IEEE Transactions on Aerospace and Electronic Systems"
@@ -537,7 +550,7 @@ var researchJSON = {
             "bibtex": "@inproceedings{Bauer2015b,<br> address = {Dagstuhl, Germany},<br> author = {Ulrich Bauer and Elizabeth Munch and Yusu Wang},<br> booktitle = {31st International Symposium on Computational Geometry (SoCG 2015)},<br> creationdate = {2017-06-14T00:00:00},<br> doi = {10.4230/LIPIcs.SOCG.2015.461},<br> editor = {Lars Arge and J{\\'a}nos Pach},<br> eprint = {1412.6646},<br> eprinttype = {arXiv},<br> keywords = {conferenceTop},<br> pages = {461--475},<br> publisher = {Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik},<br> series = {Leibniz International Proceedings in Informatics (LIPIcs)},<br> title = {{Strong Equivalence of the Interleaving and Functional Distortion Metrics for Reeb Graphs}},<br> volume = {34},<br> year = {2015}<br>}<br><br>",
             "collapseLabel": "Bauer2015b",
             "date": 2015,
-            "image": "img/Bauer2015b_SmoothingReebGraph-DeltaMap.png",
+            "image": "../img/Bauer2015b_SmoothingReebGraph-DeltaMap.png",
             "publishedLink": "https://doi.org/10.4230/LIPIcs.SOCG.2015.461",
             "title": "Strong Equivalence of the Interleaving and Functional Distortion Metrics for Reeb Graphs",
             "venue": "31st International Symposium on Computational Geometry (SoCG 2015)"
@@ -550,7 +563,7 @@ var researchJSON = {
             "bibtex": "@article{Munch2015,<br> author = {Munch, Elizabeth and Turner, Katharine and Bendich, Paul and Mukherjee, Sayan and Mattingly, Jonathan and Harer, John},<br> creationdate = {2017-06-14T00:00:00},<br> doi = {10.1214/15-EJS1030},<br> eprint = {1307.6530},<br> eprinttype = {arXiv},<br> fjournal = {Electronic Journal of Statistics},<br> journal = {Electron. J. Statist.},<br> keywords = {journal},<br> pages = {1173--1204},<br> publisher = {The Institute of Mathematical Statistics and the Bernoulli Society},<br> title = {Probabilistic Fr\\'echet means for time varying persistence diagrams},<br> volume = {9},<br> year = {2015}<br>}<br><br>",
             "collapseLabel": "Munch2015",
             "date": 2015,
-            "image": "img/Munch2015_PersistenceDiagram-GroupingDraw.png",
+            "image": "../img/Munch2015_PersistenceDiagram-GroupingDraw.png",
             "publishedLink": "https://doi.org/10.1214/15-EJS1030",
             "title": "Probabilistic Fr&eacute;chet means for time varying persistence diagrams",
             "venue": "Electron. J. Statist."
@@ -562,7 +575,7 @@ var researchJSON = {
             "bibtex": "@inproceedings{Rouse2015,<br> author = {Rouse, David and Watkins, Adam and Porter, David and Harer, John and Bendich, Paul and Strawn, Nate and Munch, Elizabeth and DeSena, Jonathan and Clarke, Jesse and Gilbert, Jeffrey and Chin, Peter and Newman, Andrew},<br> booktitle = {Proc. SPIE},<br> doi = {10.1117/12.2179555},<br> keywords = {conference},<br> pages = {94740L-94740L-12},<br> title = {Feature-aided multiple hypothesis tracking using topological and statistical behavior classifiers},<br> volume = {9474},<br> year = {2015}<br>}<br><br>",
             "collapseLabel": "Rouse2015",
             "date": 2015,
-            "image": "img/Rouse2015_Small.jpg",
+            "image": "../img/Rouse2015_Small.jpg",
             "publishedLink": "https://doi.org/10.1117/12.2179555",
             "title": "Feature-aided multiple hypothesis tracking using topological and statistical behavior classifiers",
             "venue": "Proc. SPIE"
@@ -574,7 +587,7 @@ var researchJSON = {
             "bibtex": "@inproceedings{Khasawneh2014,<br> author = {Firas A. Khasawneh and Elizabeth Munch},<br> booktitle = {Proceedings of the ASME 2014 International Design Engineering Technical Conferences \\& Computers and Information in Engineering Conference, August 17-20, 2014, Buffalo, NY, USA},<br> doi = {10.1115/DETC2014-35655},<br> keywords = {conference},<br> title = {Exploring equilibria in stochastic delay differential equations using persistent homology},<br> year = {2014}<br>}<br><br>",
             "collapseLabel": "Khasawneh2014",
             "date": 2014,
-            "image": "img/Khasawneh2014_OverlaidPersistence-Delta-0p10.png",
+            "image": "../img/Khasawneh2014_OverlaidPersistence-Delta-0p10.png",
             "publishedLink": "https://doi.org/10.1115/DETC2014-35655",
             "title": "Exploring equilibria in stochastic delay differential equations using persistent homology",
             "venue": "Proceedings of the ASME 2014 International Design Engineering Technical Conferences & Computers and Information in Engineering Conference, August 17-20, 2014, Buffalo, NY, USA"
@@ -586,7 +599,7 @@ var researchJSON = {
             "bibtex": "@inproceedings{Khasawneh2014a,<br> author = {Firas A. Khasawneh and Elizabeth Munch},<br> booktitle = {Proceedings of the ASME 2014 International Mechanical Engineering Congress \\& Exposition, Montreal, Canada},<br> doi = {10.1115/IMECE2014-40221},<br> keywords = {conference},<br> title = {Stability Determiniation in Turning using Persistent Homology and Time Series Analysis},<br> year = {2014}<br>}<br><br>",
             "collapseLabel": "Khasawneh2014a",
             "date": 2014,
-            "image": "img/Khasawneh2014a_Boat-NoNoise-pcolor_Small.png",
+            "image": "../img/Khasawneh2014a_Boat-NoNoise-pcolor_Small.png",
             "publishedLink": "https://doi.org/10.1115/IMECE2014-40221",
             "title": "Stability Determiniation in Turning using Persistent Homology and Time Series Analysis",
             "venue": "Proceedings of the ASME 2014 International Mechanical Engineering Congress & Exposition, Montreal, Canada"
@@ -599,7 +612,7 @@ var researchJSON = {
             "bibtex": "@article{Munch2012,<br> author = {Munch, Elizabeth and Shapiro, Michael and Harer, John},<br> creationdate = {2017-06-14T00:00:00},<br> doi = {10.1177/0278364912451671},<br> eprint = {1109.6535},<br> eprinttype = {arXiv},<br> journal = {The International Journal of Robotics Research},<br> keywords = {journal},<br> number = {9},<br> pages = {1044-1056},<br> title = {Failure filtrations for fenced sensor networks},<br> volume = {31},<br> year = {2012}<br>}<br><br>",
             "collapseLabel": "Munch2012",
             "date": 2012,
-            "image": "img/Munch2012_Domain09.png",
+            "image": "../img/Munch2012_Domain09.png",
             "publishedLink": "https://doi.org/10.1177/0278364912451671",
             "title": "Failure filtrations for fenced sensor networks",
             "venue": "The International Journal of Robotics Research"

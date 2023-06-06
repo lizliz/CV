@@ -218,7 +218,7 @@ def convertToJSON():
 		# ------------------
 
 		if 'image' in X.keys():
-			paperjson['image'] = 'img/' + X['image']
+			paperjson['image'] = '../img/' + X['image']
 			paperjson['altText'] = 'A figure from the paper.'
 		else:
 			print(X['ID'], 'is missing an image')
