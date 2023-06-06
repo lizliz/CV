@@ -23,6 +23,12 @@ Website/ElizabethMunch/slides
 Website/ElizabethMunch/topo2048
 CV.code-workspace
 .vscode/
+NSF_Forms/
+OldStuff/
+resume/
+CompileCV/MyPublications_NoAbstracts.bib
+*.bib.sav
+CompileCV/Testing.ipynb
 
 
 # Byte-compiled / optimized / DLL files

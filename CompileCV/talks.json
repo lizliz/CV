@@ -1,6 +1,16 @@
 {
   "talks": [
     {
+    "title": "Making space and studying shape in a non-traditional academic setting",
+    "venue": "MSU ACRES REU, East Lansing, MI",
+    "date": "June 7, 2023"
+    },
+    {
+      "title": "The Directional Transform, or how to look at your data from every direction at once",
+      "venue": "MSU Topology REU, East Lansing, MI",
+      "date": "June 2, 2023"
+      },
+    {
       "title": "Graph Comparison using the Interleaving Distance",
       "venue": "UCLA Math Department Colloquium",
       "date": "Feb 23, 2023"
