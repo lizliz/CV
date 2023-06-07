@@ -51,24 +51,32 @@ def cleanAuthors(x):
     return fullList
 
 
+
+##----
+# Main code to create the JSON file. 
+##----
+
 def convertToJSON():
 	with open('MyPublications.bib') as bibtex_file:
 		bibtex_database = BIB.load(bibtex_file)
 
 
-	# Sort entries reverse by year
+	# This script gets rid of the things that I don't want to have linked on the website. 
+	def keepOnWebsite(X):
 
-	# Get rid of preprints and other
-	def isPreprint(X):
-		if 'arxiv' not in X['keywords'] and 'arXiv' not in X['keywords']:
-			if 'preprint' in X['keywords'] or 'other' in X['keywords']:
-					return True
-		if 'dataset' in X['keywords']:
+		if 'other' in X['keywords']:
+			return False
+		elif 'dataset' in X['keywords']:
+			return False
+		elif 'not_on_website' in X['keywords']:
+			return False
+		else:
 			return True
-		if 'not_on_website' in X['keywords']:
-			return True
-	# isPreprint = lambda X: X['keyword'] == 'preprint'
-	bibtex_database.entries = [X for X in bibtex_database.entries if not isPreprint(X)]
+	bibtex_database.entries = [X for X in bibtex_database.entries if keepOnWebsite(X)]
+
+
+
+
 
 	# Pull year from each entry
 	# getYear = lambda X: int(X['year'])
@@ -88,7 +96,7 @@ def convertToJSON():
 		if 'date' in X.keys():
 			mo = int(X['date'].split('-')[1])
 		else:
-			mo = 0
+			mo = 13
 
 		return mo
 
@@ -101,45 +109,55 @@ def convertToJSON():
 	# d is the top level entry for the json file
 	d = {'paperInfo':[]}
 
+	#-- setup error list to print at the end--#
+	errorlist = {'Missing year':[], 
+					'Missing published link': [],
+					'Missing arXiv link': [],
+					'Missing image': [],
+					'Missing venue': [],
+					'Missing abstract':[],
+					'Missing URL': [],
+	}
+	
 	# Each entry for the json file has keys:
 	# ['originalLink', 'title', 'pdfLink', 'abstract', 'venue', 'date', 'collapseLabel', 'authors', 'bibtex']
-
 	for X in bibtex_database.entries:
 		paperjson = {}
+
+
 
 		# ---------Get the date-------------
 		try:
 			paperjson['date'] = getYear(X)
 
 		except KeyError:
-			print(X['ID'], 'is missing the year')
+			errorlist['Missing year'].append(X['ID'])
 
 
 		# --------- Get the published link  --------------
-		try:
-			# Assuming we have a DOI
-			# Example: https://doi.org/10.1016/j.ymssp.2015.09.046
-			# linkPre = "<a class = 'extLink' href='https://doi.org/"
-			# linkPost = "'> Publisher Website </a>"
-			# paperjson['publishedLink'] = linkPre + X['doi'] + linkPost
-			linkPre = "https://doi.org/"
 
-			link = linkPre + X['doi']
+		if 'inSubmission' not in X['keywords']:
+			# This means we're not going to run this for both arxiv and biorxiv preprints
+			if 'doi' in X.keys():
+				# Assuming we have a DOI
+				# Example: https://doi.org/10.1016/j.ymssp.2015.09.046
+				# linkPre = "<a class = 'extLink' href='https://doi.org/"
+				# linkPost = "'> Publisher Website </a>"
+				# paperjson['publishedLink'] = linkPre + X['doi'] + linkPost
+				linkPre = "https://doi.org/"
 
-			# bioRxiv still has a doi, so ignore if thats the journal
-			if 'journal' not in X.keys():
+				link = linkPre + X['doi']
 				paperjson['publishedLink'] = link
-			if 'journal' in X.keys() and 'bioRxiv' not in X['journal']:
-				paperjson['publishedLink'] = link
-
-		except:
-			try:
-				paperjson['publishedLink'] = X['url']
+			else:
+				try:
+					paperjson['publishedLink'] = X['url']
 
 
-			except KeyError:
-				print(X['ID'], 'is missing a published link')
+				except KeyError:
+					errorlist['Missing published link'].append(X['ID'])
 
+		# --------- Add the arxiv or biorxiv link  --------------
+		# Note this should still be added even for submitted papers
 
 		try:
 			if 'eprinttype' in X.keys() and X['eprinttype'] == 'arXiv':
@@ -151,13 +169,13 @@ def convertToJSON():
 				paperjson['arXivLink'] = linkPre + X['eprint']
 
 			elif X['eprinttype'] == 'bioRxiv':
-				print(X['ID'], 'is bioRxiv')
 				linkPre = "https://doi.org/"
-				paperjson['arXivLink'] = linkPre + X['doi']
+				paperjson['arXivLink'] = linkPre + X['eprint']
 			else:
 				print(X['ID'], ": I don't recognize the eprint type")
+				errorlist['Missing arXiv link'].append(X['ID'])
 		except:
-			print(X['ID'], 'is missing an arXiv link')
+			errorlist['Missing arXiv link'].append(X['ID'])
 
 
 		# ---------------Clean up the title for html ------------
@@ -172,29 +190,34 @@ def convertToJSON():
 
 
 		# ------------------
-		# ---Add venue: first look for journal,
-		# ---then booktitle, then eprinttype (if arxiv)
+		# ---Add venue: 
+		# This should be arxiv or biorxiv if a preprint. 
+		# If published, then journal or booktitle
 		# ------------------
-		if 'journal' in X.keys():
-			paperjson['venue'] = cleanString(X['journal'])
-		elif 'booktitle' in X.keys():
-			paperjson['venue'] = cleanString(X['booktitle'])
-		elif 'eprinttype' in X.keys() or 'archiveprefix' in X.keys():
-			if 'eprinttype' in X.keys():
-				try:
+		if 'inSubmission' in X['keywords']:
+			try: 
+				if 'eprinttype' in X.keys():
 					s = X['eprinttype'] + ':' + X['eprint']
-				except:
-					s = X['eprinttype'] + ':' + X['doi'] # should get here if bioRxiv so doesnt have eprint
-			elif 'archiveprefix' in X.keys():
-				s = X['archiveprefix'] + ':' + X['eprint']
-			paperjson['venue'] = cleanString(s)
+				elif 'archiveprefix' in X.keys():
+					s = X['archiveprefix']+ ':' + X['eprint']
+				paperjson['venue'] = cleanString(s)
+			except:
+				errorlist['Missing venue'].append(X['ID'])
+				print(X['ID'], 'arxiv venue issue')
 		else:
-			print(X['ID'], 'is missing the journal, or booktitle')
+			if 'journal' in X.keys():
+				paperjson['venue'] = cleanString(X['journal'])
+			elif 'booktitle' in X.keys():
+				paperjson['venue'] = cleanString(X['booktitle'])
+
+			else:
+				errorlist['Missing venue'].append(X['ID'])
+				print(X['ID'], 'published venue issue')
 
 
 		# ------------------
 		# ---Add collapseLabel
-		# --- No longer necessary?
+		# ---I think this is from the old version so likely not necessary
 		# ------------------
 		paperjson['collapseLabel']  = X['ID']
 
@@ -211,7 +234,7 @@ def convertToJSON():
 		try:
 			paperjson['abstract']  = cleanString(X['abstract'])
 		except KeyError:
-			print(X['ID'], 'is missing an abstract')
+			errorlist['Missing abstract'].append(X['ID'])
 
 		# ------------------
 		# ---Add image
@@ -221,29 +244,31 @@ def convertToJSON():
 			paperjson['image'] = '../img/' + X['image']
 			paperjson['altText'] = 'A figure from the paper.'
 		else:
-			print(X['ID'], 'is missing an image')
+			errorlist['Missing image'].append(X['ID'])
 
 		# ------------------
 		# ---Remove keywords
-		# ---Not sure what's going on but this isn't working like I expect
+		# ---This isn't behaving
+		# ---Insted just not including keywords in the bibtex at all
 		# ------------------
 
-		keywordsToRemove = ['arXiv',
-							'arxiv',
-							'inSubmission',
-							'conferenceTop'	]
-		for key in keywordsToRemove:
-			try:
-				paperjson['keywords'].pop(key)
-			except KeyError:
-				pass
+		# keywordsToRemove = ['arXiv',
+		# 					'arxiv',
+		# 					'inSubmission',
+		# 					'conferenceTop'	]
+		# for key in keywordsToRemove:
+		# 	try:
+		# 		paperjson['keywords'].pop(key)
+		# 	except KeyError:
+		# 		pass
 
 		# ------------------
 		# ---Add bibtex after removing
 		# ---unneeded/unwanted keys
 		# ------------------
 		singleDatabase = BibDatabase()
-		keysToRemove = ['abstract',
+		keysToRemove = ['keywords',
+		  				'abstract',
 						'owner',
 						'timestamp',
 						'keyword',
@@ -274,6 +299,14 @@ def convertToJSON():
 
 
 		d['paperInfo'].append(paperjson)
+
+	# PRINT THE ERROR LIST
+	print('++==++ ERRORS ++==++\n')
+	for key in errorlist.keys():
+		print(key, ': ')
+		for id in errorlist[key]:
+			print(id)
+		print('--')
 
 
 	jsonFileName = 'papersNew.json'

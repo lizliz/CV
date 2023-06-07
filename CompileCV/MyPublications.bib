@@ -258,9 +258,10 @@ numerical simulation and experiments. It can be used as a tool to study the stab
   note         = {Conference paper, in submission.},
   title        = {Bounded crossing-radius drawings of st-{R}eeb-graphs},
   year         = {2019},
+  abstract     = {Graphs in metric spaces appear in a wide range of data sets, and there is a large body of work focused on comparing, matching, or analyzing collections of graphs in different ambient spaces. In this survey, we provide an overview of a diverse collection of distance measures that can be defined on the set of finite graphs immersed (and in some cases, embedded) in a metric space. For each of the distance measures, we recall their definitions and investigate which of the properties of a metric they satisfy. Furthermore we compare the distance measures based on these properties and discuss their computational complexity.},
   comment      = {EM was supported in part by NSF grants DMS-1800446 and CMMI-1800466.},
   creationdate = {2017-05-29T00:00:00},
-  keywords     = {preprint},
+  keywords     = {preprint, not_on_website},
   priority     = {prio3},
 }
 
@@ -662,6 +663,7 @@ CMMI-1800466 and No. DMS-1800446 (E.M.).},
   title      = {Probabilistic convergence and stability of random mapper graphs},
   year       = {2021},
   month      = {dec},
+  abstract   = {We study the probabilistic convergence between the mapper graph and the Reeb graph of a topological space $ \mathbb{X}$  equipped with a continuous function $f: \mathbb{X} \to \mathbb{R}$. We first give a categorification of the mapper graph and the Reeb graph by interpreting them in terms of cosheaves and stratified covers of the real line $\mathbb{R}$. We then introduce a variant of the classic mapper graph of Singh et al., referred to as the enhanced mapper graph, and demonstrate that such a construction approximates the Reeb graph of $(\mathbb{X}, f)$ when it is applied to points randomly sampled from a probability density function concentrated on $(\mathbb{X}, f)$. Our techniques are based on the interleaving distance of constructible cosheaves and topological estimation via kernel density estimates. Following Munch and Wang, we first show that the mapper graph of $(\mathbb{X}, f)$, a constructible $\mathbb{R}$-space (with a fixed open cover), approximates the Reeb graph of the same space. We then construct an isomorphism between the mapper of $(\mathbb{X}, f)$ to the mapper of a super-level set of a probability density function concentrated on $(\mathbb{X}, f)$. Finally, building on the approach of Bobrowski et al., we show that, with high probability, we can recover the mapper of the super-level set given a sufficiently large sample. Our work is the first to consider the mapper construction using the theory of cosheaves in a probabilistic setting. It is part of an ongoing effort to combine sheaf theory, probability, and statistics, to support topological data analysis with random data.},
   comment    = {EM was supported in part by NSF CMMI-1800466, DMS-1800446,
 and CCF-1907591.},
   doi        = {10.1007/s41468-020-00063-x},
@@ -758,16 +760,19 @@ and CCF-1907591.},
 }
 
 @Article{Amezquita2021,
-  author    = {Erik J Am{\'{e}}zquita and Michelle Y Quigley and Tim Ophelders and Jacob B. Landis and Daniel Koenig and Elizabeth Munch and Daniel H Chitwood},
-  journal   = {in silico Plants},
-  title     = {Measuring hidden phenotype: Quantifying the shape of barley seeds using the Euler Characteristic Transform},
-  year      = {2021},
-  month     = {dec},
-  doi       = {10.1093/insilicoplants/diab033},
-  file      = {:Applications/Plants/Amezquita2021.pdf:PDF},
-  image     = {Amezquita2021.png},
-  keywords  = {journal},
-  publisher = {Oxford University Press ({OUP})},
+  author     = {Erik J Am{\'{e}}zquita and Michelle Y Quigley and Tim Ophelders and Jacob B. Landis and Daniel Koenig and Elizabeth Munch and Daniel H Chitwood},
+  journal    = {in silico Plants},
+  title      = {Measuring hidden phenotype: Quantifying the shape of barley seeds using the Euler Characteristic Transform},
+  year       = {2021},
+  month      = {dec},
+  abstract   = {Shape plays a fundamental role in biology. Traditional phenotypic analysis methods measure some features but fail to measure the information embedded in shape comprehensively. To extract, compare and analyse this information embedded in a robust and concise way, we turn to topological data analysis (TDA), specifically the Euler characteristic transform. TDA measures shape comprehensively using mathematical representations based on algebraic topology features. To study its use, we compute both traditional and topological shape descriptors to quantify the morphology of 3121 barley seeds scanned with X-ray computed tomography (CT) technology at 127 μm resolution. The Euler characteristic transform measures shape by analysing topological features of an object at thresholds across a number of directional axes. A Kruskal–Wallis analysis of the information encoded by the topological signature reveals that the Euler characteristic transform picks up successfully the shape of the crease and bottom of the seeds. Moreover, while traditional shape descriptors can cluster the seeds based on their accession, topological shape descriptors can cluster them further based on their panicle. We then successfully train a support vector machine to classify 28 different accessions of barley based exclusively on the shape of their grains. We observe that combining both traditional and topological descriptors classifies barley seeds better than using just traditional descriptors alone. This improvement suggests that TDA is thus a powerful complement to traditional morphometrics to comprehensively describe a multitude of ‘hidden’ shape nuances which are otherwise not detected.},
+  doi        = {10.1093/insilicoplants/diab033},
+  eprint     = {10.1101/2021.03.27.437348},
+  eprinttype = {bioRxiv},
+  file       = {:Applications/Plants/Amezquita2021.pdf:PDF},
+  image      = {Amezquita2021.png},
+  keywords   = {journal},
+  publisher  = {Oxford University Press ({OUP})},
 }
 
 @InProceedings{Chambers2022,
@@ -775,6 +780,10 @@ and CCF-1907591.},
   booktitle = {EuroCG},
   title     = {A quality measure for Reeb graph drawings},
   year      = {2022},
+  abstract  = {Reeb graphs form a variant of level graphs that commonly arise in the field of topological data analysis. The vertices of a Reeb graph are associated with a real-valued level. In the context of topological data analysis, the level of a vertex usually corresponds to some imprecise measured quantity. Due to this imprecision, nearby points in a Reeb graph may represent the same point in
+the ground-truth.
+
+We consider drawings of Reeb graphs in the plane, where the y-coordinate of a vertex is specified by its level, and edges are drawn as y-monotone paths. We introduce the crossing radius as a quality measure for Reeb graph drawings. Under this measure, level-planar drawings of Reeb graphs are optimal if they exist. In this regard, our measure coincides with existing quality measures that simply count the number of crossings. On the other hand, most Reeb graphs found in practice do not admit level-planar drawings. In contrast to measures that count the number of crossings, our measure associates a cost with each crossing, and returns the maximum cost over all crossings. The cost of a crossing intuitively quantifies the likelihood that the necessity of a crossing can be attributed to imprecise measurements. For this reason, crossing radius is a preferable measure in the context of topological data analysis. We also show that for a given Reeb graph, computing a drawing with optimal crossing radius is NP-hard.},
   comment   = {No funding acknowledgement?},
   image     = {Chambers2022.png},
   keywords  = {conference},
@@ -817,16 +826,25 @@ and CCF-1907591.},
 }
 
 @Article{Amezquita2022,
-  author    = {Erik J. Am{\'{e}}zquita and Michelle Y. Quigley and Tim Ophelders and Danelle Seymour and Elizabeth Munch and Daniel H. Chitwood},
-  journal   = {Plants, People, Planet},
-  title     = {The shape of aroma: measuring and modeling citrus oil gland distribution},
-  year      = {2022},
-  month     = {apr},
-  comment   = {Michigan State University AgBioResearch; National Science Foundation, Grant/AwardNumbers: CCF-1907591, CCF-2106578, CCF-2142713; UC Riverside; Michigan StateUniversity; USDA National Institute of Foodand Agricultur},
-  doi       = {10.1002/ppp3.10333},
-  image     = {Amezquita2022.png},
-  keywords  = {journal},
-  publisher = {Cold Spring Harbor Laboratory},
+  author     = {Erik J. Am{\'{e}}zquita and Michelle Y. Quigley and Tim Ophelders and Danelle Seymour and Elizabeth Munch and Daniel H. Chitwood},
+  journal    = {Plants, People, Planet},
+  title      = {The shape of aroma: measuring and modeling citrus oil gland distribution},
+  year       = {2022},
+  month      = {apr},
+  abstract   = {Citrus come in diverse sizes and shapes, and play a key role in world culture and economy. Citrus oil glands in particular contain essential oils which include plant secondary metabolites associated with flavor and aroma. Capturing and analyzing nuanced information behind the citrus fruit shape and its oil gland distribution provide a morphology-driven path to further our insight into phenotype–genotype interactions.
+
+We investigated the shape of citrus fruit of 51 accessions based on 3D X-ray computed tomography (CT) scan reconstructions. Accessions include members of the three ancestral citrus species as well as related genera, and several interspecific hybrids. We digitally separate and compare the size of fruit endocarp, mesocarp, exocarp, and oil gland tissue. Based on the centers of the oil glands, overall fruit shape is approximated with an ellipsoid. Possible oil gland distributions on this ellipsoid surface are explored using directional statistics.
+
+There is a strong allometry along fruit tissues; that is, we observe a strong linear relationship between the logarithmic volume of any pair of major tissues. This suggests that the relative growth of fruit tissues with respect to each other follows a power law. We also observe that on average, glands distance themselves from their nearest neighbor following a square root relationship, which suggests normal diffusion dynamics at play.
+
+The observed allometry and square root models point to the existence of biophysical developmental constraints that govern novel relationships between fruit dimensions from both evolutionary and breeding perspectives. Understanding these biophysical interactions prompts an exciting research path on fruit development and breeding.},
+  comment    = {Michigan State University AgBioResearch; National Science Foundation, Grant/AwardNumbers: CCF-1907591, CCF-2106578, CCF-2142713; UC Riverside; Michigan StateUniversity; USDA National Institute of Foodand Agricultur},
+  doi        = {10.1002/ppp3.10333},
+  eprint     = {10.1101/2022.04.14.488418},
+  eprinttype = {bioRxiv},
+  image      = {Amezquita2022.png},
+  keywords   = {journal},
+  publisher  = {Cold Spring Harbor Laboratory},
 }
 
 @Misc{Amezquita2022a,
@@ -901,21 +919,21 @@ and CCF-1907591.},
 }
 
 @Article{Palande2022,
-  author       = {Palande, Sourabh and Kaste, Joshua A.M. and Roberts, Miles D. and Segura Aba, Kenia and Claucherty, Carly and Dacon, Jamell and Doko, Rei and Jayakody, Thilani B. and Jeffery, Hannah R. and Kelly, Nathan and Manousidaki, Andriana and Parks, Hannah M. and Roggenkamp, Emily M. and Schumacher, Ally M. and Yang, Jiaxin and Percival, Sarah and Pardo, Jeremy and Husbands, Aman Y. and Krishnan, Arjun and Montgomery, Beronda L. and Munch, Elizabeth and Thompson, Addie M. and Rougon-Cardoso, Alejandra and Chitwood, Daniel H. and VanBuren, Robert},
-  journal      = {bioRxiv},
-  title        = {The topological shape of gene expression across the evolution of flowering plants},
-  year         = {2022},
-  abstract     = {Since they emerged ~125 million years ago, flowering plants have evolved to dominate the terrestrial landscape and survive in the most inhospitable environments on earth. At their core, these adaptations have been shaped by changes in numerous, interconnected pathways and genes that collectively give rise to emergent biological phenomena. Linking gene expression to morphological outcomes remains a grand challenge in biology, and new approaches are needed to begin to address this gap. Here, we implemented topological data analysis (TDA) to summarize the high dimensionality and noisiness of gene expression data using lens functions that delineate plant tissue and stress responses. Using this framework, we created a topological representation of the shape of gene expression across plant evolution, development, and environment for the phylogenetically diverse flowering plants. The TDA-based Mapper graphs form a well-defined gradient of tissues from leaves to seeds, or from healthy to stressed samples, depending on the lens function. This suggests there are distinct and conserved expression patterns across angiosperms that delineate different tissue types or responses to biotic and abiotic stresses. Genes that correlate with the tissue lens function are enriched in central processes such as photosynthetic, growth and development, housekeeping, or stress responses. Together, our results highlight the power of TDA for analyzing complex biological data and reveal a core expression backbone that defines plant form and function.Competing Interest StatementThe authors have declared no competing interest.},
-  comment      = {This work was funded primarily by an NSF-NRT training grant (NSF 1828149)446
+  author     = {Palande, Sourabh and Kaste, Joshua A.M. and Roberts, Miles D. and Segura Aba, Kenia and Claucherty, Carly and Dacon, Jamell and Doko, Rei and Jayakody, Thilani B. and Jeffery, Hannah R. and Kelly, Nathan and Manousidaki, Andriana and Parks, Hannah M. and Roggenkamp, Emily M. and Schumacher, Ally M. and Yang, Jiaxin and Percival, Sarah and Pardo, Jeremy and Husbands, Aman Y. and Krishnan, Arjun and Montgomery, Beronda L. and Munch, Elizabeth and Thompson, Addie M. and Rougon-Cardoso, Alejandra and Chitwood, Daniel H. and VanBuren, Robert},
+  journal    = {bioRxiv},
+  title      = {The topological shape of gene expression across the evolution of flowering plants},
+  year       = {2022},
+  abstract   = {Since they emerged ~125 million years ago, flowering plants have evolved to dominate the terrestrial landscape and survive in the most inhospitable environments on earth. At their core, these adaptations have been shaped by changes in numerous, interconnected pathways and genes that collectively give rise to emergent biological phenomena. Linking gene expression to morphological outcomes remains a grand challenge in biology, and new approaches are needed to begin to address this gap. Here, we implemented topological data analysis (TDA) to summarize the high dimensionality and noisiness of gene expression data using lens functions that delineate plant tissue and stress responses. Using this framework, we created a topological representation of the shape of gene expression across plant evolution, development, and environment for the phylogenetically diverse flowering plants. The TDA-based Mapper graphs form a well-defined gradient of tissues from leaves to seeds, or from healthy to stressed samples, depending on the lens function. This suggests there are distinct and conserved expression patterns across angiosperms that delineate different tissue types or responses to biotic and abiotic stresses. Genes that correlate with the tissue lens function are enriched in central processes such as photosynthetic, growth and development, housekeeping, or stress responses. Together, our results highlight the power of TDA for analyzing complex biological data and reveal a core expression backbone that defines plant form and function.Competing Interest StatementThe authors have declared no competing interest.},
+  comment    = {This work was funded primarily by an NSF-NRT training grant (NSF 1828149)446
 which established the Integrated training Model in Plant And Compu-Tational Sciences (IMPACTS)447
 program at Michigan State University. This grant funded fellows within this program as well as the448
 project-based curriculum for the Plants and Python Course that formed the backbone of this manuscript.},
-  doi          = {10.1101/2022.09.07.506951},
-  elocation-id = {2022.09.07.506951},
-  eprint       = {https://www.biorxiv.org/content/early/2022/09/09/2022.09.07.506951.full.pdf},
-  keywords     = {preprint, inSubmission, arXiv, bioRxiv},
-  publisher    = {Cold Spring Harbor Laboratory},
-  url          = {https://www.biorxiv.org/content/early/2022/09/09/2022.09.07.506951},
+  doi        = {10.1101/2022.09.07.506951},
+  eprint     = {10.1101/2022.09.07.506951},
+  eprinttype = {bioRxiv},
+  image      = {Palande2022.png},
+  keywords   = {preprint, inSubmission, arXiv, bioRxiv},
+  publisher  = {Cold Spring Harbor Laboratory},
 }
 
 @Article{Batakci2022,
@@ -940,6 +958,7 @@ project-based curriculum for the Plants and Python Course that formed the backbo
   title     = {Distances Between Immersed Graphs: Metric Properties},
   year      = {2023},
   month     = {jan},
+  abstract  = {Graphs in metric spaces appear in a wide range of data sets, and there is a large body of work focused on comparing, matching, or analyzing collections of graphs in different ambient spaces. In this survey, we provide an overview of a diverse collection of distance measures that can be defined on the set of finite graphs immersed (and in some cases, embedded) in a metric space. For each of the distance measures, we recall their definitions and investigate which of the properties of a metric they satisfy. Furthermore we compare the distance measures based on these properties and discuss their computational complexity.},
   comment   = {Elizabeth Munch was supported by NSF grants CCF 1907591 and CCF 2106578},
   doi       = {10.1007/s44007-022-00037-8},
   image     = {Buchin2023.png},
@@ -1009,13 +1028,17 @@ project-based curriculum for the Plants and Python Course that formed the backbo
 }
 
 @Article{Bhaskar2023,
-  author    = {Dhananjay Bhaskar and Jessica Moore and Feng Gao and Bastian Rieck and Firas Khasawneh and Elizabeth Munch and Valentina Greco and Smita Krishnaswamy},
-  title     = {Capturing Spatiotemporal Signaling Patterns in Cellular Data with Geometric Scattering Trajectory Homology},
-  year      = {2023},
-  month     = {mar},
-  doi       = {10.1101/2023.03.22.533807},
-  keywords  = {preprint, inSubmission, arXiv, bioRxiv},
-  publisher = {Cold Spring Harbor Laboratory},
+  author     = {Dhananjay Bhaskar and Jessica Moore and Feng Gao and Bastian Rieck and Firas Khasawneh and Elizabeth Munch and Valentina Greco and Smita Krishnaswamy},
+  title      = {Capturing Spatiotemporal Signaling Patterns in Cellular Data with Geometric Scattering Trajectory Homology},
+  year       = {2023},
+  month      = {mar},
+  abstract   = {Cells communicate with one another through a variety of signaling mechanisms. Exchange of information via these mechanisms allows cells to coordinate their behaviour and respond to environmental stress and other stimuli. To facilitate quantitative understanding of complex spatiotemporal signaling activity, we developed Geometric Scattering Trajectory Homology, a general framework that encapsulates time-lapse signals on a cell adjacency graph in a low-dimensional trajectory. We tested this framework using computational models of collective oscillations and calcium signaling in the Drosophila wing imaginal disc, as well as experimental data, including in vitro ERK signaling in human mammary epithelial cells and in vivo calcium signaling from the mouse epidermis and visual cortex. We found that the geometry and topology of the trajectory are related to the degree of synchrony (over space and time), intensity, speed, and quasi-periodicity of the signaling pattern. We recovered model parameters and experimental conditions by training neural networks on trajectory data, showing that our approach preserves information that characterizes various cell types, tissues and drug treatments. We envisage the applicability of our framework in various biological contexts to generate new insights into cell communication.},
+  doi        = {10.1101/2023.03.22.533807},
+  eprint     = {10.1101/2023.03.22.533807},
+  eprinttype = {bioRxiv},
+  image      = {Bhaskar2023.png},
+  keywords   = {preprint, inSubmission, arXiv, bioRxiv},
+  publisher  = {Cold Spring Harbor Laboratory},
 }
 
 @Article{Tanweer2023a,
