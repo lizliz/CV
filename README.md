@@ -33,7 +33,7 @@ Some other keywords in there that no longer do anything are `journal`, `arxiv`, 
 
 To handle things on the JSON file that generates the [research page](elizabethmunch.com/research), we have the following setup. 
 
-- Anything with the keywords `other`, `dataset` or `not_on_website` (the last one is a catch-all) are dropped.
+- Anything with the keywords  `dataset` or `not_on_website`  are dropped.
 - For bioRxiv, I have to modify the bibtex file
   - Set `eprinttype = {bioRxiv}`
   - Set `eprint = {DOI}`

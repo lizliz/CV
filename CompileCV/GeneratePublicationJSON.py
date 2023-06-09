@@ -64,12 +64,12 @@ def convertToJSON():
 	# This script gets rid of the things that I don't want to have linked on the website. 
 	def keepOnWebsite(X):
 
-		if 'other' in X['keywords']:
+		if 'not_on_website' in X['keywords']:
 			return False
 		elif 'dataset' in X['keywords']:
 			return False
-		elif 'not_on_website' in X['keywords']:
-			return False
+		# elif 'not_on_website' in X['keywords']:
+			# return False
 		else:
 			return True
 	bibtex_database.entries = [X for X in bibtex_database.entries if keepOnWebsite(X)]
@@ -136,8 +136,15 @@ def convertToJSON():
 
 		# --------- Get the published link  --------------
 
-		if 'inSubmission' not in X['keywords']:
-			# This means we're not going to run this for both arxiv and biorxiv preprints
+		def checkPublished(X):
+			if 'inSubmission' in X['keywords']:
+				return False
+			elif 'other' in X['keywords']:
+				return False
+			else:
+				return True
+		if checkPublished(X):
+			# This means we're not going to run this for both preprints
 			if 'doi' in X.keys():
 				# Assuming we have a DOI
 				# Example: https://doi.org/10.1016/j.ymssp.2015.09.046
@@ -194,7 +201,7 @@ def convertToJSON():
 		# This should be arxiv or biorxiv if a preprint. 
 		# If published, then journal or booktitle
 		# ------------------
-		if 'inSubmission' in X['keywords']:
+		if not checkPublished(X):
 			try: 
 				if 'eprinttype' in X.keys():
 					s = X['eprinttype'] + ':' + X['eprint']

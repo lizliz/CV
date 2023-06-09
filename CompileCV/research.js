@@ -314,6 +314,30 @@ var researchJSON = {
             "venue": "Journal of Applied and Computational Topology"
         },
         {
+            "abstract": "Tree ring widths are an important source of climatic and historical data, but measuring these widths typically requires extensive manual work. Computer vision techniques provide promising directions towards the automation of tree ring detection, but most automated methods still require a substantial amount of user interaction to obtain high accuracy. We perform analysis on 3D X-ray CT images of a cross-section of a tree trunk, known as a tree disk. We present novel automated methods for locating the pith (center) of a tree disk, and ring boundaries. Our methods use a combination of standard image processing techniques and tools from topological data analysis. We evaluate the efficacy of our method for two different CT scans by comparing its results to manually located rings and centers and show that it is better than current automatic methods in terms of correctly counting each ring and its location. Our methods have several parameters, which we optimize experimentally by minimizing edit distances to the manually obtained locations.",
+            "altText": "A figure from the paper.",
+            "arXivLink": "https://arxiv.org/abs/2010.08691",
+            "authors": "Kayla Makela, Tim Ophelders, Michelle Quigley, Elizabeth Munch, Daniel Chitwood, and Asia Dowtin",
+            "bibtex": "@article{Makela2020,<br> author = {Kayla Makela and Tim Ophelders and Michelle Quigley and Elizabeth Munch and Daniel Chitwood and Asia Dowtin},<br> date = {2020-10-17},<br> eprint = {2010.08691},<br> eprintclass = {cs.CV},<br> eprinttype = {arXiv},<br> title = {Automatic Tree Ring Detection using Jacobi Sets}<br>}<br><br>",
+            "collapseLabel": "Makela2020",
+            "date": 2020,
+            "image": "../img/Makela2020_TreeCookies.png",
+            "title": "Automatic Tree Ring Detection using Jacobi Sets",
+            "venue": "arXiv:2010.08691"
+        },
+        {
+            "abstract": "The interleaving distance, although originally developed for persistent homology, has been generalized to measure the distance between functors modeled on many posets or even small categories. Existing theories require that such a poset have a superlinear family of translations or a similar structure. However, many posets of interest to topological data analysis, such as zig-zag posets and the face relation poset of a cell-complex, do not admit interesting translations, and consequently don't admit a nice theory of interleavings. In this paper we show how one can side-step this limitation by providing a general theory where one maps to a poset that does admit interesting translations, such as the lattice of down sets, and then defines interleavings relative to this map. Part of our theory includes a rigorous notion of discretization or \"pixelization\" of poset modules, which in turn we use for interleaving inference. We provide an approximation condition that in the setting of lattices gives rise to two possible pixelizations, both of which are guaranteed to be close in the interleaving distance. Finally, we conclude by considering interleaving inference for cosheaves over a metric space and give an explicit description of interleavings over a grid structure on Euclidean space.",
+            "altText": "A figure from the paper.",
+            "arXivLink": "https://arxiv.org/abs/2004.14286",
+            "authors": "Magnus Bakke Botnan, Justin Curry, and Elizabeth Munch",
+            "bibtex": "@article{Botnan2020,<br> author = {Magnus Bakke Botnan and Justin Curry and Elizabeth Munch},<br> date = {2020-04-29},<br> eprint = {2004.14286},<br> eprintclass = {math.CT},<br> eprinttype = {arXiv},<br> title = {A Relative Theory of Interleavings}<br>}<br><br>",
+            "collapseLabel": "Botnan2020",
+            "date": 2020,
+            "image": "../img/Botnan2020.png",
+            "title": "A Relative Theory of Interleavings",
+            "venue": "arXiv:2004.14286"
+        },
+        {
             "abstract": "Mapper is a topological construction similar to a Reeb graph, and is used to summarize the shape of a dataset as a (generalized) graph. Formally, mapper can be constructed for any connected space and algorithms have been developed to compute mapper for point clouds and 2D images. In this paper, we extend mapper to 3D volumetric images. We use our algorithm to compute mapper for scans of barley generated using computed tomography. We demonstrate the flexibility of the construction by highlighting different aspects of the morphology through different choices of starting parameters. Applying mapper to this type of data provides an integrated means of visualization, segmentation and clustering, and can thus be used to study the topology of any 3D object.",
             "altText": "A figure from the paper.",
             "authors": "Daniel H. Chitwood, Mitchell Eithun, Elizabeth Munch, and Tim Ophelders",
@@ -453,6 +477,18 @@ var researchJSON = {
             "publishedLink": "http://www.tac.mta.ca/tac/volumes/33/21/33-21.pdf",
             "title": "Theory of interleavings on categories with a flow",
             "venue": "Theory and Applications of Categories"
+        },
+        {
+            "abstract": "Persistence diagrams are a useful tool from topological data analysis which can be used to provide a concise description of a filtered topological space. What makes them even more useful in practice is that they come with a notion of a metric, the Wasserstein distance (closely related to but not the same as the homonymous metric from probability theory). Further, this metric provides a notion of stability; that is, small noise in the input causes at worst small differences in the output. In this paper, we show that the Wasserstein distance for persistence diagrams can be computed through quantum annealing. We provide a formulation of the problem as a Quadratic Unconstrained Binary Optimization problem, or QUBO, and prove correctness. Finally, we test our algorithm, exploring parameter choices and problem size capabilities, using a D-Wave 2000Q quantum annealing computer.",
+            "altText": "A figure from the paper.",
+            "arXivLink": "https://arxiv.org/abs/1809.06433",
+            "authors": "Jesse J. Berwald, Joel M. Gottlieb, and Elizabeth Munch",
+            "bibtex": "@article{Berwald2018,<br> author = {Jesse J. Berwald and Joel M. Gottlieb and Elizabeth Munch},<br> date = {2018-09-17},<br> eprint = {1809.06433},<br> eprintclass = {cs.CG, cs.ET, quant-ph},<br> eprinttype = {arXiv},<br> title = {Computing Wasserstein Distance for Persistence Diagrams on a Quantum Computer}<br>}<br><br>",
+            "collapseLabel": "Berwald2018",
+            "date": 2018,
+            "image": "../img/Berwald2018_QUBO_Coefficients.png",
+            "title": "Computing Wasserstein Distance for Persistence Diagrams on a Quantum Computer",
+            "venue": "arXiv:1809.06433"
         },
         {
             "abstract": "This chapter describes a new approach for studying the stability of stochastic delay equations by investigating their time series using topological data analysis (TDA). The approach is illustrated utilizing two stochastic delay equations. The first model equation is the stochastic version of Hayes equation--a scalar autonomous delay equation--where the noise is an additive term. The second model equation is the stochastic version of Mathieu\u2019s equation--a time-periodic delay equation. In the latter, noise is added via a multiplicative term in the time-periodic coefficient. The time series is generated using Euler\u2013Maruyama method and a corresponding point cloud is obtained using the Takens\u2019 embedding. The point cloud is then analyzed using a tool from TDA known as persistent homology. The results of this study show that the described approach can be used for analyzing datasets of delay dynamical systems that are described using constant as well as time-periodic coefficients. The presented approach can be used for signals generated from both\nnumerical simulation and experiments. It can be used as a tool to study the stability of stochastic delay equations for which there are currently a limited number of analysis tools.",
@@ -603,6 +639,15 @@ var researchJSON = {
             "publishedLink": "https://doi.org/10.1177/0278364912451671",
             "title": "Failure filtrations for fenced sensor networks",
             "venue": "The International Journal of Robotics Research"
+        },
+        {
+            "authors": "Elizabeth Munch and C. Douglas Haessig",
+            "bibtex": "@article{Munch2008,<br> author = {Elizabeth Munch and C. Douglas Haessig},<br> journal = {Journal for Undergraduate Research, University of Rochester},<br> title = {Counting prime paths in fractals built from triangles},<br> url = {http://hdl.handle.net/1802/10490},<br> year = {2008}<br>}<br><br>",
+            "collapseLabel": "Munch2008",
+            "date": 2008,
+            "publishedLink": "http://hdl.handle.net/1802/10490",
+            "title": "Counting prime paths in fractals built from triangles",
+            "venue": "Journal for Undergraduate Research, University of Rochester"
         }
     ]
 }
