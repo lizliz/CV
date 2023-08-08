@@ -181,7 +181,8 @@ def main():
     # os.system('pdflatex LizCV.tex')
     os.system('latexmk -pdf LizCV.tex')
 
-    if platform.system() == "Linux":
+    if platform.system() == "Linux" or platform.system() == "Darwin": #Darwin =Mac
+        
         # os.system('rm *.bbl')
         # os.system('rm *.blg')
         # os.system('rm *.aux')

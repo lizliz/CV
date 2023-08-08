@@ -1,6 +1,11 @@
 {
   "talks": [
     {
+    "title": "Bounding the Interleaving Distance for Geometric Graphs with a Loss Function",
+    "venue": "TDA Week, Kyoto University, Kyoto, Japan",
+    "date": "Aug 1, 2023"
+    },
+    {
     "title": "Making space and studying shape in a non-traditional academic setting",
     "venue": "MSU ACRES REU, East Lansing, MI",
     "date": "June 7, 2023"
