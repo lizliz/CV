@@ -27,6 +27,11 @@
         "Semester": "Fall",
         "Year": 2022,
         "Eval": "1.45*"
+        },
+      {
+        "Semester": "Fall",
+        "Year": 2023,
+        "Eval": ""
         }
     ]
   },
