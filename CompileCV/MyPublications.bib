@@ -210,6 +210,7 @@ In this paper, we are interested in developing the theoretical understanding of 
   journal  = {Journal for Undergraduate Research, University of Rochester},
   title    = {Counting prime paths in fractals built from triangles},
   year     = {2008},
+  image    = {Munch2008.png},
   keywords = {journal},
   url      = {http://hdl.handle.net/1802/10490},
 }
@@ -740,7 +741,7 @@ and CCF-1907591.},
   year          = {2021},
   abstract      = {The Reeb graph has been utilized in various applications including the analysis of scalar fields. Recently, research has been focused on using topological signatures such as the Reeb graph to compare multiple scalar fields by defining distance metrics on the topological signatures themselves. Here we survey five existing metrics that have been defined on Reeb graphs: the bottleneck distance, the interleaving distance, functional distortion distance, the Reeb graph edit distance, and the universal edit distance. Our goal is to (1) provide definitions and concrete examples of these distances in order to develop the intuition of the reader, (2) visit previously proven results of stability, universality, and discriminativity, (3) identify and complete any remaining properties which have only been proven (or disproven) for a subset of these metrics, (4) expand the taxonomy of the bottleneck distance to better distinguish between variations which have been commonly miscited, and (5) reconcile the various definitions and requirements on the underlying spaces for these metrics to be defined and properties to be proven.},
   archiveprefix = {arXiv},
-  comment       = {This work is supported in part by the U.S. Department of Energy, Office of Science, Office of Advanced Scientific Computing Research, under Award Number(s) DE-SC-0019039, and by the National Science Foundation under grants CCF-1907591, CCF-2106578, CCF-2142713 CCF-1907612, CCF-2106672, and DBI-1759807.},
+  comment       = {The work of EM was funded in part by the NSF through CCF-1907591 and CCF-2106578.},
   eprint        = {2110.05631},
   file          = {:http\://arxiv.org/pdf/2110.05631v1:PDF},
   image         = {Bollen2021.png},
@@ -766,6 +767,14 @@ and CCF-1907591.},
   year       = {2021},
   month      = {dec},
   abstract   = {Shape plays a fundamental role in biology. Traditional phenotypic analysis methods measure some features but fail to measure the information embedded in shape comprehensively. To extract, compare and analyse this information embedded in a robust and concise way, we turn to topological data analysis (TDA), specifically the Euler characteristic transform. TDA measures shape comprehensively using mathematical representations based on algebraic topology features. To study its use, we compute both traditional and topological shape descriptors to quantify the morphology of 3121 barley seeds scanned with X-ray computed tomography (CT) technology at 127 μm resolution. The Euler characteristic transform measures shape by analysing topological features of an object at thresholds across a number of directional axes. A Kruskal–Wallis analysis of the information encoded by the topological signature reveals that the Euler characteristic transform picks up successfully the shape of the crease and bottom of the seeds. Moreover, while traditional shape descriptors can cluster the seeds based on their accession, topological shape descriptors can cluster them further based on their panicle. We then successfully train a support vector machine to classify 28 different accessions of barley based exclusively on the shape of their grains. We observe that combining both traditional and topological descriptors classifies barley seeds better than using just traditional descriptors alone. This improvement suggests that TDA is thus a powerful complement to traditional morphometrics to comprehensively describe a multitude of ‘hidden’ shape nuances which are otherwise not detected.},
+  comment    = {D.C.  is supported by the USDA National Institute of
+Food and Agriculture, and by Michigan State University
+AgBioResearch. The work of Elizabeth Munch is supported
+in part by the National Science Foundation through grants
+CCF-1907591 and CCF-2106578. J.L. was supported by the
+NSF Plant Genome Postdoctoral Fellowship 1711807. D.K. is
+supported by an award from the National Science Foundation
+Plant Genome Research Program (IOS-2046256) and funding from the USDA NIFA (CA-R-BPS-5154-H).},
   doi        = {10.1093/insilicoplants/diab033},
   eprint     = {10.1101/2021.03.27.437348},
   eprinttype = {bioRxiv},
@@ -846,7 +855,7 @@ We consider drawings of Reeb graphs in the plane, where the y-coordinate of a ve
   volume        = {12},
   abstract      = {This work presents a framework for studying temporal networks using zigzag persistence, a tool from the field of Topological Data Analysis (TDA). The resulting approach is general and applicable to a wide variety of time-varying graphs. For example, these graphs may correspond to a system modeled as a network with edges whose weights are functions of time, or they may represent a time series of a complex dynamical system. We use simplicial complexes to represent snapshots of the temporal networks that can then be analyzed using zigzag persistence. We show two applications of our method to dynamic networks: an analysis of commuting trends on multiple temporal scales, e.g., daily and weekly, in the Great Britain transportation network, and the detection of periodic/chaotic transitions due to intermittency in dynamical systems represented by temporal ordinal partition networks. Our findings show that the resulting zero- and one-dimensional zigzag persistence diagrams can detect changes in the networks' shapes that are missed by traditional connectivity and centrality graph statistics.},
   archiveprefix = {arXiv},
-  comment       = {This material is based upon work supported by the Air Force Office of Scientific Research under award number FA9550-22-1-0007. The work of EM and DM was supported in part by NSF grant CCF-1907591.},
+  comment       = {This material is based upon work supported by the Air Force Office of Scientific Research under award number FA9550-22-1-0007. The work of EM and DM was supported in part by NSF grant CCF-2106578.},
   doi           = {10.1140/epjds/s13688-023-00379-5},
   eprint        = {2205.11338},
   file          = {:http\://arxiv.org/pdf/2205.11338v1:PDF},
@@ -955,6 +964,8 @@ project-based curriculum for the Plants and Python Course that formed the backbo
   month         = {jan},
   abstract      = {We explore a novel application of zero-dimensional persistent homology from Topological Data Analysis (TDA) for bracketing zero-crossings of both one-dimensional continuous functions, and uniformly sampled time series. We present an algorithm and show its robustness in the presence of noise for a range of sampling frequencies. In comparison to state-of-the-art software-based methods for finding zeros of a time series, our method generally converges faster, provides higher accuracy, and is capable of finding all the roots in a given interval instead of converging only to one of them. We also present and compare options for automatically setting the persistence threshold parameter that influences the accurate bracketing of the roots.},
   archiveprefix = {arXiv},
+  comment       = {This material is based upon work supported by the Air Force Office of Scientific Research under
+award number FA9550-22-1-0007.},
   copyright     = {arXiv.org perpetual, non-exclusive license},
   doi           = {10.48550/ARXIV.2301.07703},
   eprint        = {2301.07703},
@@ -1030,6 +1041,8 @@ project-based curriculum for the Plants and Python Course that formed the backbo
   month         = {may},
   abstract      = {Changes in the parameters of dynamical systems can cause the state of the system to shift between different qualitative regimes. These shifts, known as bifurcations, are critical to study as they can indicate when the system is about to undergo harmful changes in its behaviour. In stochastic dynamical systems, particular interest is in P-type (phenomenological) bifurcations, which can include transitions from a mono-stable state to multi-stable states, the appearance of stochastic limit cycles, and other features in the probability distributions of the system's state space. Currently, the common practice is to visually analyze the probability density function to determine the type of state, but this approach is limited to experienced users, systems with small state spaces and mandate human intervention. In contrast, this study presents a new approach based on Topological Data Analysis (TDA) that uses the superlevel persistence of the probability or kernel density function to mathematically quantify P-type bifurcations in stochastic systems using the ranks of $0^{th}$ and $1^{st}$ homology groups.},
   archiveprefix = {arXiv},
+  comment       = {This material is based upon work supported by the Air Force Office of Scientific Research under award
+number FA9550-22-1-0007.},
   copyright     = {arXiv.org perpetual, non-exclusive license},
   doi           = {10.48550/ARXIV.2305.03118},
   eprint        = {2305.03118},
@@ -1047,6 +1060,8 @@ project-based curriculum for the Plants and Python Course that formed the backbo
   month         = {may},
   abstract      = {For deep learning problems on graph-structured data, pooling layers are important for down sampling, reducing computational cost, and to minimize overfitting. We define a pooling layer, NervePool, for data structured as simplicial complexes, which are generalizations of graphs that include higher-dimensional simplices beyond vertices and edges; this structure allows for greater flexibility in modeling higher-order relationships. The proposed simplicial coarsening scheme is built upon partitions of vertices, which allow us to generate hierarchical representations of simplicial complexes, collapsing information in a learned fashion. NervePool builds on the learned vertex cluster assignments and extends to coarsening of higher dimensional simplices in a deterministic fashion. While in practice, the pooling operations are computed via a series of matrix operations, the topological motivation is a set-theoretic construction based on unions of stars of simplices and the nerve complex},
   archiveprefix = {arXiv},
+  comment       = {The work of SM and EM was funded in part by the National Science Foundation, through grants CCF-1907591, CCF2106578, and CCF-2142713. 
+The work of MH was funded by NIH NIGMS-R01GM135929.},
   copyright     = {arXiv.org perpetual, non-exclusive license},
   doi           = {10.48550/ARXIV.2305.06315},
   eprint        = {2305.06315},
@@ -1057,7 +1072,7 @@ project-based curriculum for the Plants and Python Course that formed the backbo
   publisher     = {arXiv},
 }
 
-@Misc{Amezquita2023,
+@Misc{Amezquita2023a,
   author    = {Amezquita, Erik and Quigley, Michelle and Brown, Patrick and Munch, Elizabeth and Chitwood, Daniel},
   title     = {The shape of kernels and cracks, in a nutshell},
   year      = {2023},
@@ -1075,10 +1090,12 @@ project-based curriculum for the Plants and Python Course that formed the backbo
   month         = jun,
   abstract      = {Evaluating the success of a manifold learning method remains a challenging problem, especially for methods adapted to a specific application domain. The present work investigates shared geometric structure across different dimensionality reduction (DR) algorithms within the scope of neuroimaging applications. We examine reduced-dimension embeddings produced by a representative assay of dimension reductions for brain data ("brain representations") through the lens of persistent homology, making statistical claims about topological differences using a recent topological boostrap method. We cluster these methods based on their induced topologies, finding feature type and number -- rather than reduction algorithm -- as the main drivers of observed topological differences.},
   archiveprefix = {arXiv},
+  comment       = {Elizabeth Munch was supported in part by NSF grants CCF 1907591, CCF 2106578, and CCF2142713.},
   copyright     = {Creative Commons Attribution Non Commercial Share Alike 4.0 International},
   doi           = {10.48550/ARXIV.2306.13802},
   eprint        = {2306.13802},
   file          = {:http\://arxiv.org/pdf/2306.13802v1:PDF},
+  image         = {Easley2023.png},
   keywords      = {Computational Geometry (cs.CG), Image and Video Processing (eess.IV), Algebraic Topology (math.AT), Neurons and Cognition (q-bio.NC), FOS: Computer and information sciences, FOS: Electrical engineering, electronic engineering, information engineering, FOS: Mathematics, FOS: Biological sciences; inSubmission},
   primaryclass  = {cs.CG},
   publisher     = {arXiv},
@@ -1091,6 +1108,7 @@ project-based curriculum for the Plants and Python Course that formed the backbo
   month         = jul,
   abstract      = {A geometric graph is an abstract graph along with an embedding of the graph into the Euclidean plane which can be used to model a wide range of data sets. The ability to compare and cluster such objects is required in a data analysis pipeline, leading to a need for distances or metrics on these objects. In this work, we study the interleaving distance on geometric graphs, where functor representations of data can be compared by finding pairs of natural transformations between them. However, in many cases, particularly those of the set-valued functor variety, computation of the interleaving distance is NP-hard. For this reason, we take inspiration from the work of Robinson to find quality measures for families of maps that do not rise to the level of a natural transformation. Specifically, we call collections $\phi = \{\phi_U\mid U\}$ and $\psi = \{\psi_U\mid U\}$ which do not necessarily form a true interleaving an \textit{assignment}. In the case of embedded graphs, we impose a grid structure on the plane, treat this as a poset endowed with the Alexandroff topology $K$, and encode the embedded graph data as functors $F: \mathbf{Open}(K) \to \mathbf{Set}$ where $F(U)$ is the set of connected components of the graph inside of the geometric realization of the set $U$. We then endow the image with the extra structure of a metric space and define a loss function $L(\phi,\psi)$ which measures how far the required diagrams of an interleaving are from commuting. Then for a pair of assignments, we use this loss function to bound the interleaving distance, with an eye toward computation and approximation of the distance. We expect these ideas are not only useful in our particular use case of embedded graphs, but can be extended to a larger class of interleaving distance problems where computational complexity creates a barrier to use in practice.},
   archiveprefix = {arXiv},
+  comment       = {NEED TO ADD FUNDING!!!},
   copyright     = {arXiv.org perpetual, non-exclusive license},
   doi           = {10.48550/ARXIV.2307.15130},
   eprint        = {2307.15130},
@@ -1114,7 +1132,7 @@ We investigated the shape of citrus fruit of 51 accessions based on 3D X-ray com
 There is a strong allometry along fruit tissues; that is, we observe a strong linear relationship between the logarithmic volume of any pair of major tissues. This suggests that the relative growth of fruit tissues with respect to each other follows a power law. We also observe that on average, glands distance themselves from their nearest neighbor following a square root relationship, which suggests normal diffusion dynamics at play.
 
 The observed allometry and square root models point to the existence of biophysical developmental constraints that govern novel relationships between fruit dimensions from both evolutionary and breeding perspectives. Understanding these biophysical interactions prompts an exciting research path on fruit development and breeding.},
-  comment    = {Michigan State University AgBioResearch; National Science Foundation, Grant/AwardNumbers: CCF-1907591, CCF-2106578, CCF-2142713; UC Riverside; Michigan StateUniversity; USDA National Institute of Foodand Agricultur},
+  comment    = {Michigan State University AgBioResearch;National Science Foundation, Grant/AwardNumbers: CCF-1907591, CCF-2106578, CCF-2142713; UC Riverside; Michigan State University; USDA National Institute of Foodand Agriculture},
   doi        = {10.1002/ppp3.10333},
   eprint     = {10.1101/2022.04.14.488418},
   eprinttype = {bioRxiv},
@@ -1128,9 +1146,11 @@ The observed allometry and square root models point to the existence of biophysi
   title      = {A data-driven evaluation of \textit{Arabidopsis}-centric research and the model species concept},
   year       = {2023},
   month      = {aug},
+  abstract   = {The selection of Arabidopsis as a model organism played a pivotal role in advancing genomic science, firmly establishing the cornerstone of modern plant molecular biology. Competing frameworks to select an agricultural- or ecological-based model species, or to decentralize plant science and study a multitude of diverse species, were selected against in favor of building core knowledge in a species that would facilitate genome-enabled research that could assumedly be transferred to other plants. Here, over twenty years after sequencing the Arabidopsis genome and during which time sequencing data from other plant species has accumulated and computation enabling machine learning has evolved, we critically examine the ability of models based on Arabidopsis gene expression data to predict tissue identity in other flowering plant species. Comparing different machine learning algorithms, models trained and tested on Arabidopsis data achieved precision and recall values of up to 0.99 using the K-Nearest Neighbor method, whereas when tissue identity is predicted across the flowering plants using models trained on Arabidopsis data, precision values range from 0.70 to 0.75 and recall from 0.55 to 0.64, depending on the algorithm used. Below-ground tissue is more predictable than other tissue types, and the ability to predict tissue identity is not correlated with phylogenetic distance from Arabidopsis. Our data-driven results suggest that, in hindsight, the assertion that knowledge from Arabidopsis is translatable to other plants is not as strong as originally assumed, and that in the current era where sequencing data and computation abound, we should decentralize the scientific focus on Arabidopsis and embrace plant diversity.},
   doi        = {10.1101/2023.08.20.554029},
   eprint     = {10.1101/2023.08.20.554029},
   eprinttype = {bioRxiv},
+  image      = {Palande2023.png},
   keywords   = {inSubmission,},
   publisher  = {Cold Spring Harbor Laboratory},
 }
@@ -1141,6 +1161,20 @@ The observed allometry and square root models point to the existence of biophysi
   title        = {teaspoon: A Topological Signal Processing Python Package},
   year         = {2023},
   keywords     = {code},
+}
+
+@Article{Amezquita2023,
+  author     = {Erik J. Am{\'{e}}zquita and Michelle Y. Quigley and Patrick Brown and Elizabeth Munch and Daniel H. Chitwood},
+  title      = {The shape and volume of air, kernels and cracks, in a nutshell},
+  year       = {2023},
+  month      = {sep},
+  abstract   = {Walnuts are the second most produced and consumed tree nut, with over 2.6 million metric tons produced in the 2022-23 harvest cycle alone. The United States is the second largest producer, accounting for 25% of the total global supply. Nonetheless, producers face an ever-growing demand in a more uncertain climate landscape, which requires effective and efficient walnut selection and breeding of new cultivars with increased kernel content and easy-to-open shells. Past and current efforts select for these traits using hand-held calipers and eye-based evaluations. Yet there is plenty of morphology that meets the eye but goes unmeasured, such as the volume of inner air or the convexity of the kernel. Here, we study the shape of walnut fruits based on X-ray CT (Computed Tomography) 3D reconstructions. We compute 49 different morphological phenotypes for 1264 individuals comprising 149 accessions. These phenotypes are complemented by traits of breeding interest such as ease of kernel removal and kernel weight. Through allometric relationships —relative growth of one tissue to another—, we identify possible biophysical constraints at play during development. We explore multiple correlations between all morphological and commercial traits, and identify which morphological traits can explain the most variability of commercial traits. We show that using only volume and thickness-based traits, especially inner air content, we can successfully encode several of the commercial traits.},
+  doi        = {10.1101/2023.09.26.559651},
+  eprint     = {10.1101/2023.09.26.559651},
+  eprinttype = {bioRxiv},
+  image      = {Amezquita2023.png},
+  keywords   = {inSubmission},
+  publisher  = {Cold Spring Harbor Laboratory},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

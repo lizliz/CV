@@ -1,6 +1,11 @@
 {
   "talks": [
     {
+    "title": "Analyzing Network Representations of Dynamical Systems Using Persistent Homology",
+    "venue": "ICIAM, Tokyo, Japan (Virtual)",
+    "date": "Aug 25, 2023"
+    },
+    {
     "title": "Bounding the Interleaving Distance for Geometric Graphs with a Loss Function",
     "venue": "TDA Week, Kyoto University, Kyoto, Japan",
     "date": "Aug 1, 2023"
@@ -14,6 +19,11 @@
       "title": "The Directional Transform, or how to look at your data from every direction at once",
       "venue": "MSU Topology REU, East Lansing, MI",
       "date": "June 2, 2023"
+      },
+    {
+      "title": "Combining network analysis and persistent homology for classifying behavior of time series",
+      "venue": "IMSI Randomness in Topology and its Applications",
+      "date": "March 22, 2023"
       },
     {
       "title": "Graph Comparison using the Interleaving Distance",
