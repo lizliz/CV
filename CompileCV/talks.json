@@ -1,6 +1,12 @@
 {
   "talks": [
     {
+    "title": "Bounding the Interleaving Distance for Geometric Graphs with a Loss Function",
+    "venue": "Computational Persistence Workshop, Purdue, West Lafayette, IN",
+    "date": "Sep 27, 2023",
+    "videoLink": "https://youtu.be/PJBgBoowQA4"
+    },
+    {
     "title": "Analyzing Network Representations of Dynamical Systems Using Persistent Homology",
     "venue": "ICIAM, Tokyo, Japan (Virtual)",
     "date": "Aug 25, 2023"
