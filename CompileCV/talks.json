@@ -1,6 +1,11 @@
 {
   "talks": [
     {
+    "title": "Comparing Embedded Shapes using Topological Summaries",
+    "venue": "Plenary Lecture, SIAM Great Lakes Meeting, Michigan State University, East Lansing, MI",
+    "date": "Oct 14, 2023"
+    },
+    {
     "title": "Bounding the Interleaving Distance for Geometric Graphs with a Loss Function",
     "venue": "Computational Persistence Workshop, Purdue, West Lafayette, IN",
     "date": "Sep 27, 2023",
