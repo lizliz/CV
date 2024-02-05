@@ -1,7 +1,22 @@
 {
   "talks": [
     {
-    "title": "Comparing Embedded Shapes using Topological Summaries",
+    "title": "Topological Data Analysis for Shape Comparison",
+    "venue": "CSCS Colloquium, University of Michigan, Ann Arbor, MI",
+    "date": "Feb 8, 2024"
+    },
+    {
+    "title": "Topological Data Analysis for Shape Comparison",
+    "venue": "Tufts Colloquium, Tufts University, Boston, MA",
+    "date": "Feb 1, 2024"
+    },
+    {
+    "title": "Topological Data Analysis for Shape Comparison",
+    "venue": "ACMS Colloquium, Notre Dame, South Bend, IN",
+    "date": "Jan 11, 2024"
+    },
+    {
+    "title": "Comparing Embedded Shapes Using Topological Summaries",
     "venue": "Plenary Lecture, SIAM Great Lakes Meeting, Michigan State University, East Lansing, MI",
     "date": "Oct 14, 2023"
     },
