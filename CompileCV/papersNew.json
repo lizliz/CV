@@ -1,6 +1,45 @@
 {
     "paperInfo": [
         {
+            "abstract": "We explore a novel application of zero-dimensional persistent homology from Topological Data Analysis (TDA) for bracketing zero-crossings of both one-dimensional continuous functions, and uniformly sampled time series. We present an algorithm and show its robustness in the presence of noise for a range of sampling frequencies. In comparison to state-of-the-art software-based methods for finding zeros of a time series, our method generally converges faster, provides higher accuracy, and is capable of finding all the roots in a given interval instead of converging only to one of them. We also present and compare options for automatically setting the persistence threshold parameter that influences the accurate bracketing of the roots.",
+            "altText": "A figure from the paper.",
+            "arXivLink": "https://arxiv.org/abs/2301.07703",
+            "authors": "Sunia Tanweer, Firas A. Khasawneh, and Elizabeth Munch",
+            "bibtex": "@article{Tanweer2023,<br> archiveprefix = {arXiv},<br> author = {Tanweer, Sunia and Khasawneh, Firas A. and Munch, Elizabeth},<br> copyright = {arXiv.org perpetual, non-exclusive license},<br> doi = {10.48550/ARXIV.2301.07703},<br> eprint = {2301.07703},<br> journal = {To appear: Foundations of Data Science},<br> month = {jan},<br> primaryclass = {cs.CG},<br> publisher = {arXiv},<br> title = {Robust Crossings Detection in Noisy Signals using Topological Signal Processing},<br> year = {2024}<br>}<br>",
+            "collapseLabel": "Tanweer2023",
+            "date": 2024,
+            "image": "../img/Tanweer2023.png",
+            "publishedLink": "https://doi.org/10.48550/ARXIV.2301.07703",
+            "title": "Robust Crossings Detection in Noisy Signals using Topological Signal Processing",
+            "venue": "To appear: Foundations of Data Science"
+        },
+        {
+            "abstract": "Changes in the parameters of dynamical systems can cause the state of the system to shift between different qualitative regimes. These shifts, known as bifurcations, are critical to study as they can indicate when the system is about to undergo harmful changes in its behaviour. In stochastic dynamical systems, particular interest is in P-type (phenomenological) bifurcations, which can include transitions from a mono-stable state to multi-stable states, the appearance of stochastic limit cycles, and other features in the probability distributions of the system's state space. Currently, the common practice is to visually analyze the probability density function to determine the type of state, but this approach is limited to experienced users, systems with small state spaces and mandate human intervention. In contrast, this study presents a new approach based on Topological Data Analysis (TDA) that uses the superlevel persistence of the probability or kernel density function to mathematically quantify P-type bifurcations in stochastic systems using the ranks of $0^th$ and $1^st$ homology groups.",
+            "altText": "A figure from the paper.",
+            "arXivLink": "https://arxiv.org/abs/2305.03118",
+            "authors": "Sunia Tanweer, Firas A. Khasawneh, Elizabeth Munch, and Joseph R. Tempelman",
+            "bibtex": "@article{Tanweer2024,<br> archiveprefix = {arXiv},<br> author = {Tanweer, Sunia and A. Khasawneh, Firas and Munch, Elizabeth and R. Tempelman, Joseph},<br> copyright = {arXiv.org perpetual, non-exclusive license},<br> doi = {10.1007/s11071-024-09289-1},<br> eprint = {2305.03118},<br> issn = {1573-269X},<br> journal = {Nonlinear Dynamics},<br> month = {February},<br> primaryclass = {math.DS},<br> publisher = {Springer Science and Business Media LLC},<br> title = {A topological framework for identifying phenomenological bifurcations in stochastic dynamical systems},<br> year = {2024}<br>}<br>",
+            "collapseLabel": "Tanweer2024",
+            "date": 2024,
+            "image": "../img/Tanweer2023a.png",
+            "publishedLink": "https://doi.org/10.1007/s11071-024-09289-1",
+            "title": "A topological framework for identifying phenomenological bifurcations in stochastic dynamical systems",
+            "venue": "Nonlinear Dynamics"
+        },
+        {
+            "abstract": "Abstract Persian walnuts (Juglans regia L.) are the second most produced and consumed tree nut, with over 2.6 million metric tons produced in the 2022\u20132023 harvest cycle alone. The United States is the second largest producer, accounting for 25\\% of the total global supply. Nonetheless, producers face an ever-growing demand in a more uncertain climate landscape, which requires effective and efficient walnut selection and breeding of new cultivars with increased kernel content and easy-to-open shells. Past and current efforts select for these traits using hand-held calipers and eye-based evaluations. Yet there is plenty of morphology that meets the eye but goes unmeasured, such as the volume of inner air or the convexity of the kernel. Here, we study the shape of walnut fruits based on X-ray computed tomography three-dimensional reconstructions. We compute 49 different morphological phenotypes for 1264 individual nuts comprising 149 accessions. These phenotypes are complemented by traits of breeding interest such as ease of kernel removal and kernel-to-nut weight ratio. Through allometric relationships, relative growth of one tissue to another, we identify possible biophysical constraints at play during development. We explore multiple correlations between all morphological and commercial traits and identify which morphological traits can explain the most variability of commercial traits. We show that using only volume- and thickness-based traits, especially inner air content, we can successfully encode several of the commercial traits.",
+            "altText": "A figure from the paper.",
+            "arXivLink": "https://doi.org/10.1101/2023.09.26.559651",
+            "authors": "Erik J. Am\u00e9zquita, Michelle Y. Quigley, Patrick J. Brown, Elizabeth Munch, and Daniel H. Chitwood",
+            "bibtex": "@article{Amezquita2024,<br> author = {Am\u00e9zquita, Erik J. and Quigley, Michelle Y. and Brown, Patrick J. and Munch, Elizabeth and Chitwood, Daniel H.},<br> doi = {10.1002/ppj2.20095},<br> eprint = {10.1101/2023.09.26.559651},<br> eprinttype = {bioRxiv},<br> journal = {The Plant Phenome Journal},<br> month = {sep},<br> number = {1},<br> pages = {e20095},<br> publisher = {Cold Spring Harbor Laboratory},<br> title = {Allometry and volumes in a nutshell: Analyzing walnut morphology using three-dimensional X-ray computed tomography},<br> url = {https://acsess.onlinelibrary.wiley.com/doi/abs/10.1002/ppj2.20095},<br> volume = {7},<br> year = {2024}<br>}<br>",
+            "collapseLabel": "Amezquita2024",
+            "date": 2024,
+            "image": "../img/Amezquita2023.png",
+            "publishedLink": "https://doi.org/10.1002/ppj2.20095",
+            "title": "Allometry and volumes in a nutshell: Analyzing walnut morphology using three-dimensional X-ray computed tomography",
+            "venue": "The Plant Phenome Journal"
+        },
+        {
             "abstract": "This work presents a framework for studying temporal networks using zigzag persistence, a tool from the field of Topological Data Analysis (TDA). The resulting approach is general and applicable to a wide variety of time-varying graphs. For example, these graphs may correspond to a system modeled as a network with edges whose weights are functions of time, or they may represent a time series of a complex dynamical system. We use simplicial complexes to represent snapshots of the temporal networks that can then be analyzed using zigzag persistence. We show two applications of our method to dynamic networks: an analysis of commuting trends on multiple temporal scales, e.g., daily and weekly, in the Great Britain transportation network, and the detection of periodic/chaotic transitions due to intermittency in dynamical systems represented by temporal ordinal partition networks. Our findings show that the resulting zero- and one-dimensional zigzag persistence diagrams can detect changes in the networks' shapes that are missed by traditional connectivity and centrality graph statistics.",
             "altText": "A figure from the paper.",
             "arXivLink": "https://arxiv.org/abs/2205.11338",
@@ -37,18 +76,6 @@
             "publishedLink": "https://doi.org/10.1007/s44007-022-00037-8",
             "title": "Distances Between Immersed Graphs: Metric Properties",
             "venue": "La Mathematica"
-        },
-        {
-            "abstract": "We explore a novel application of zero-dimensional persistent homology from Topological Data Analysis (TDA) for bracketing zero-crossings of both one-dimensional continuous functions, and uniformly sampled time series. We present an algorithm and show its robustness in the presence of noise for a range of sampling frequencies. In comparison to state-of-the-art software-based methods for finding zeros of a time series, our method generally converges faster, provides higher accuracy, and is capable of finding all the roots in a given interval instead of converging only to one of them. We also present and compare options for automatically setting the persistence threshold parameter that influences the accurate bracketing of the roots.",
-            "altText": "A figure from the paper.",
-            "arXivLink": "https://arxiv.org/abs/2301.07703",
-            "authors": "Sunia Tanweer, Firas A. Khasawneh, and Elizabeth Munch",
-            "bibtex": "@article{Tanweer2023,<br> archiveprefix = {arXiv},<br> author = {Tanweer, Sunia and Khasawneh, Firas A. and Munch, Elizabeth},<br> copyright = {arXiv.org perpetual, non-exclusive license},<br> doi = {10.48550/ARXIV.2301.07703},<br> eprint = {2301.07703},<br> month = {jan},<br> primaryclass = {cs.CG},<br> publisher = {arXiv},<br> title = {Robust Zero-crossings Detection in Noisy Signals using Topological Signal Processing},<br> year = {2023}<br>}<br>",
-            "collapseLabel": "Tanweer2023",
-            "date": 2023,
-            "image": "../img/Tanweer2023.png",
-            "title": "Robust Zero-crossings Detection in Noisy Signals using Topological Signal Processing",
-            "venue": "arXiv:2301.07703"
         },
         {
             "abstract": "One of the most important problems arising in time series analysis is that of bifurcation, or change point detection. That is, given a collection of time series over a varying parameter, when has the structure of the underlying dynamical system changed? For this task, we turn to the field of topological data analysis (TDA), which encodes information about the shape and structure of data. The idea of utilizing tools from TDA for signal processing tasks, known as topological signal processing (TSP), has gained much attention in recent years, largely through a standard pipeline that computes the persistent homology of the point cloud generated by the Takens' embedding. However, this procedure is limited by computation time since the simplicial complex generated in this case is large, but also has a great deal of redundant data. For this reason, we turn to a more recent method for encoding the structure of the attractor, which constructs an ordinal partition network (OPN) representing information about when the dynamical system has passed between certain regions of state space. The result is a weighted graph whose structure encodes information about the underlying attractor. Our previous work began to find ways to package the information of the OPN in a manner that is amenable to TDA; however, that work only used the network structure and did nothing to encode the additional weighting information. In this paper, we take the next step: building a pipeline to analyze the weighted OPN with TDA and showing that this framework provides more resilience to noise or perturbations in the system and improves the accuracy of the dynamic state detection.",
@@ -89,19 +116,6 @@
             "venue": "bioRxiv:10.1101/2023.03.22.533807"
         },
         {
-            "abstract": "Changes in the parameters of dynamical systems can cause the state of the system to shift between different qualitative regimes. These shifts, known as bifurcations, are critical to study as they can indicate when the system is about to undergo harmful changes in its behaviour. In stochastic dynamical systems, particular interest is in P-type (phenomenological) bifurcations, which can include transitions from a mono-stable state to multi-stable states, the appearance of stochastic limit cycles, and other features in the probability distributions of the system's state space. Currently, the common practice is to visually analyze the probability density function to determine the type of state, but this approach is limited to experienced users, systems with small state spaces and mandate human intervention. In contrast, this study presents a new approach based on Topological Data Analysis (TDA) that uses the superlevel persistence of the probability or kernel density function to mathematically quantify P-type bifurcations in stochastic systems using the ranks of $0^th$ and $1^st$ homology groups.",
-            "altText": "A figure from the paper.",
-            "arXivLink": "https://arxiv.org/abs/2305.03118",
-            "authors": "Sunia Tanweer, Firas A. Khasawneh, Elizabeth Munch, and Joshua R. Tempelman",
-            "bibtex": "@article{Tanweer2023a,<br> archiveprefix = {arXiv},<br> author = {Tanweer, Sunia and Khasawneh, Firas A. and Munch, Elizabeth and Tempelman, Joshua R.},<br> copyright = {arXiv.org perpetual, non-exclusive license},<br> doi = {10.48550/ARXIV.2305.03118},<br> eprint = {2305.03118},<br> journal = {To appear: Nonlinear Dynamics},<br> month = {may},<br> primaryclass = {math.DS},<br> publisher = {arXiv},<br> title = {A Topological Framework for Identifying Phenomenological Bifurcations in Stochastic Dynamical Systems},<br> year = {2023}<br>}<br>",
-            "collapseLabel": "Tanweer2023a",
-            "date": 2023,
-            "image": "../img/Tanweer2023a.png",
-            "publishedLink": "https://doi.org/10.48550/ARXIV.2305.03118",
-            "title": "A Topological Framework for Identifying Phenomenological Bifurcations in Stochastic Dynamical Systems",
-            "venue": "To appear: Nonlinear Dynamics"
-        },
-        {
             "abstract": "For deep learning problems on graph-structured data, pooling layers are important for down sampling, reducing computational cost, and to minimize overfitting. We define a pooling layer, NervePool, for data structured as simplicial complexes, which are generalizations of graphs that include higher-dimensional simplices beyond vertices and edges; this structure allows for greater flexibility in modeling higher-order relationships. The proposed simplicial coarsening scheme is built upon partitions of vertices, which allow us to generate hierarchical representations of simplicial complexes, collapsing information in a learned fashion. NervePool builds on the learned vertex cluster assignments and extends to coarsening of higher dimensional simplices in a deterministic fashion. While in practice, the pooling operations are computed via a series of matrix operations, the topological motivation is a set-theoretic construction based on unions of stars of simplices and the nerve complex",
             "altText": "A figure from the paper.",
             "arXivLink": "https://arxiv.org/abs/2305.06315",
@@ -124,19 +138,6 @@
             "image": "../img/Easley2023.png",
             "title": "Using persistent homology to understand dimensionality reduction in resting-state fMRI",
             "venue": "arXiv:2306.13802"
-        },
-        {
-            "abstract": "Walnuts are the second most produced and consumed tree nut, with over 2.6 million metric tons produced in the 2022-23 harvest cycle alone. The United States is the second largest producer, accounting for 25% of the total global supply. Nonetheless, producers face an ever-growing demand in a more uncertain climate landscape, which requires effective and efficient walnut selection and breeding of new cultivars with increased kernel content and easy-to-open shells. Past and current efforts select for these traits using hand-held calipers and eye-based evaluations. Yet there is plenty of morphology that meets the eye but goes unmeasured, such as the volume of inner air or the convexity of the kernel. Here, we study the shape of walnut fruits based on X-ray CT (Computed Tomography) 3D reconstructions. We compute 49 different morphological phenotypes for 1264 individuals comprising 149 accessions. These phenotypes are complemented by traits of breeding interest such as ease of kernel removal and kernel weight. Through allometric relationships \u2014relative growth of one tissue to another\u2014, we identify possible biophysical constraints at play during development. We explore multiple correlations between all morphological and commercial traits, and identify which morphological traits can explain the most variability of commercial traits. We show that using only volume and thickness-based traits, especially inner air content, we can successfully encode several of the commercial traits.",
-            "altText": "A figure from the paper.",
-            "arXivLink": "https://doi.org/10.1101/2023.09.26.559651",
-            "authors": "Erik J. Am&eacute;zquita, Michelle Y. Quigley, Patrick Brown, Elizabeth Munch, and Daniel H. Chitwood",
-            "bibtex": "@article{Amezquita2023,<br> author = {Erik J. Am{\\'{e}}zquita and Michelle Y. Quigley and Patrick Brown and Elizabeth Munch and Daniel H. Chitwood},<br> doi = {10.1002/ppj2.20095},<br> eprint = {10.1101/2023.09.26.559651},<br> eprinttype = {bioRxiv},<br> journal = {To Appear: The Plant Phenome Journal},<br> month = {sep},<br> publisher = {Cold Spring Harbor Laboratory},<br> title = {Allometry and volumes, in a nutshell: analyzing walnut morphology using 3D X-ray computed tomography},<br> year = {2023}<br>}<br>",
-            "collapseLabel": "Amezquita2023",
-            "date": 2023,
-            "image": "../img/Amezquita2023.png",
-            "publishedLink": "https://doi.org/10.1002/ppj2.20095",
-            "title": "Allometry and volumes, in a nutshell: analyzing walnut morphology using 3D X-ray computed tomography",
-            "venue": "To Appear: The Plant Phenome Journal"
         },
         {
             "abstract": "The Euler characteristic transform (ECT) is a simple to define yet powerful representation of shape. The idea is to encode an embedded shape using sub-level sets of a a function defined based on a given direction, and then returning the Euler characteristics of these sublevel sets. Because the ECT has been shown to be injective on the space of embedded simplicial complexes, it has been used for applications spanning a range of disciplines, including plant morphology and protein structural analysis. In this survey article, we present a comprehensive overview of the Euler characteristic transform, highlighting the main idea on a simple leaf example, and surveying its its key concepts, theoretical foundations, and available applications.",

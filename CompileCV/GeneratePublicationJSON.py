@@ -141,6 +141,8 @@ def convertToJSON():
 				return False
 			elif 'other' in X['keywords']:
 				return False
+			elif 'purgatory' in X['keywords']:
+				return False
 			else:
 				return True
 		if checkPublished(X):

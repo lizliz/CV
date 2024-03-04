@@ -1,6 +1,11 @@
 {
   "talks": [
     {
+    "title": "Bounding the Interleaving Distance for Mapper Graphs with a Loss Function",
+    "venue": "Workshop on Applied and Combinatorial Topology, Schloss Dagstuhl, Wadern, Germany",
+    "date": "Feb 27, 2024"
+    },
+    {
     "title": "Topological Data Analysis for Shape Comparison",
     "venue": "CSCS Colloquium, University of Michigan, Ann Arbor, MI",
     "date": "Feb 8, 2024"
