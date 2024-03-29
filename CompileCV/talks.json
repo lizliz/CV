@@ -1,6 +1,18 @@
 {
   "talks": [
     {
+    "title": "Comparing Embedded Shapes Using Topological Summaries", 
+    "venue": "Codes and Expansions (CodEx) Seminar, Virtual",
+    "date": "Mar 26,2024", 
+    "videoLink": "https://youtu.be/YU37CoqA7Ao"
+    }, 
+    {
+    "title": "Bounding the Interleaving Distance for Mapper Graphs with a Loss Function",
+    "venue": "Applied Algebraic Topology Research Network (AATRN), Online Seminar",
+    "date": "March 20, 2024",
+    "videoLink": "https://youtu.be/PHu6u8XXyh8"
+    },
+    {
     "title": "Bounding the Interleaving Distance for Mapper Graphs with a Loss Function",
     "venue": "Workshop on Applied and Combinatorial Topology, Schloss Dagstuhl, Wadern, Germany",
     "date": "Feb 27, 2024"
