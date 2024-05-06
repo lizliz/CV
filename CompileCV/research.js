@@ -379,6 +379,17 @@ var researchJSON = {
             "venue": "Journal of Applied and Computational Topology"
         },
         {
+            "altText": "A figure from the paper.",
+            "authors": "Audun D. Myers, Melih Yesilli, Sarah Tymochko, Firas Khasawneh, and Elizabeth Munch",
+            "bibtex": "@conference{Myers2020,<br> author = {Audun D. Myers and Melih Yesilli and Sarah Tymochko and Firas Khasawneh and Elizabeth Munch},<br> booktitle = {Topological Data Analysis and Beyond Workshop at NeurIPS 2020},<br> title = {Teaspoon: A comprehensive python package for topological signal processing},<br> url = {https://openreview.net/pdf?id=qUoVqrIcy2P},<br> year = {2020}<br>}<br>",
+            "collapseLabel": "Myers2020",
+            "date": 2020,
+            "image": "../img/teaspoon.png",
+            "publishedLink": "https://openreview.net/pdf?id=qUoVqrIcy2P",
+            "title": "Teaspoon: A comprehensive python package for topological signal processing",
+            "venue": "Topological Data Analysis and Beyond Workshop at NeurIPS 2020"
+        },
+        {
             "abstract": "Tree ring widths are an important source of climatic and historical data, but measuring these widths typically requires extensive manual work. Computer vision techniques provide promising directions towards the automation of tree ring detection, but most automated methods still require a substantial amount of user interaction to obtain high accuracy. We perform analysis on 3D X-ray CT images of a cross-section of a tree trunk, known as a tree disk. We present novel automated methods for locating the pith (center) of a tree disk, and ring boundaries. Our methods use a combination of standard image processing techniques and tools from topological data analysis. We evaluate the efficacy of our method for two different CT scans by comparing its results to manually located rings and centers and show that it is better than current automatic methods in terms of correctly counting each ring and its location. Our methods have several parameters, which we optimize experimentally by minimizing edit distances to the manually obtained locations.",
             "altText": "A figure from the paper.",
             "arXivLink": "https://arxiv.org/abs/2010.08691",

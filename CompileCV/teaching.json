@@ -32,6 +32,11 @@
         "Semester": "Fall",
         "Year": 2023,
         "Eval": ""
+        },
+      {
+        "Semester": "Fall",
+        "Year": 2024,
+        "Eval": ""
         }
     ]
   },
@@ -41,6 +46,11 @@
     "Position": "Instructor",
     "CourseTitle": "Intro to Computational Modeling",
     "Semester": [
+      {
+        "Semester": "Spring",
+        "Year": 2024,
+        "Eval": " "
+        },
       {
         "Semester": "Spring",
         "Year": 2020,
@@ -102,6 +112,19 @@
       "Semester": "Fall",
       "Year": 2018,
       "Eval": "1.42*"
+    }
+  ]
+},
+  {
+  "CourseNum": "MTH 960",
+  "School": "MSU",
+  "Position": "Instructor",
+  "CourseTitle": "Algebraic Topology I",
+  "Semester": [
+    {
+      "Semester": "Fall",
+      "Year": 2024,
+      "Eval": ""
     }
   ]
 },
