@@ -143,20 +143,21 @@ def writeTeaching(filename = 'teaching.json'):
             string = string[:-2]
 
             string += '\end{tabular}'
-        string += ' & '
-        if len(entry['Semester']) == 1:
-            sem = entry['Semester'][0]
-            string += str(sem['Eval']) + '\n'
-        else:
-            string += r'\begin{tabular}{@{}c@{}} '
-            for sem in entry['Semester']:
-                if sem['Eval']:
-                    string += str(sem['Eval']) + r'\\'
-                else:
-                    string += r'\phantom{x}' + r'\\'
-            string = string[:-2]
+        # string += ' & '
 
-            string += '\end{tabular}'
+        # if len(entry['Semester']) == 1:
+        #     sem = entry['Semester'][0]
+        #     string += str(sem['Eval']) + '\n'
+        # else:
+        #     string += r'\begin{tabular}{@{}c@{}} '
+        #     for sem in entry['Semester']:
+        #         if sem['Eval']:
+        #             string += str(sem['Eval']) + r'\\'
+        #         else:
+        #             string += r'\phantom{x}' + r'\\'
+        #     string = string[:-2]
+
+        #     string += '\end{tabular}'
         string += r'\\' + '\n'
 
 

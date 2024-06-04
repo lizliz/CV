@@ -1,6 +1,16 @@
 {
   "talks": [
     {
+    "title": "Making space and studying shape in a non-traditional academic setting",
+    "venue": "MSU ACRES REU, East Lansing, MI",
+    "date": "May 29, 2024"
+    },
+    {
+      "title": "The Directional Transform, or how to look at your data from every direction at once",
+      "venue": "MSU SURIEM REU, East Lansing, MI",
+      "date": "May 20, 2024"
+      },
+    {
     "title": "Comparing Embedded Shapes Using Topological Summaries", 
     "venue": "Codes and Expansions (CodEx) Seminar, Virtual",
     "date": "Mar 26,2024", 
