@@ -68,6 +68,8 @@ def convertToJSON():
 			return False
 		elif 'dataset' in X['keywords']:
 			return False
+		elif 'code' in X['keywords']:
+			return False
 		# elif 'not_on_website' in X['keywords']:
 			# return False
 		else:
