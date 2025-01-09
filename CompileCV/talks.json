@@ -1,6 +1,21 @@
 {
   "talks": [
     {
+    "title": "Distances between Topological Representations of the Shape of Data",
+    "venue": "Math Department Colloquium, Purdue University, West Lafayette, IN",
+    "date": "Dec 11, 2024"
+    },
+    {
+    "title": "Data driven homological approaches for detecting changes in dynamical systems",
+    "venue": "Workshop on Data Driven Dynamics. Centre de Recherches Mathematiques (CRM), Montreal, Canada",
+    "date": "Nov 11, 2024"
+    },
+    {
+    "title": "Encoding the Shape of Data for Machine Learning Tasks",
+    "venue": "Math Department Colloquium, University of Tennessee - Knoxville",
+    "date": "Nov 6, 2024"
+    },
+    {
     "title": "Making space and studying shape in a non-traditional academic setting",
     "venue": "MSU ACRES REU, East Lansing, MI",
     "date": "May 29, 2024"
