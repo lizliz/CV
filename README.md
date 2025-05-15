@@ -39,3 +39,13 @@ To handle things on the JSON file that generates the [research page](elizabethmu
   - Set `eprinttype = {bioRxiv}`
   - Set `eprint = {DOI}`
   - Note that bioRxiv (and now arXiv) have DOIs now, so I leave those also as a `DOI = {}` entry. In particular, the above solution results in a dead link next to bioRxiv (how to fix???) but the DOI link will work. Then when the paper is converted to a published paper, the DOI is switched to the published DOI but the bioRxiv version is left alone.
+
+
+To generate the keywords for the work on the website, each paper in the `.bib` file has `website-keywords` which can be one of the following: 
+- **DirTrans**: Directional transform Includes ECT, PHT, and MTT
+- **Graph**: Any graph signatures, Includes Reeb graphs, mapper graphs, merge trees.
+- **Interleaving**: Anything that involves the interleaving distance.
+- **TSP**: Topological signal processing.
+- **Plants**: Plant bio applications.
+- **Pers**: Anything using persistent homology, or related algebraic signatures.
+- **ML**: Related to machine learning for topological signatures.

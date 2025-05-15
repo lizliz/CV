@@ -1,6 +1,21 @@
 {
   "talks": [
     {
+    "title": "Data Driven Homological Approaches for Detecting Changes in Dynamical System",
+    "venue": "\\textbf{Plenary}, SIAM Dynamical Systems, Denver, CO.",
+    "date": "May 12, 2025"
+    },
+    {
+    "title": "Measuring Shape with the Directional Transform and Topological Descriptors",
+    "venue": "Southeast Center for Mathematics and Biology Workshop, Atlanta, GA.",
+    "date": "April 11, 2025"
+    },
+    {
+    "title": "Data Driven Homological Approaches for Detecting Changes in Dynamical System",
+    "venue": "\\textbf{Semi-Plenary}, 58th Spring Topology and Dynamics Conference, Christopher Newport University, Newport News, VA",
+    "date": "March 8, 2025"
+    },
+    {
     "title": "Distances between Topological Representations of the Shape of Data",
     "venue": "Math Department Colloquium, Purdue University, West Lafayette, IN",
     "date": "Dec 11, 2024"
@@ -59,7 +74,7 @@
     },
     {
     "title": "Comparing Embedded Shapes Using Topological Summaries",
-    "venue": "Plenary Lecture, SIAM Great Lakes Meeting, Michigan State University, East Lansing, MI",
+    "venue": "\\textbf{Plenary}, SIAM Great Lakes Meeting, Michigan State University, East Lansing, MI",
     "date": "Oct 14, 2023"
     },
     {

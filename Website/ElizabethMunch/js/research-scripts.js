@@ -36,6 +36,14 @@ $(document).ready(function () {
       (researchItem.arXivLink ?
           "<a class=\"paper-listing__item__link\" href=\"" + researchItem.arXivLink + "\">Preprint</a>" : '') +
       "\n\n <section class=\"paper-listing__item__more\">\n"+
+      // Keywords 
+      (researchItem.keywords && researchItem.keywords.length > 0 ?
+        "<div class=\"paper-listing__item__keywords\">" +
+          researchItem.keywords.map(function(kw) {
+            return "<span class=\"keyword-badge\">" + kw + "</span>";
+          }).join(' ') +
+        "</div>"
+        : '') +
       // Tabbed box for abstract and bibtex
       " <section class=\"paper-listing__item__tabs\">\n " +
         (researchItem.abstract ?
@@ -53,6 +61,40 @@ $(document).ready(function () {
         researchItem.bibtex + "</code></p>" : '') +
       "\n </section>\n </section>\n      ");
   });
+
+  // --- Keyword filter button code START ---
+  // Collect all unique keywords
+  const allKeywords = new Set();
+  data.forEach(item => {
+    if (item.keywords) {
+      item.keywords.forEach(kw => allKeywords.add(kw));
+    }
+  });
+
+  // Render keyword buttons, including "Show all"
+  const $filterDiv = $('#keyword-filters');
+  $filterDiv.append(`<button class="keyword-filter-btn active" data-keyword="__all__">Show all</button> `);
+  allKeywords.forEach(kw => {
+    $filterDiv.append(`<button class="keyword-filter-btn" data-keyword="${kw}">${kw}</button> `);
+  });
+
+  // Click handlers for filtering and highlighting
+  $('.keyword-filter-btn').on('click', function() {
+    $('.keyword-filter-btn').removeClass('active');
+    $(this).addClass('active');
+    const keyword = $(this).data('keyword');
+    if (keyword === "__all__") {
+      $('.paper-listing__item').show();
+    } else {
+      $('.paper-listing__item').hide().filter(function() {
+        return $(this).find('.keyword-badge').filter(function() {
+          return $(this).text() === keyword;
+        }).length > 0;
+      }).show();
+    }
+  });
+  // --- Keyword filter button code END ---
+
   $('.paper-listing__item__more__abstract-tab').click(function () {
     var self = $(this);
     var itemToggle = self.parent().parent().find('.paper-listing__item__more__abstract-body');

@@ -102,6 +102,19 @@ def convertToJSON():
 
 		return mo
 
+	def getKeywords(X):
+		if 'website-keywords' in X.keys():
+			kw = X['website-keywords']
+			if isinstance(kw, str):
+				# Split on comma, strip whitespace
+				return [k.strip() for k in kw.split(',') if k.strip()]
+			elif isinstance(kw, list):
+				return kw
+			else:
+				return []
+		else:
+			return []
+
 	# Sort by year
 	bibtex_database.entries = sorted(bibtex_database.entries,
 				key = lambda X:  (getYear(X),getMonth(X)),
@@ -122,7 +135,7 @@ def convertToJSON():
 	}
 	
 	# Each entry for the json file has keys:
-	# ['originalLink', 'title', 'pdfLink', 'abstract', 'venue', 'date', 'collapseLabel', 'authors', 'bibtex']
+	# ['originalLink', 'title', 'pdfLink', 'abstract', 'venue', 'date', 'collapseLabel', 'authors', 'bibtex', 'keywords']
 	for X in bibtex_database.entries:
 		paperjson = {}
 
@@ -135,6 +148,12 @@ def convertToJSON():
 		except KeyError:
 			errorlist['Missing year'].append(X['ID'])
 
+		# ---------Get the keywords-------------
+		try:
+			paperjson['keywords'] = getKeywords(X)
+
+		except KeyError:
+			pass
 
 		# --------- Get the published link  --------------
 
