@@ -113,6 +113,7 @@ $(document).ready(function () {
       }
     }
   });
+
   $('.paper-listing__item__more__bibtex-tab').click(function () {
     var self = $(this);
     var itemToggle = self.parent().parent().find('.paper-listing__item__more__bibtex-body');
@@ -131,4 +132,15 @@ $(document).ready(function () {
       }
     }
   });
+
+  // --- Foldable keyword description code START ---
+  $('.paper-listing__item__more__keywords-tab').click(function () {
+    var $body = $('.paper-listing__item__more__keywords-body');
+    if ($body.hasClass('expanded')) {
+      $body.removeClass('expanded').slideUp();
+    } else {
+      $body.addClass('expanded').slideDown();
+    }
+  });
+  // --- Foldable keyword description code END ---
 });

@@ -224,6 +224,32 @@ p {
 }
 /* --- End Purple Keyword Styles --- */
 
+/* --- Make abstract, bibtex, and keyword tabs purple and bold, but not button-like --- */
+.paper-listing__item__more__keywords-tab,
+.paper-listing__item__more__abstract-tab,
+.paper-listing__item__more__bibtex-tab {
+  color: #5b21b6;
+  background: none;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  margin-top: 1em;
+  margin-bottom: 0.2em;
+  cursor: pointer;
+  user-select: none;
+  display: inline-block;
+  transition: color 0.2s;
+}
+.paper-listing__item__more__keywords-tab:hover,
+.paper-listing__item__more__abstract-tab:hover,
+.paper-listing__item__more__bibtex-tab:hover {
+  color: #4c1d95;
+}
+
+.paper-listing__item__more__keywords-body {
+  margin-bottom: 1em;
+}
+
 .heading {
   text-align: center;
   width: 80%;
