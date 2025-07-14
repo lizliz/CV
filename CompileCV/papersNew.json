@@ -55,7 +55,7 @@
             "altText": "A figure from the paper.",
             "arXivLink": "https://arxiv.org/abs/2505.04048",
             "authors": "Elizabeth Munch, Elena Xinyi Wang, and Carola Wenk",
-            "bibtex": "@article{Munch2025,<br> archiveprefix = {arXiv},<br> author = {Munch, Elizabeth and Wang, Elena Xinyi and Wenk, Carola},<br> copyright = {Creative Commons Attribution 4.0 International},<br> doi = {10.48550/ARXIV.2505.04048},<br> eprint = {2505.04048},<br> month = {May},<br> primaryclass = {cs.DS},<br> publisher = {arXiv},<br> title = {The Kinetic Hourglass Data Structure for Computing the Bottleneck Distance of Dynamic Data},<br> website-keywords = {DirTrans,Pers},<br> year = {2025}<br>}<br>",
+            "bibtex": "@article{Munch2025,<br> archiveprefix = {arXiv},<br> author = {Munch, Elizabeth and Wang, Elena Xinyi and Wenk, Carola},<br> copyright = {Creative Commons Attribution 4.0 International},<br> doi = {10.48550/ARXIV.2505.04048},<br> eprint = {2505.04048},<br> journal = {To Appear: CCCG2025 - Canadian Conference on Computational Geometry},<br> month = {May},<br> primaryclass = {cs.DS},<br> publisher = {arXiv},<br> title = {The Kinetic Hourglass Data Structure for Computing the Bottleneck Distance of Dynamic Data},<br> website-keywords = {DirTrans,Pers},<br> year = {2025}<br>}<br>",
             "collapseLabel": "Munch2025",
             "date": 2025,
             "image": "../img/Munch2025.png",
@@ -63,8 +63,37 @@
                 "DirTrans",
                 "Pers"
             ],
+            "publishedLink": "https://doi.org/10.48550/ARXIV.2505.04048",
             "title": "The Kinetic Hourglass Data Structure for Computing the Bottleneck Distance of Dynamic Data",
-            "venue": "arXiv:2505.04048"
+            "venue": "To Appear: CCCG2025 - Canadian Conference on Computational Geometry"
+        },
+        {
+            "abstract": "The Euler Characteristic Transform (ECT) is a robust method for shape classification. It takes an embedded shape and, for each direction, computes a piecewise constant function representing the Euler Characteristic of the shape's sublevel sets, which are defined by the height function in that direction. It has applications in TDA inverse problems, such as shape reconstruction, and is also employed with machine learning methodologies. In this paper, we define a distance between the ECTs of two distinct geometric embeddings of the same abstract simplicial complex and provide an upper bound for this distance. The Super Lifted Euler Characteristic Transform (SELECT), a related construction, extends the ECT to scalar fields defined on shapes. We establish a similar distance bound for SELECT, specifically when applied to fields defined on embedded simplicial complexes.",
+            "arXivLink": "https://arxiv.org/abs/2506.19991",
+            "authors": "Jasmine George, Oscar Lledo Osborn, Elizabeth Munch, Messiah Ridgley, and Elena Xinyi Wang",
+            "bibtex": "@article{George2025,<br> archiveprefix = {arXiv},<br> author = {George, Jasmine and Osborn, Oscar Lledo and Munch, Elizabeth and Ridgley, Messiah and Wang, Elena Xinyi},<br> copyright = {arXiv.org perpetual, non-exclusive license},<br> doi = {10.48550/ARXIV.2506.19991},<br> eprint = {2506.19991},<br> month = {June},<br> primaryclass = {cs.CG},<br> publisher = {arXiv},<br> title = {On the Stability of the Euler Characteristic Transform for a Perturbed Embedding},<br> website-keywords = {DirTrans},<br> year = {2025}<br>}<br>",
+            "collapseLabel": "George2025",
+            "date": 2025,
+            "keywords": [
+                "DirTrans"
+            ],
+            "title": "On the Stability of the Euler Characteristic Transform for a Perturbed Embedding",
+            "venue": "arXiv:2506.19991"
+        },
+        {
+            "abstract": "Directed graphs arise in many applications where computing persistent homology helps to encode the shape and structure of the input information. However, there are only a few ways to turn the directed graph information into an undirected simplicial complex filtration required by the standard persistent homology framework. In this paper, we present a new filtration constructed from a directed graph, called the walk-length filtration. This filtration mirrors the behavior of small walks visiting certain collections of vertices in the directed graph. We show that, while the persistence is not stable under the usual $L_\\infty$-style network distance, a generalized $L_1$-style distance is, indeed, stable. We further provide an algorithm for its computation, and investigate the behavior of this filtration in examples, including cycle networks and synthetic hippocampal networks with a focus on comparison to the often used Dowker filtration.",
+            "altText": "A figure from the paper.",
+            "arXivLink": "https://arxiv.org/abs/2506.22263",
+            "authors": "David E. Mu\u00f1oz, Elizabeth Munch, and Firas A. Khasawneh",
+            "bibtex": "@article{Munoz2025,<br> archiveprefix = {arXiv},<br> author = {Mu\u00f1oz, David E. and Munch, Elizabeth and Khasawneh, Firas A.},<br> copyright = {arXiv.org perpetual, non-exclusive license},<br> doi = {10.48550/ARXIV.2506.22263},<br> eprint = {2506.22263},<br> month = {June},<br> primaryclass = {cs.CG},<br> publisher = {arXiv},<br> title = {The Walk-Length Filtration for Persistent Homology on Weighted Directed Graphs},<br> website-keywords = {Pers},<br> year = {2025}<br>}<br>",
+            "collapseLabel": "Munoz2025",
+            "date": 2025,
+            "image": "../img/Munoz2025.png",
+            "keywords": [
+                "Pers"
+            ],
+            "title": "The Walk-Length Filtration for Persistent Homology on Weighted Directed Graphs",
+            "venue": "arXiv:2506.22263"
         },
         {
             "abstract": "Abstract Persian walnuts (Juglans regia L.) are the second most produced and consumed tree nut, with over 2.6 million metric tons produced in the 2022\u20132023 harvest cycle alone. The United States is the second largest producer, accounting for 25\\% of the total global supply. Nonetheless, producers face an ever-growing demand in a more uncertain climate landscape, which requires effective and efficient walnut selection and breeding of new cultivars with increased kernel content and easy-to-open shells. Past and current efforts select for these traits using hand-held calipers and eye-based evaluations. Yet there is plenty of morphology that meets the eye but goes unmeasured, such as the volume of inner air or the convexity of the kernel. Here, we study the shape of walnut fruits based on X-ray computed tomography three-dimensional reconstructions. We compute 49 different morphological phenotypes for 1264 individual nuts comprising 149 accessions. These phenotypes are complemented by traits of breeding interest such as ease of kernel removal and kernel-to-nut weight ratio. Through allometric relationships, relative growth of one tissue to another, we identify possible biophysical constraints at play during development. We explore multiple correlations between all morphological and commercial traits and identify which morphological traits can explain the most variability of commercial traits. We show that using only volume- and thickness-based traits, especially inner air content, we can successfully encode several of the commercial traits.",
@@ -262,19 +291,6 @@
             "venue": "Phys. Rev. E"
         },
         {
-            "abstract": "Cells communicate with one another through a variety of signaling mechanisms. Exchange of information via these mechanisms allows cells to coordinate their behaviour and respond to environmental stress and other stimuli. To facilitate quantitative understanding of complex spatiotemporal signaling activity, we developed Geometric Scattering Trajectory Homology, a general framework that encapsulates time-lapse signals on a cell adjacency graph in a low-dimensional trajectory. We tested this framework using computational models of collective oscillations and calcium signaling in the Drosophila wing imaginal disc, as well as experimental data, including in vitro ERK signaling in human mammary epithelial cells and in vivo calcium signaling from the mouse epidermis and visual cortex. We found that the geometry and topology of the trajectory are related to the degree of synchrony (over space and time), intensity, speed, and quasi-periodicity of the signaling pattern. We recovered model parameters and experimental conditions by training neural networks on trajectory data, showing that our approach preserves information that characterizes various cell types, tissues and drug treatments. We envisage the applicability of our framework in various biological contexts to generate new insights into cell communication.",
-            "altText": "A figure from the paper.",
-            "arXivLink": "https://doi.org/10.1101/2023.03.22.533807",
-            "authors": "Dhananjay Bhaskar, Jessica Moore, Feng Gao, Bastian Rieck, Firas Khasawneh, Elizabeth Munch, Valentina Greco, and Smita Krishnaswamy",
-            "bibtex": "@article{Bhaskar2023,<br> author = {Dhananjay Bhaskar and Jessica Moore and Feng Gao and Bastian Rieck and Firas Khasawneh and Elizabeth Munch and Valentina Greco and Smita Krishnaswamy},<br> doi = {10.1101/2023.03.22.533807},<br> eprint = {10.1101/2023.03.22.533807},<br> eprinttype = {bioRxiv},<br> month = {mar},<br> publisher = {Cold Spring Harbor Laboratory},<br> title = {Capturing Spatiotemporal Signaling Patterns in Cellular Data with Geometric Scattering Trajectory Homology},<br> year = {2023}<br>}<br>",
-            "collapseLabel": "Bhaskar2023",
-            "date": 2023,
-            "image": "../img/Bhaskar2023.png",
-            "keywords": [],
-            "title": "Capturing Spatiotemporal Signaling Patterns in Cellular Data with Geometric Scattering Trajectory Homology",
-            "venue": "bioRxiv:10.1101/2023.03.22.533807"
-        },
-        {
             "abstract": "For deep learning problems on graph-structured data, pooling layers are important for down sampling, reducing computational cost, and to minimize overfitting. We define a pooling layer, NervePool, for data structured as simplicial complexes, which are generalizations of graphs that include higher-dimensional simplices beyond vertices and edges; this structure allows for greater flexibility in modeling higher-order relationships. The proposed simplicial coarsening scheme is built upon partitions of vertices, which allow us to generate hierarchical representations of simplicial complexes, collapsing information in a learned fashion. NervePool builds on the learned vertex cluster assignments and extends to coarsening of higher dimensional simplices in a deterministic fashion. While in practice, the pooling operations are computed via a series of matrix operations, the topological motivation is a set-theoretic construction based on unions of stars of simplices and the nerve complex",
             "altText": "A figure from the paper.",
             "arXivLink": "https://arxiv.org/abs/2305.06315",
@@ -320,6 +336,19 @@
             "publishedLink": "https://doi.org/10.1371/journal.pbio.3002397",
             "title": "Topological data analysis reveals a core gene expression backbone that defines form and function across flowering plants",
             "venue": "PLOS Biology"
+        },
+        {
+            "abstract": "Cells communicate with one another through a variety of signaling mechanisms. Exchange of information via these mechanisms allows cells to coordinate their behaviour and respond to environmental stress and other stimuli. To facilitate quantitative understanding of complex spatiotemporal signaling activity, we developed Geometric Scattering Trajectory Homology, a general framework that encapsulates time-lapse signals on a cell adjacency graph in a low-dimensional trajectory. We tested this framework using computational models of collective oscillations and calcium signaling in the Drosophila wing imaginal disc, as well as experimental data, including in vitro ERK signaling in human mammary epithelial cells and in vivo calcium signaling from the mouse epidermis and visual cortex. We found that the geometry and topology of the trajectory are related to the degree of synchrony (over space and time), intensity, speed, and quasi-periodicity of the signaling pattern. We recovered model parameters and experimental conditions by training neural networks on trajectory data, showing that our approach preserves information that characterizes various cell types, tissues and drug treatments. We envisage the applicability of our framework in various biological contexts to generate new insights into cell communication.",
+            "altText": "A figure from the paper.",
+            "arXivLink": "https://doi.org/10.1101/2023.03.22.533807",
+            "authors": "Dhananjay Bhaskar, Yanlei Zhang, Jessica Moore, Feng Gao, Bastian Rieck, Guy Wolf, Firas Khasawneh, Elizabeth Munch, J. Adam Noah, Helen Pushkarskaya, Christopher Pittenger, Valentina Greco, and Smita Krishnaswamy",
+            "bibtex": "@article{Bhaskar2023,<br> author = {Bhaskar, Dhananjay and Zhang, Yanlei and Moore, Jessica and Gao, Feng and Rieck, Bastian and Wolf, Guy and Khasawneh, Firas and Munch, Elizabeth and Noah, J. Adam and Pushkarskaya, Helen and Pittenger, Christopher and Greco, Valentina and Krishnaswamy, Smita},<br> doi = {10.1101/2023.03.22.533807},<br> eprint = {10.1101/2023.03.22.533807},<br> eprinttype = {bioRxiv},<br> month = {mar},<br> publisher = {Cold Spring Harbor Laboratory},<br> title = {Neurospectrum: A Geometric and Topological Deep Learning Framework for Uncovering Spatiotemporal Signatures in Neural Activity},<br> year = {2023}<br>}<br>",
+            "collapseLabel": "Bhaskar2023",
+            "date": 2023,
+            "image": "../img/Bhaskar2023.png",
+            "keywords": [],
+            "title": "Neurospectrum: A Geometric and Topological Deep Learning Framework for Uncovering Spatiotemporal Signatures in Neural Activity",
+            "venue": "bioRxiv:10.1101/2023.03.22.533807"
         },
         {
             "abstract": "Reeb graphs form a variant of level graphs that commonly arise in the field of topological data analysis. The vertices of a Reeb graph are associated with a real-valued level. In the context of topological data analysis, the level of a vertex usually corresponds to some imprecise measured quantity. Due to this imprecision, nearby points in a Reeb graph may represent the same point in\nthe ground-truth.\n\nWe consider drawings of Reeb graphs in the plane, where the y-coordinate of a vertex is specified by its level, and edges are drawn as y-monotone paths. We introduce the crossing radius as a quality measure for Reeb graph drawings. Under this measure, level-planar drawings of Reeb graphs are optimal if they exist. In this regard, our measure coincides with existing quality measures that simply count the number of crossings. On the other hand, most Reeb graphs found in practice do not admit level-planar drawings. In contrast to measures that count the number of crossings, our measure associates a cost with each crossing, and returns the maximum cost over all crossings. The cost of a crossing intuitively quantifies the likelihood that the necessity of a crossing can be attributed to imprecise measurements. For this reason, crossing radius is a preferable measure in the context of topological data analysis. We also show that for a given Reeb graph, computing a drawing with optimal crossing radius is NP-hard.",
