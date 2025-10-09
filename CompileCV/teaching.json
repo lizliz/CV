@@ -40,6 +40,19 @@
         }
     ]
   },
+  {
+    "CourseNum": "CMSE 382",
+    "School": "MSU",
+    "Position": "Instructor",
+    "CourseTitle": "Optimization Methods in Data Science",
+    "Semester": [
+      {
+        "Semester": "Spring",
+        "Year": 2026,
+        "Eval": ""
+        }
+    ]
+  },
     {
     "CourseNum": "CMSE 801",
     "School": "MSU",
@@ -86,6 +99,10 @@
         "Semester": "Fall",
         "Year": 2021,
         "Eval": "1.25*"
+      },
+      {
+        "Semester": "Fall",
+        "Year": 2025
       }
     ]
   },

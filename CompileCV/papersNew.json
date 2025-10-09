@@ -18,23 +18,6 @@
             "venue": "The American Mathematical Monthly"
         },
         {
-            "abstract": "A geometric graph is an abstract graph along with an embedding of the graph into the Euclidean plane which can be used to model a wide range of data sets. The ability to compare and cluster such objects is required in a data analysis pipeline, leading to a need for distances or metrics on these objects. In this work, we study the interleaving distance on geometric graphs, where functor representations of data can be compared by finding pairs of natural transformations between them. However, in many cases, particularly those of the set-valued functor variety, computation of the interleaving distance is NP-hard. For this reason, we take inspiration from the work of Robinson to find quality measures for families of maps that do not rise to the level of a natural transformation. Specifically, we call collections $\\phi = \\\\phi_U\\mid U\\$ and $\\psi = \\\\psi_U\\mid U\\$ which do not necessarily form a true interleaving an \\textitassignment. In the case of embedded graphs, we impose a grid structure on the plane, treat this as a poset endowed with the Alexandroff topology $K$, and encode the embedded graph data as functors $F: \\mathbfOpen(K) \\to \\mathbfSet$ where $F(U)$ is the set of connected components of the graph inside of the geometric realization of the set $U$. We then endow the image with the extra structure of a metric space and define a loss function $L(\\phi,\\psi)$ which measures how far the required diagrams of an interleaving are from commuting. Then for a pair of assignments, we use this loss function to bound the interleaving distance, with an eye toward computation and approximation of the distance. We expect these ideas are not only useful in our particular use case of embedded graphs, but can be extended to a larger class of interleaving distance problems where computational complexity creates a barrier to use in practice.",
-            "altText": "A figure from the paper.",
-            "arXivLink": "https://arxiv.org/abs/2307.15130",
-            "authors": "Erin W. Chambers, Elizabeth Munch, Sarah Percival, and Bei Wang",
-            "bibtex": "@article{Chambers2023,<br> archiveprefix = {arXiv},<br> author = {Chambers, Erin W. and Munch, Elizabeth and Percival, Sarah and Wang, Bei},<br> copyright = {arXiv.org perpetual, non-exclusive license},<br> doi = {10.48550/ARXIV.2307.15130},<br> eprint = {2307.15130},<br> journal = {To appear: Journal of Applied and Computational Topology},<br> month = {July},<br> primaryclass = {cs.CG},<br> publisher = {arXiv},<br> title = {Bounding the Interleaving Distance for Mapper Graphs with a Loss Function},<br> website-keywords = {Graph,Interleaving},<br> year = {2025}<br>}<br>",
-            "collapseLabel": "Chambers2023",
-            "date": 2025,
-            "image": "../img/Chambers2023a.png",
-            "keywords": [
-                "Graph",
-                "Interleaving"
-            ],
-            "publishedLink": "https://doi.org/10.48550/ARXIV.2307.15130",
-            "title": "Bounding the Interleaving Distance for Mapper Graphs with a Loss Function",
-            "venue": "To appear: Journal of Applied and Computational Topology"
-        },
-        {
             "abstract": "Mapper graphs are a widely used tool in topological data analysis and visualization. They can be viewed as discrete approximations of Reeb graphs, offering insight into the shape and connectivity of complex data. Given a high-dimensional point cloud $\\mathbbX$ equipped with a function $f: \\mathbbX \\to \\mathbbR$, a mapper graph provides a summary of the topological structure of $\\mathbbX$ induced by $f$, where each node represents a local neighborhood, and edges connect nodes whose corresponding neighborhoods overlap. Our focus is the interleaving distance for mapper graphs, arising from a discretization of the version for Reeb graphs, which is NP-hard to compute. This distance quantifies the similarity between two mapper graphs by measuring the extent to which they must be ``stretched\" to become comparable. Recent work introduced a loss function that provides an upper bound on the interleaving distance for mapper graphs, which evaluates how far a given assignment is from being a true interleaving. Finding the loss is computationally tractable, offering a practical way to estimate the distance. In this paper, we employ a categorical formulation of mapper graphs and develop the first framework for computing the associated loss function. Since the quality of the bound depends on the chosen assignment, we optimize this loss function by formulating the problem of finding the best assignment as an integer linear programming problem. To evaluate the effectiveness of our optimization, we apply it to small mapper graphs where the interleaving distance is known, demonstrating that the optimized upper bound successfully matches the interleaving distance in these cases. Additionally, we conduct an experiment on the MPEG-7 dataset, computing the pairwise optimal loss on a collection of mapper graphs derived from images and leveraging the distance bound for image classification.",
             "altText": "A figure from the paper.",
             "arXivLink": "https://arxiv.org/abs/2504.03865",
@@ -55,7 +38,7 @@
             "altText": "A figure from the paper.",
             "arXivLink": "https://arxiv.org/abs/2505.04048",
             "authors": "Elizabeth Munch, Elena Xinyi Wang, and Carola Wenk",
-            "bibtex": "@article{Munch2025,<br> archiveprefix = {arXiv},<br> author = {Munch, Elizabeth and Wang, Elena Xinyi and Wenk, Carola},<br> copyright = {Creative Commons Attribution 4.0 International},<br> doi = {10.48550/ARXIV.2505.04048},<br> eprint = {2505.04048},<br> journal = {To Appear: CCCG2025 - Canadian Conference on Computational Geometry},<br> month = {May},<br> primaryclass = {cs.DS},<br> publisher = {arXiv},<br> title = {The Kinetic Hourglass Data Structure for Computing the Bottleneck Distance of Dynamic Data},<br> website-keywords = {DirTrans,Pers},<br> year = {2025}<br>}<br>",
+            "bibtex": "@article{Munch2025,<br> archiveprefix = {arXiv},<br> author = {Munch, Elizabeth and Wang, Elena Xinyi and Wenk, Carola},<br> copyright = {Creative Commons Attribution 4.0 International},<br> doi = {10.48550/ARXIV.2505.04048},<br> eprint = {2505.04048},<br> journal = {CCCG2025 - Canadian Conference on Computational Geometry},<br> month = {May},<br> primaryclass = {cs.DS},<br> publisher = {arXiv},<br> title = {The Kinetic Hourglass Data Structure for Computing the Bottleneck Distance of Dynamic Data},<br> url = {https://cccg-wads-2025.eecs.yorku.ca/cccg-papers/7B4.pdf},<br> website-keywords = {DirTrans,Pers},<br> year = {2025}<br>}<br>",
             "collapseLabel": "Munch2025",
             "date": 2025,
             "image": "../img/Munch2025.png",
@@ -65,17 +48,18 @@
             ],
             "publishedLink": "https://doi.org/10.48550/ARXIV.2505.04048",
             "title": "The Kinetic Hourglass Data Structure for Computing the Bottleneck Distance of Dynamic Data",
-            "venue": "To Appear: CCCG2025 - Canadian Conference on Computational Geometry"
+            "venue": "CCCG2025 - Canadian Conference on Computational Geometry"
         },
         {
             "abstract": "The Euler Characteristic Transform (ECT) is a robust method for shape classification. It takes an embedded shape and, for each direction, computes a piecewise constant function representing the Euler Characteristic of the shape's sublevel sets, which are defined by the height function in that direction. It has applications in TDA inverse problems, such as shape reconstruction, and is also employed with machine learning methodologies. In this paper, we define a distance between the ECTs of two distinct geometric embeddings of the same abstract simplicial complex and provide an upper bound for this distance. The Super Lifted Euler Characteristic Transform (SELECT), a related construction, extends the ECT to scalar fields defined on shapes. We establish a similar distance bound for SELECT, specifically when applied to fields defined on embedded simplicial complexes.",
             "arXivLink": "https://arxiv.org/abs/2506.19991",
             "authors": "Jasmine George, Oscar Lledo Osborn, Elizabeth Munch, Messiah Ridgley, and Elena Xinyi Wang",
-            "bibtex": "@article{George2025,<br> archiveprefix = {arXiv},<br> author = {George, Jasmine and Osborn, Oscar Lledo and Munch, Elizabeth and Ridgley, Messiah and Wang, Elena Xinyi},<br> copyright = {arXiv.org perpetual, non-exclusive license},<br> doi = {10.48550/ARXIV.2506.19991},<br> eprint = {2506.19991},<br> month = {June},<br> primaryclass = {cs.CG},<br> publisher = {arXiv},<br> title = {On the Stability of the Euler Characteristic Transform for a Perturbed Embedding},<br> website-keywords = {DirTrans},<br> year = {2025}<br>}<br>",
+            "bibtex": "@article{George2025,<br> archiveprefix = {arXiv},<br> author = {George, Jasmine and Osborn, Oscar Lledo and Munch, Elizabeth and Ridgley, Messiah and Wang, Elena Xinyi},<br> copyright = {arXiv.org perpetual, non-exclusive license},<br> doi = {10.48550/ARXIV.2506.19991},<br> eprint = {2506.19991},<br> month = {June},<br> primaryclass = {cs.CG},<br> publisher = {arXiv},<br> title = {On the Stability of the Euler Characteristic Transform for a Perturbed Embedding},<br> website-keywords = {DirTrans,REU},<br> year = {2025}<br>}<br>",
             "collapseLabel": "George2025",
             "date": 2025,
             "keywords": [
-                "DirTrans"
+                "DirTrans",
+                "REU"
             ],
             "title": "On the Stability of the Euler Characteristic Transform for a Perturbed Embedding",
             "venue": "arXiv:2506.19991"
@@ -94,6 +78,23 @@
             ],
             "title": "The Walk-Length Filtration for Persistent Homology on Weighted Directed Graphs",
             "venue": "arXiv:2506.22263"
+        },
+        {
+            "abstract": "A geometric graph is an abstract graph along with an embedding of the graph into the Euclidean plane which can be used to model a wide range of data sets. The ability to compare and cluster such objects is required in a data analysis pipeline, leading to a need for distances or metrics on these objects. In this work, we study the interleaving distance on geometric graphs, where functor representations of data can be compared by finding pairs of natural transformations between them. However, in many cases, particularly those of the set-valued functor variety, computation of the interleaving distance is NP-hard. For this reason, we take inspiration from the work of Robinson to find quality measures for families of maps that do not rise to the level of a natural transformation. Specifically, we call collections $\\phi = \\\\phi_U\\mid U\\$ and $\\psi = \\\\psi_U\\mid U\\$ which do not necessarily form a true interleaving an \\textitassignment. In the case of embedded graphs, we impose a grid structure on the plane, treat this as a poset endowed with the Alexandroff topology $K$, and encode the embedded graph data as functors $F: \\mathbfOpen(K) \\to \\mathbfSet$ where $F(U)$ is the set of connected components of the graph inside of the geometric realization of the set $U$. We then endow the image with the extra structure of a metric space and define a loss function $L(\\phi,\\psi)$ which measures how far the required diagrams of an interleaving are from commuting. Then for a pair of assignments, we use this loss function to bound the interleaving distance, with an eye toward computation and approximation of the distance. We expect these ideas are not only useful in our particular use case of embedded graphs, but can be extended to a larger class of interleaving distance problems where computational complexity creates a barrier to use in practice.",
+            "altText": "A figure from the paper.",
+            "arXivLink": "https://arxiv.org/abs/2307.15130",
+            "authors": "Erin Wolf Chambers, Elizabeth Munch, Sarah Percival, and Bei Wang",
+            "bibtex": "@article{Chambers2025a,<br> archiveprefix = {arXiv},<br> author = {Chambers, Erin Wolf and Munch, Elizabeth and Percival, Sarah and Wang, Bei},<br> copyright = {arXiv.org perpetual, non-exclusive license},<br> doi = {10.1007/s41468-025-00215-x},<br> eprint = {2307.15130},<br> issn = {2367-1734},<br> journal = {Journal of Applied and Computational Topology},<br> month = {July},<br> number = {3},<br> primaryclass = {cs.CG},<br> publisher = {Springer Science and Business Media LLC},<br> title = {Bounding the interleaving distance for mapper graphs with a loss function},<br> volume = {9},<br> website-keywords = {Graph,Interleaving},<br> year = {2025}<br>}<br>",
+            "collapseLabel": "Chambers2025a",
+            "date": 2025,
+            "image": "../img/Chambers2023a.png",
+            "keywords": [
+                "Graph",
+                "Interleaving"
+            ],
+            "publishedLink": "https://doi.org/10.1007/s41468-025-00215-x",
+            "title": "Bounding the interleaving distance for mapper graphs with a loss function",
+            "venue": "Journal of Applied and Computational Topology"
         },
         {
             "abstract": "Abstract Persian walnuts (Juglans regia L.) are the second most produced and consumed tree nut, with over 2.6 million metric tons produced in the 2022\u20132023 harvest cycle alone. The United States is the second largest producer, accounting for 25\\% of the total global supply. Nonetheless, producers face an ever-growing demand in a more uncertain climate landscape, which requires effective and efficient walnut selection and breeding of new cultivars with increased kernel content and easy-to-open shells. Past and current efforts select for these traits using hand-held calipers and eye-based evaluations. Yet there is plenty of morphology that meets the eye but goes unmeasured, such as the volume of inner air or the convexity of the kernel. Here, we study the shape of walnut fruits based on X-ray computed tomography three-dimensional reconstructions. We compute 49 different morphological phenotypes for 1264 individual nuts comprising 149 accessions. These phenotypes are complemented by traits of breeding interest such as ease of kernel removal and kernel-to-nut weight ratio. Through allometric relationships, relative growth of one tissue to another, we identify possible biophysical constraints at play during development. We explore multiple correlations between all morphological and commercial traits and identify which morphological traits can explain the most variability of commercial traits. We show that using only volume- and thickness-based traits, especially inner air content, we can successfully encode several of the commercial traits.",
@@ -231,12 +232,13 @@
             "altText": "A figure from the paper.",
             "arXivLink": "https://arxiv.org/abs/2210.10181",
             "authors": "Levent Batakci, Abigail Branson, Bryan Castillo, Candace Todd, Erin Wolf Chambers, and Elizabeth Munch",
-            "bibtex": "@article{Batakci2022,<br> archiveprefix = {arXiv},<br> author = {Levent Batakci and Abigail Branson and Bryan Castillo and Candace Todd and Erin Wolf Chambers and Elizabeth Munch},<br> doi = {10.2140/involve.2023.16.365},<br> eprint = {2210.10181},<br> journal = {Involve, a Journal of Mathematics},<br> month = {August},<br> number = {3},<br> pages = {365-388},<br> primaryclass = {cs.CG},<br> title = {Comparing Embedded Graphs Using Average Branching Distance},<br> volume = {16},<br> website-keywords = {Graph},<br> year = {2023}<br>}<br>",
+            "bibtex": "@article{Batakci2022,<br> archiveprefix = {arXiv},<br> author = {Levent Batakci and Abigail Branson and Bryan Castillo and Candace Todd and Erin Wolf Chambers and Elizabeth Munch},<br> doi = {10.2140/involve.2023.16.365},<br> eprint = {2210.10181},<br> journal = {Involve, a Journal of Mathematics},<br> month = {August},<br> number = {3},<br> pages = {365-388},<br> primaryclass = {cs.CG},<br> title = {Comparing Embedded Graphs Using Average Branching Distance},<br> volume = {16},<br> website-keywords = {Graph,REU},<br> year = {2023}<br>}<br>",
             "collapseLabel": "Batakci2022",
             "date": 2023,
             "image": "../img/Batakci2022.png",
             "keywords": [
-                "Graph"
+                "Graph",
+                "REU"
             ],
             "publishedLink": "https://doi.org/10.2140/involve.2023.16.365",
             "title": "Comparing Embedded Graphs Using Average Branching Distance",

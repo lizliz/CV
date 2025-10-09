@@ -1,6 +1,17 @@
 {
   "talks": [
     {
+    "title": "In Search of a Tight Bound for the Interleaving Distance",
+    "venue": "The Geometric Realization of AATRN, IMSI, Chicago",
+    "date": "August 21, 2025"
+    },
+    {
+    "title": "Recent Trends in Parameterized Persistence",
+    "venue": "Workshop on Cycle Representatives in Applied Homological Algebra, BIRS, Banff, Canada",
+    "date": "August 12, 2025",
+    "videoLink": "https://www.birs.ca/events/2025/5-day-workshops/25w5481/videos/watch/202508121404-Munch.html"
+    },
+    {
     "title": "The Interleaving Distance for Reeb Graphs, Mapper Graphs, and Merge Trees",
     "venue": "\\textbf{Lecture Series}, EWM-EMS Summer School: Stability in topological data analysis, Institut Mittag-Leffler, Stockholm, Sweden.",
     "date": "June 30 - July 4, 2025",
