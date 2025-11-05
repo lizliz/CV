@@ -1,6 +1,11 @@
 {
   "talks": [
     {
+    "title": "Recent trends in persistence bundles",
+    "venue": "\\textbf{Plenary}, \\href{https://maths.anu.edu.au/news-events/events/topological-methods-time-varying-data-theory-and-applications-top-time}{Topological methods for time-varying data: theory and applications (Top Time)}, ANU, Canberra, Australia",
+    "date": "October 27, 2025"
+    },
+    {
     "title": "In Search of a Tight Bound for the Interleaving Distance",
     "venue": "The Geometric Realization of AATRN, IMSI, Chicago",
     "date": "August 21, 2025"
