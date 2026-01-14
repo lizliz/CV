@@ -310,7 +310,9 @@ def convertToJSON():
 						'__markedentry',
 						'folderlocation',
 						'comment',
-						'authorwithsymbols',]
+						'authorwithsymbols',
+      					'website-keywords',
+						]
 		for key in keysToRemove:
 			try:
 				X.pop(key)

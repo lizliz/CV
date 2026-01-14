@@ -92,12 +92,12 @@ def writeTalks(filename = 'talks.json'):
 
     for entry in Talks:
         if 'type' not in entry.keys() or  entry['type']!="poster":
-            talkList.append('\item')
+            talkList.append(r'\item')
             string = ''
-            string += '\emph{'
+            string += r'\emph{'
 
             if 'videoLink' in entry.keys():
-                string += "\href{" + str(entry['videoLink']) + '}{'
+                string += r"\href{" + str(entry['videoLink']) + '}{'
                 string += str(entry['title']) + '}'
             else:
                 string += str(entry['title'])
@@ -111,7 +111,7 @@ def writeTalks(filename = 'talks.json'):
             # talkList.append( '\t ' + r'\vspace{4pt}' + '\n')
             talkList.append('\n')
     # talkList.append('\end{list}')
-    talkList.append('\end{etaremune}')
+    talkList.append(r'\end{etaremune}')
 
     return talkList
 
@@ -142,7 +142,7 @@ def writeTeaching(filename = 'teaching.json'):
                 string += str(sem['Year']) + r'\\'
             string = string[:-2]
 
-            string += '\end{tabular}'
+            string += r'\end{tabular}'
         # string += ' & '
 
         # if len(entry['Semester']) == 1:
