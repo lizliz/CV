@@ -22,7 +22,7 @@ CompileCV/LizCV.pdf
 Website/accessinstructions.txt
 Website/ElizabethMunch/slides
 Website/ElizabethMunch/topo2048
-CV.code-workspace
+*.code-workspace
 .vscode/
 NSF_Forms/
 OldStuff/

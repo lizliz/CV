@@ -1,6 +1,21 @@
 var researchJSON = {
     "paperInfo": [
         {
+            "abstract": "The interleaving distance is arguably the most widely used metric in topological data analysis (TDA) due to its applicability to a wide array of inputs of interest, such as (multiparameter) persistence modules, Reeb graphs, merge trees, and zigzag modules. However, computation of the interleaving distance in the vast majority of this settings is known to be NP-hard, limiting its use in practical settings. Inspired by the work of Chambers et al. on the interleaving distance for mapper graphs, we solve a more general problem bounding the interleaving distance between generalized persistence modules on concrete categories via a loss function. This loss function measures how far an assignment, which can be thought of as an interleaving that might not commute, is from defining a true interleaving. We give settings for which the loss can be computed in polynomial time, including for certain assumptions on $k$-parameter persistence modules.",
+            "altText": "A figure from the paper.",
+            "arXivLink": "https://arxiv.org/abs/2601.09034",
+            "authors": "Astrid A. Olave and Elizabeth Munch",
+            "bibtex": "@article{Olave2026,<br> archiveprefix = {arXiv},<br> author = {Olave, Astrid A. and Munch, Elizabeth},<br> copyright = {Creative Commons Attribution 4.0 International},<br> doi = {10.48550/ARXIV.2601.09034},<br> eprint = {2601.09034},<br> month = {January},<br> primaryclass = {math.AT},<br> publisher = {arXiv},<br> title = {Bounding the interleaving distance on concrete categories using a loss function},<br> year = {2026}<br>}<br>",
+            "collapseLabel": "Olave2026",
+            "date": 2026,
+            "image": "../img/Olave2026.png",
+            "keywords": [
+                "Interleaving"
+            ],
+            "title": "Bounding the interleaving distance on concrete categories using a loss function",
+            "venue": "arXiv:2601.09034"
+        },
+        {
             "abstract": "The Euler characteristic transform (ECT) is a simple to define yet powerful representation of shape. The idea is to encode an embedded shape using sub-level sets of a a function defined based on a given direction, and then returning the Euler characteristics of these sublevel sets. Because the ECT has been shown to be injective on the space of embedded simplicial complexes, it has been used for applications spanning a range of disciplines, including plant morphology and protein structural analysis. In this survey article, we present a comprehensive overview of the Euler characteristic transform, highlighting the main idea on a simple leaf example, and surveying its its key concepts, theoretical foundations, and available applications.",
             "altText": "A figure from the paper.",
             "arXivLink": "https://arxiv.org/abs/2310.10395",
@@ -101,7 +116,7 @@ var researchJSON = {
             "altText": "A figure from the paper.",
             "arXivLink": "https://arxiv.org/abs/2305.06315",
             "authors": "Sarah McGuire Scullen, Ernst R\u00f6ell, Elizabeth Munch, Bastian Rieck, and Matthew Hirn",
-            "bibtex": "@article{Scullen2025,<br> archiveprefix = {arXiv},<br> author = {Scullen, Sarah McGuire and R\u00f6ell, Ernst and Munch, Elizabeth and Rieck, Bastian and Hirn, Matthew},<br> copyright = {arXiv.org perpetual, non-exclusive license},<br> doi = {10.48550/ARXIV.2305.06315},<br> eprint = {2305.06315},<br> month = {may},<br> primaryclass = {cs.CG},<br> publisher = {arXiv},<br> title = {NervePool: A Simplicial Pooling Layer},<br> year = {2025}<br>}<br>",
+            "bibtex": "@article{Scullen2025,<br> archiveprefix = {arXiv},<br> author = {Scullen, Sarah McGuire and R\u00f6ell, Ernst and Munch, Elizabeth and Rieck, Bastian and Hirn, Matthew},<br> copyright = {arXiv.org perpetual, non-exclusive license},<br> doi = {10.48550/ARXIV.2305.06315},<br> eprint = {2305.06315},<br> month = {May},<br> primaryclass = {cs.CG},<br> publisher = {arXiv},<br> title = {NervePool: A Simplicial Pooling Layer},<br> year = {2025}<br>}<br>",
             "collapseLabel": "Scullen2025",
             "date": 2025,
             "image": "../img/McGuire2023.png",
