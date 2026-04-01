@@ -8,20 +8,25 @@ into a .tex file to create a CV
 
 '''
 
+import glob
 import json
 import os
 import platform
-import glob
 import shutil
-import numpy as np
+import subprocess
+from pathlib import Path
+
 import bibtexparser as BIB
-from bibtexparser.bwriter import BibTexWriter
 from bibtexparser.bibdatabase import BibDatabase
+from bibtexparser.bwriter import BibTexWriter
+
+SCRIPT_DIR = Path(__file__).resolve().parent
+PROJECT_DIR = SCRIPT_DIR.parent
 
 
 def bibRemoveAbstracts():
 
-    with open('MyPublications.bib') as bibtex_file:
+    with open(SCRIPT_DIR / 'MyPublications.bib') as bibtex_file:
         B = BIB.load(bibtex_file)
 
     for X in B.entries:
@@ -38,7 +43,7 @@ def bibRemoveAbstracts():
         #     pass
 
     writer = BibTexWriter()
-    with open('MyPublications_NoAbstracts.bib', 'w') as bibfile:
+    with open(SCRIPT_DIR / 'MyPublications_NoAbstracts.bib', 'w') as bibfile:
         bibfile.write(writer.write(B))
 
 
@@ -53,32 +58,33 @@ def fetchFiles(websiteLocation = '/Dropbox/Website/ElizabethMunch'):
 
 
 def writeCV(origfilename, newfilename):
-    file = open(origfilename,'r')
+    orig_path = SCRIPT_DIR / origfilename
+    new_path = SCRIPT_DIR / newfilename
+
+    file = open(orig_path,'r')
     contents = file.readlines()
     file.close()
 
     #--Find the line to insert the talks--#
-    C = np.array(contents)
-    indexTalks = np.where(C == 'INSERT TALKS HERE\n')[0][0]
+    indexTalks = contents.index('INSERT TALKS HERE\n')
     talks = writeTalks()
     contents[indexTalks:indexTalks+1] = talks
 
-    C = np.array(contents)
-    indexTeach = np.where(C == 'INSERT TEACHING HERE\n')[0][0]
+    indexTeach = contents.index('INSERT TEACHING HERE\n')
     teach = writeTeaching()
     contents[indexTeach:indexTeach+1] = teach
 
     try:
-        os.remove(newfilename)
+        os.remove(new_path)
     except OSError:
         pass
-    f = open(newfilename, 'w')
+    f = open(new_path, 'w')
     f.writelines(contents)
     f.close()
 
 
 def writeTalks(filename = 'talks.json'):
-    f = open(filename,'r')
+    f = open(SCRIPT_DIR / filename,'r')
     data = json.load(f)
     f.close()
 
@@ -117,7 +123,7 @@ def writeTalks(filename = 'talks.json'):
 
 def writeTeaching(filename = 'teaching.json'):
 
-    f = open(filename,'r')
+    f = open(SCRIPT_DIR / filename,'r')
     teach = json.load(f)
     f.close()
 
@@ -168,8 +174,11 @@ def writeTeaching(filename = 'teaching.json'):
     return teachList
 
 
+def run_command(command):
+    subprocess.run(command, cwd=SCRIPT_DIR, check=True)
+
+
 def main():
-    os.system('cd CompileCV/')
     bibRemoveAbstracts()
     # fetchFiles()
     origname = 'LizCV-EDIT-ME.tex'
@@ -180,7 +189,7 @@ def main():
     # os.system('bibtex LizCV')
     # os.system('pdflatex LizCV.tex')
     # os.system('pdflatex LizCV.tex')
-    os.system('latexmk -pdf LizCV.tex')
+    run_command(['latexmk', '-pdf', 'LizCV.tex'])
 
     if platform.system() == "Linux" or platform.system() == "Darwin": #Darwin =Mac
         
@@ -188,17 +197,23 @@ def main():
         # os.system('rm *.blg')
         # os.system('rm *.aux')
         # os.system('rm *.log')
-        os.system('latexmk -c')
-        os.system('cp LizCV.pdf ../LizCV.pdf')
-        os.system('cp LizCV.pdf ../Website/ElizabethMunch/pdf/Elizabeth-Munch-CV.pdf')
+        run_command(['latexmk', '-c', 'LizCV.tex'])
+        shutil.copy2(SCRIPT_DIR / 'LizCV.pdf', PROJECT_DIR / 'LizCV.pdf')
+        shutil.copy2(
+            SCRIPT_DIR / 'LizCV.pdf',
+            PROJECT_DIR / 'Website/ElizabethMunch/pdf/Elizabeth-Munch-CV.pdf'
+        )
     elif platform.system() == 'Windows':
 
         for ending in ['bbl', 'blg', 'aux', 'log', 'fls', 'out', 'fdb_latexmk']:
 
-            for file in glob.glob('*.'+ ending):
+            for file in glob.glob(str(SCRIPT_DIR / ('*.'+ ending))):
                 os.remove(file)
-        shutil.copy('LizCV.pdf', '..\\LizCV.pdf')
-        shutil.copy('LizCV.pdf',  'C:\\Dropbox\\Website\\ElizabethMunch\\pdf\\Elizabeth-Munch-CV.pdf')
+        shutil.copy2(SCRIPT_DIR / 'LizCV.pdf', PROJECT_DIR / 'LizCV.pdf')
+        shutil.copy2(
+            SCRIPT_DIR / 'LizCV.pdf',
+            Path('C:/Dropbox/Website/ElizabethMunch/pdf/Elizabeth-Munch-CV.pdf')
+        )
 
     else:
         print('Operating System Not Recognized....')

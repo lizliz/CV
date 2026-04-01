@@ -133,6 +133,19 @@
   ]
 },
   {
+  "CourseNum": "MTH 869",
+  "School": "MSU",
+  "Position": "Instructor",
+  "CourseTitle": "Geometry and Topology II",
+  "Semester": [
+    {
+      "Semester": "Fall",
+      "Year": 2026,
+      "Eval": ""
+    }
+  ]
+},
+  {
   "CourseNum": "MTH 960",
   "School": "MSU",
   "Position": "Instructor",
