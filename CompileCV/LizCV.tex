@@ -40,6 +40,36 @@
 \usepackage{etoolbox}
 \patchcmd{\thebibliography}{\section*{\refname}}{}{}{}
 
+% For author lists longer than 15 in the bibliography,
+% print first 3, ellipsis, then last 3.
+\newcommand{\cvlongauthorthreshold}{15}
+\newcommand{\cvleadnames}{3}
+\newcommand{\cvtailnames}{5}
+
+\DeclareNameFormat{cvlongauthor}{%
+   \ifnumgreater{\value{listtotal}}{\cvlongauthorthreshold}{%
+      \ifnumless{\value{listcount}}{\numexpr\cvleadnames+1\relax}{%
+         \ifnumgreater{\value{listcount}}{1}{\addcomma\space}{}%
+         \usebibmacro{name:given-family}{\namepartfamily}{\namepartgiven}{\namepartprefix}{\namepartsuffix}%
+         \ifnumequal{\value{listcount}}{\cvleadnames}{\addcomma\space\ldots\addcomma}{}%
+      }{%
+         \ifnumgreater{\value{listcount}}{\numexpr\value{listtotal}-\cvtailnames\relax}{%
+            \ifnumequal{\value{listcount}}{\numexpr\value{listtotal}-\cvtailnames+1\relax}{\space}{\addcomma\space}%
+            \usebibmacro{name:given-family}{\namepartfamily}{\namepartgiven}{\namepartprefix}{\namepartsuffix}%
+         }{}%
+      }%
+   }{%
+      \ifnumgreater{\value{listcount}}{1}{\addcomma\space}{}%
+      \usebibmacro{name:given-family}{\namepartfamily}{\namepartgiven}{\namepartprefix}{\namepartsuffix}%
+   }%
+}
+
+\AtBeginBibliography{%
+   \defcounter{maxnames}{999}%
+   \defcounter{minnames}{999}%
+   \DeclareNameAlias{author}{cvlongauthor}%
+}
+
 
 \usepackage{amsfonts}
 
@@ -220,6 +250,7 @@ Presser Scholarship, Eastman School of Music, 2007
 \textit{Due to working in an interdisciplinary setting, my work follows many different conventions for authorship.
 Theoretical mathematics and theoretical computer science tend to be published alphabetically.
 Applied mathematics and other domain settings tend to be published in descending order of contribution, with graduate students and postdocs listed first; followed by PIs.
+For biology papers, trainee authors appear first, ordered by decreasing contribution; PI authors appear at the end, with contribution increasing toward the final author. Long author lists are truncated on this CV but can be found on the paper itself.
 % Symbols used to denote authorship:
 }
 % \begin{itemize}{}{\leftmargin=0em}

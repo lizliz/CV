@@ -730,7 +730,7 @@ and CCF-1907591.},
   eprint           = {2110.05631},
   file             = {:http\://arxiv.org/pdf/2110.05631v1:PDF},
   image            = {Bollen2021.png},
-  keywords         = {cs.CG, math.AT, inSubmission, arxiv},
+  keywords         = {cs.CG,math.AT,arxiv,purgatory},
   primaryclass     = {cs.CG},
   website-keywords = {Intro, Interleaving, Graph},
 }
@@ -996,7 +996,7 @@ We consider drawings of Reeb graphs in the plane, where the y-coordinate of a ve
   eprint           = {2306.13802},
   file             = {:http\://arxiv.org/pdf/2306.13802v1:PDF},
   image            = {Easley2023.png},
-  keywords         = {Computational Geometry (cs.CG), Image and Video Processing (eess.IV), Algebraic Topology (math.AT), Neurons and Cognition (q-bio.NC), FOS: Computer and information sciences, FOS: Electrical engineering, electronic engineering, information engineering, FOS: Mathematics, FOS: Biological sciences, inSubmission},
+  keywords         = {Computational Geometry (cs.CG),Image and Video Processing (eess.IV),Algebraic Topology (math.AT),Neurons and Cognition (q-bio.NC),FOS: Computer and information sciences,FOS: Electrical engineering,electronic engineering,information engineering,FOS: Mathematics,FOS: Biological sciences, purgatory},
   primaryclass     = {cs.CG},
   publisher        = {arXiv},
   website-keywords = {Pers},
@@ -1022,14 +1022,6 @@ The observed allometry and square root models point to the existence of biophysi
   keywords         = {journal},
   publisher        = {Wiley},
   website-keywords = {Plants},
-}
-
-@Misc{teaspoon,
-  author       = {Firas Khasawneh and Elizabeth Munch and Sarah Tymochko and Audun Myers and Danielle Barnes and Melih C. Yesilli and Max Chumley and Sunia Tanweer},
-  howpublished = {\href{https://teaspoontda.github.io/teaspoon/}{teaspoontda.github.io/teaspoon/}},
-  title        = {teaspoon: A Topological Signal Processing Python Package},
-  year         = {2024},
-  keywords     = {code},
 }
 
 @Article{Munch2023,
@@ -1164,14 +1156,6 @@ Journal number: NODY-D-23-01890R2,},
   url          = {https://munchlab.github.io/ceREEBerus/},
 }
 
-@Misc{ect,
-  author       = {Elizabeth Munch and Sarah McGuire and Elena Wang and Nathan Willey},
-  howpublished = {\href{https://munchlab.github.io/ect/}{munchlab.github.io/ect/}},
-  title        = {ect: Euler Characteristic Transform in python},
-  year         = {2024},
-  keywords     = {code},
-}
-
 @Article{Chambers2024,
   author           = {Chambers, Erin Wolf and Munch, Elizabeth and Percival, Sarah and Wang, Xinyi},
   title            = {A Distance for Geometric Graphs via the Labeled Merge Tree Interleaving Distance},
@@ -1276,6 +1260,11 @@ Journal number: NODY-D-23-01890R2,},
   note             = {Best Paper Award. \href{https://cccg-wads-2025.eecs.yorku.ca/cccg-papers/7B4.pdf}{Link to published version}},
   abstract         = {The kinetic data structure (KDS) framework is a powerful tool for maintaining various geometric configurations of continuously moving objects. In this work, we introduce the kinetic hourglass, a novel KDS implementation designed to compute the bottleneck distance for geometric matching problems. We detail the events and updates required for handling general graphs, accompanied by a complexity analysis. Furthermore, we demonstrate the utility of the kinetic hourglass by applying it to compute the bottleneck distance between two persistent homology transforms (PHTs) derived from shapes in $\mathbb{R}^2$, which are topological summaries obtained by computing persistent homology from every direction in $\mathbb{S}^1$.},
   archiveprefix    = {arXiv},
+  comment          = {EXW acknowledges support from
+the Austrian Science Fund (FWF) grant number
+P 33765-N.
+
+(Arg, no NSF funding and this is published)},
   copyright        = {Creative Commons Attribution 4.0 International},
   doi              = {10.48550/ARXIV.2505.04048},
   eprint           = {2505.04048},
@@ -1326,6 +1315,9 @@ Journal number: NODY-D-23-01890R2,},
   month            = jun,
   abstract         = {Directed graphs arise in many applications where computing persistent homology helps to encode the shape and structure of the input information. However, there are only a few ways to turn the directed graph information into an undirected simplicial complex filtration required by the standard persistent homology framework. In this paper, we present a new filtration constructed from a directed graph, called the walk-length filtration. This filtration mirrors the behavior of small walks visiting certain collections of vertices in the directed graph. We show that, while the persistence is not stable under the usual $L_\infty$-style network distance, a generalized $L_1$-style distance is, indeed, stable. We further provide an algorithm for its computation, and investigate the behavior of this filtration in examples, including cycle networks and synthetic hippocampal networks with a focus on comparison to the often used Dowker filtration.},
   archiveprefix    = {arXiv},
+  comment          = {This work was supported in part by the National Science Foundation through
+grants DGE-2152014, CCF-2106578, and CCF-2142713. The authors would like to thank Brittany
+Fasy and Facundo M ́emoli for helpful discussions during the course of this work.},
   copyright        = {arXiv.org perpetual, non-exclusive license},
   doi              = {10.48550/ARXIV.2506.22263},
   eprint           = {2506.22263},
@@ -1403,6 +1395,9 @@ The work of MH was funded by NIH NIGMS-R01GM135929.},
   month            = jan,
   abstract         = {The interleaving distance is arguably the most widely used metric in topological data analysis (TDA) due to its applicability to a wide array of inputs of interest, such as (multiparameter) persistence modules, Reeb graphs, merge trees, and zigzag modules. However, computation of the interleaving distance in the vast majority of this settings is known to be NP-hard, limiting its use in practical settings. Inspired by the work of Chambers et al. on the interleaving distance for mapper graphs, we solve a more general problem bounding the interleaving distance between generalized persistence modules on concrete categories via a loss function. This loss function measures how far an assignment, which can be thought of as an interleaving that might not commute, is from defining a true interleaving. We give settings for which the loss can be computed in polynomial time, including for certain assumptions on $k$-parameter persistence modules.},
   archiveprefix    = {arXiv},
+  comment          = {EM and AO are grateful to Peter Bubenik, Vin de Silva, and Håvard Bjerkevik for helpful
+discussions. This work was supported in part by the National Science Foundation through grants CCF-2142713 and
+CCF-2106578.},
   copyright        = {Creative Commons Attribution 4.0 International},
   doi              = {10.48550/ARXIV.2601.09034},
   eprint           = {2601.09034},
@@ -1419,6 +1414,7 @@ The work of MH was funded by NIH NIGMS-R01GM135929.},
   title            = {Disentangling blade and vasculature shape in grapevine leaves},
   year             = {2026},
   month            = jan,
+  comment          = {This research was funded by a PRFU project (Code D01N01UN070120220001) approved in 2022406by the Algerian Ministry of Higher Education and Scientific Research, supporting Z. Laiadi and407his research team. DHC, EM, and YA were supported by the National Science Foundation Plant408Genome Research Program award numbers IOS-2310355, IOS-2310356, and IOS-2310357. ZM409was supported by the Canada Research Chairs Program. JFS was supported by an NSF410Postdoctoral Research Fellowship under Award No. 2305703.411},
   doi              = {10.64898/2026.01.27.701982},
   image            = {Yahiaoui2026.png},
   keywords         = {inSubmission},
@@ -1429,12 +1425,65 @@ The work of MH was funded by NIH NIGMS-R01GM135929.},
 @Article{GarciaChavez2026,
   author           = {García-Chávez, J. Noé and Vicente-Ferrer, Ángel and Bucio, Andrés Tapia and Ruíz-Amaro, Mariana J. and Hurtado-Olvera, J. Jimena and DeViller, Kylie and Simms, Lachlann and Ayub, Yemeen and Lu, Qiao and Anandappa, Jason Anthony and Bautista-Hinojosa, Luis and Boren, Duncan M. and Buitrago, Evelin and Buitrago-Acosta, Maria Camila and CG-Luna, Coral and Chalise, Devendra Prasad and Chamkasem, Aekkapot and Chennuru, Vineeth and Corpus-Hernández, Marcela and Espíndola, Brian S. and Gasdick, Michael C. and Gedela, Nitish Satya Sai and Guzmán-Barrenechea, Karla and Heshmati, Siavash and Jiménez-Rabadán, N. Gabriela and Jing, Vientiane and Juárez-Mercado, K. Eurídice and Konda, Sai Divya Teja and Korkmaz, Ilayda and Lakshmi-Narayanan, Aditya and Linn, Christina M. and Liu, Tiancheng and Lizardo, Viridiana and Lovanxay, Phanutda and Mahikul, Wiriya and Morales-Salazar, Alfredo and Morin, Ashlynn and Nguyen, Thanh Trung and Perkinson, Payton C. and Rojas-Roldán, Andrés and Sánchez-Fernández, Eduardo and Severiano-Galeana, Fernando and Uchima-Taborda, Diego and Zhu, Yuhan and Krishnan, Arjun and Husbands, Aman Y. and Romero-Hernandez, Annabel and VanBuren, Robert and Munch, Elizabeth and Migicovsky, Zoë and Rougon-Cardoso, Alejandra and Chitwood, Daniel H.},
   title            = {Indigenous Plant Knowledge in the De la Cruz-Badiano Codex (1552): A Text Mining and Morphometric Study},
+  comment          = {DHC, AYH, LM, and AK are supported by the US National Science Foundation Plant Genome  
+Research Program awards IOS  
+-  
+2310355, IOS  
+-  
+2310356, and IOS  
+-  
+2310357. AR  
+-  
+C was  
+supported by PAPIIT DGAPA UNAM grant IN223024 and PAPIME DGAPA UNAM grant  
+PE215726. JNG  
+-  
+C was  
+supported by DGAPA UNAM post  
+-  
+doc fellowship.  
+KD, LS, and ZM  
+were supported by funding from a Natural Sciences and Engineering Research Council (NSERC) of Canada Discovery Grant and the Canada Research Chairs Program (CRC  
+-  
+2021  
+-  
+00314) to ZM.},
   date             = {2026-02},
   doi              = {10.31235/osf.io/dmb9k_v1},
   image            = {GarciaChavez2026.png},
   keywords         = {inSubmission},
   publisher        = {Center for Open Science},
   website-keywords = {Plants,DirTrans},
+}
+
+@Article{Ayub2026,
+  author           = {Ayub, Yemeen and McGuire-Scullen, Sarah and Percival, Sarah and Weaver, William N and Karki, Nischal and Yahiaoui, Wahiba and Astudillo-Pavon, Karina and Barrios, Alejandra and Check, Jill C and Colchado-Lopez, Joel and Dolgikh, Benedikt A. and Espinosa-Martinez, Deborah V. and Fu, Qiuyi and Galvan-Lara, Kevin Manuel and Garcia-Chavez, J. Noe and Garcia-Rios, Santiago and Grabb, Chloe N and Guadir-Lara, Geisson E. and Hawkins, John C. and Hendrickson, Chandler L. and Hightower, Asia T and Hurtado-Olvera, Jimena J. and Kianian, Sepideh and Lennon, James and Li, Zhuohao and Li, Joy and Lieb, Brent and Lin, Jinxin and Lopez-Sanchez, Patricio and Luna-Alvarez, Mariana and Martinez-Martinez, Coral and Montemayor-Lara, aura and Moreno, Nicholas A and Obisesan, Idowu Arinola and Perez-Flores, Oscar and Pimentel-Ruiz, Carlos and Pineda-Hernandez, Eduardo and Purvis, Connor and Sharpe, Luke and Smail, Safa and Tajik, Farnaz and Temple, Joshua A and Ticoras, Mitchell and Trusky, Jacob K. and Van Wyk, Judson J. and Villarreal-Huerta, Diana and Wang, Elena Xinyi and Willey, Nathan and Zheng, Julia and Montgomery, Beronda L. and Romero-Hernandez, Annabel and Josephs, Emily B and Migicovsky, Zoe and Diaz-Garcia, Luis and Husbands, Aman Y and Smith, Stephen A and Laiadi, Ziane and VanBuren, Robert and Rougon-Cardoso, Alejandra and Munch, Elizabeth and Chitwood, Daniel H},
+  title            = {The Euler Characteristic Transform Enables Classification of Complex Plant Shapes and Prediction of Leaf Venation from Blade Geometry},
+  year             = {2026},
+  month            = apr,
+  comment          = {YA, AYH, RV, EM, and DHC are supported by the National Science Foundation Plant Genome Research Program award numbers IOS-2310355, IOS-2310356, and IOS-2310357. RV and DHC are supported by MSU AgBioResearch.},
+  doi              = {10.64898/2026.04.13.718293},
+  image            = {Ayub2026.png},
+  keywords         = {inSubmission},
+  publisher        = {openRxiv},
+  website-keywords = {Plants,DirTrans},
+}
+
+@Article{Ayub2026a,
+  author    = {Ayub, Yemeen and Munch, Elizabeth and Scullen, Sarah McGuire and Chitwood, Daniel H.},
+  journal   = {Journal of Open Source Software},
+  title     = {ect: A Python Package for the Euler Characteristic Transform},
+  year      = {2026},
+  issn      = {2475-9066},
+  month     = Apr,
+  note      = {Documentation available at \href{https://munchlab.github.io/ect/}{munchlab.github.io/ect/}},
+  number    = {120},
+  pages     = {9691},
+  volume    = {11},
+  comment   = {This work is based in part upon work supported by the National Science Foundation through grants CCF-1907591, CCF-2106578, and CCF-2142713. This work was also supported by US National Science Foundation Plant Genome Research Program awards (IOS-2310355, IOS-2310356, and IOS-2310357).},
+  doi       = {10.21105/joss.09691},
+  keywords  = {code},
+  publisher = {The Open Journal},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

@@ -127,12 +127,63 @@ def convertToJSON():
 	#-- setup error list to print at the end--#
 	errorlist = {'Missing year':[], 
 					'Missing published link': [],
-					'Missing arXiv link': [],
+					'Missing preprint link': [],
 					'Missing image': [],
 					'Missing venue': [],
 					'Missing abstract':[],
 					'Missing URL': [],
 	}
+
+	def normalize_arxiv_id(raw_id):
+		if not raw_id:
+			return raw_id
+		raw = raw_id.strip()
+		if raw.lower().startswith('arxiv:'):
+			return raw.split(':', 1)[1]
+		return raw
+
+	def get_preprint_link(X):
+		# Priority 1: explicit arXiv metadata.
+		if 'eprint' in X and 'eprinttype' in X and X['eprinttype'].lower() == 'arxiv':
+			return 'https://arxiv.org/abs/' + normalize_arxiv_id(X['eprint'])
+		if 'eprint' in X and 'archiveprefix' in X and X['archiveprefix'].lower() == 'arxiv':
+			return 'https://arxiv.org/abs/' + normalize_arxiv_id(X['eprint'])
+
+		# Priority 2: known preprint DOI sources.
+		if 'eprint' in X and 'eprinttype' in X:
+			eprint_type = X['eprinttype'].lower()
+			if eprint_type in ['biorxiv', 'medrxiv']:
+				return 'https://doi.org/' + X['eprint']
+
+		# Priority 3: generic DOI/url fallback (e.g., openRxiv/OSF entries).
+		if 'doi' in X:
+			return 'https://doi.org/' + X['doi']
+		if 'url' in X:
+			return X['url']
+
+		return None
+
+	def get_preprint_venue(X):
+		# Normalize publisher labels to the names we want displayed on the website.
+		def normalize_preprint_venue_name(name):
+			name_l = name.lower()
+			if name_l == 'openrxiv':
+				return 'bioRxiv'
+			if name_l == 'center for open science':
+				return 'SocArXiv'
+			return name
+
+		if 'eprint' in X and 'eprinttype' in X:
+			return X['eprinttype'] + ':' + X['eprint']
+		if 'eprint' in X and 'archiveprefix' in X:
+			return X['archiveprefix'] + ':' + X['eprint']
+		if 'publisher' in X:
+			return normalize_preprint_venue_name(X['publisher'])
+		if 'doi' in X:
+			return 'doi:' + X['doi']
+		if 'url' in X:
+			return 'preprint'
+		return None
 	
 	# Each entry for the json file has keys:
 	# ['originalLink', 'title', 'pdfLink', 'abstract', 'venue', 'date', 'collapseLabel', 'authors', 'bibtex', 'keywords']
@@ -186,26 +237,13 @@ def convertToJSON():
 				except KeyError:
 					errorlist['Missing published link'].append(X['ID'])
 
-		# --------- Add the arxiv or biorxiv link  --------------
-		# Note this should still be added even for submitted papers
-
-		try:
-			if 'eprinttype' in X.keys() and X['eprinttype'] == 'arXiv':
-
-				linkPre = "https://arxiv.org/abs/"
-				paperjson['arXivLink'] = linkPre + X['eprint']
-			elif 'archiveprefix' in X.keys() and X['archiveprefix'] == 'arXiv':
-				linkPre = "https://arxiv.org/abs/"
-				paperjson['arXivLink'] = linkPre + X['eprint']
-
-			elif X['eprinttype'] == 'bioRxiv':
-				linkPre = "https://doi.org/"
-				paperjson['arXivLink'] = linkPre + X['eprint']
-			else:
-				print(X['ID'], ": I don't recognize the eprint type")
-				errorlist['Missing arXiv link'].append(X['ID'])
-		except:
-			errorlist['Missing arXiv link'].append(X['ID'])
+		# --------- Add the preprint link (backward-compatible key name) --------------
+		# The website currently reads this from paperjson['arXivLink'].
+		preprint_link = get_preprint_link(X)
+		if preprint_link:
+			paperjson['arXivLink'] = preprint_link
+		elif 'inSubmission' in X['keywords']:
+			errorlist['Missing preprint link'].append(X['ID'])
 
 
 		# ---------------Clean up the title for html ------------
@@ -225,15 +263,12 @@ def convertToJSON():
 		# If published, then journal or booktitle
 		# ------------------
 		if not checkPublished(X):
-			try: 
-				if 'eprinttype' in X.keys():
-					s = X['eprinttype'] + ':' + X['eprint']
-				elif 'archiveprefix' in X.keys():
-					s = X['archiveprefix']+ ':' + X['eprint']
+			s = get_preprint_venue(X)
+			if s:
 				paperjson['venue'] = cleanString(s)
-			except:
+			else:
 				errorlist['Missing venue'].append(X['ID'])
-				print(X['ID'], 'arxiv venue issue')
+				print(X['ID'], 'preprint venue issue')
 		else:
 			if 'journal' in X.keys():
 				paperjson['venue'] = cleanString(X['journal'])
