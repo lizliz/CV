@@ -2,6 +2,11 @@
   "talks": [
     {
     "title": "Topological Transforms for Encoding the Shape of Data",
+    "venue": "MSU Topology REU, East Lansing, MI",
+    "date": "May 15, 2026"
+    },
+    {
+    "title": "Topological Transforms for Encoding the Shape of Data",
     "venue": "\\textbf{Colloquium}, Department of Applied Mathematics, University of Colorado, Boulder, CO",
     "date": "Feb 6, 2026"
     },
