@@ -50,6 +50,11 @@
         "Semester": "Spring",
         "Year": 2026,
         "Eval": ""
+        },
+      {
+        "Semester": "Fall",
+        "Year": 2026,
+        "Eval": ""
         }
     ]
   },
@@ -136,7 +141,7 @@
   "CourseNum": "MTH 869",
   "School": "MSU",
   "Position": "Instructor",
-  "CourseTitle": "Geometry and Topology II",
+  "CourseTitle": "Geometry and Topology II \\textit{(1$^{st}$ half of Hatcher)}",
   "Semester": [
     {
       "Semester": "Fall",
@@ -149,7 +154,7 @@
   "CourseNum": "MTH 960",
   "School": "MSU",
   "Position": "Instructor",
-  "CourseTitle": "Algebraic Topology I",
+  "CourseTitle": "Algebraic Topology I \\textit{(2$^{nd}$ half of Hatcher)}",
   "Semester": [
     {
       "Semester": "Fall",
