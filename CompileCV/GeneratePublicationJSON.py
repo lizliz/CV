@@ -9,11 +9,13 @@ https://bibtexparser.readthedocs.io/en/v0.6.2/bibtexparser.html
 
 '''
 
-import bibtexparser as BIB
-from bibtexparser.bwriter import BibTexWriter
-from bibtexparser.bibdatabase import BibDatabase
 import json
 import os
+
+import bibtexparser as BIB
+from bibtexparser.bibdatabase import BibDatabase
+from bibtexparser.bwriter import BibTexWriter
+
 
 def cleanString(x):
 
@@ -63,12 +65,14 @@ def convertToJSON():
 
 	# This script gets rid of the things that I don't want to have linked on the website. 
 	def keepOnWebsite(X):
+		keywords = X.get('keywords', '')
+		entry_type = X.get('ENTRYTYPE', '').lower()
 
-		if 'not_on_website' in X['keywords']:
+		if 'not_on_website' in keywords:
 			return False
-		elif 'dataset' in X['keywords']:
+		elif 'dataset' in keywords:
 			return False
-		elif 'code' in X['keywords']:
+		elif 'code' in keywords and entry_type != 'article':
 			return False
 		# elif 'not_on_website' in X['keywords']:
 			# return False

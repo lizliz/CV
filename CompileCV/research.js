@@ -46,6 +46,17 @@ var researchJSON = {
             "venue": "bioRxiv"
         },
         {
+            "arXivLink": "https://doi.org/10.21105/joss.09691",
+            "authors": "Yemeen Ayub, Elizabeth Munch, Sarah McGuire Scullen, and Daniel H. Chitwood",
+            "bibtex": "@article{Ayub2026a,<br> author = {Ayub, Yemeen and Munch, Elizabeth and Scullen, Sarah McGuire and Chitwood, Daniel H.},<br> doi = {10.21105/joss.09691},<br> issn = {2475-9066},<br> journal = {Journal of Open Source Software},<br> month = {April},<br> number = {120},<br> pages = {9691},<br> publisher = {The Open Journal},<br> title = {ect: A Python Package for the Euler Characteristic Transform},<br> volume = {11},<br> year = {2026}<br>}<br>",
+            "collapseLabel": "Ayub2026a",
+            "date": 2026,
+            "keywords": [],
+            "publishedLink": "https://doi.org/10.21105/joss.09691",
+            "title": "ect: A Python Package for the Euler Characteristic Transform",
+            "venue": "Journal of Open Source Software"
+        },
+        {
             "altText": "A figure from the paper.",
             "authors": "Erin Chambers, Ray Hasan, Erfan Hosseini Sereshgi, Elizabeth Munch, Sarah Percival, William Rodman, Elena Xinyi Wang, and Carola Wenk",
             "bibtex": "@inproceedings{Chambers2026,<br> author = {Chambers, Erin and Hasan, Ray and Hosseini Sereshgi, Erfan and Munch, Elizabeth and Percival, Sarah and Rodman, William and Wang, Elena Xinyi and Wenk, Carola},<br> booktitle = {The 38th Canadian Conference on Computational Geometry (CCCG 2026)},<br> title = {Comparing Distances for Embedded Graphs},<br> year = {2026}<br>}<br>",
@@ -183,6 +194,17 @@ var researchJSON = {
             ],
             "title": "NervePool: A Simplicial Pooling Layer",
             "venue": "arXiv:2305.06315"
+        },
+        {
+            "arXivLink": "https://doi.org/10.21105/joss.07243",
+            "authors": "Firas A. Khasawneh, Elizabeth Munch, Danielle Barnes, Max M. Chumley, \u0130smail G\u00fczel, Audun D. Myers, Sunia Tanweer, Sarah Tymochko, and Melih Yesilli",
+            "bibtex": "@article{Khasawneh2025,<br> author = {Khasawneh, Firas A. and Munch, Elizabeth and Barnes, Danielle and Chumley, Max M. and G\u00fczel, \u0130smail and Myers, Audun D. and Tanweer, Sunia and Tymochko, Sarah and Yesilli, Melih},<br> doi = {10.21105/joss.07243},<br> issn = {2475-9066},<br> journal = {Journal of Open Source Software},<br> month = {March},<br> number = {107},<br> pages = {7243},<br> publisher = {The Open Journal},<br> title = {Teaspoon: A Python Package for Topological Signal Processing},<br> volume = {10},<br> year = {2025}<br>}<br>",
+            "collapseLabel": "Khasawneh2025",
+            "date": 2025,
+            "keywords": [],
+            "publishedLink": "https://doi.org/10.21105/joss.07243",
+            "title": "Teaspoon: A Python Package for Topological Signal Processing",
+            "venue": "Journal of Open Source Software"
         },
         {
             "abstract": "Merge trees are a type of graph-based topological summary that tracks the evolution of connected components in the sublevel sets of scalar functions. They enjoy widespread applications in data analysis and scientific visualization. In this paper, we consider the problem of comparing two merge trees via the notion of interleaving distance in the metric space setting. We investigate various theoretical properties of such a metric. In particular, we show that the interleaving distance is intrinsic on the space of labeled merge trees and provide an algorithm to construct metric 1-centers for collections of labeled merge trees. We further prove that the intrinsic property of the interleaving distance also holds for the space of unlabeled merge trees. Our results are a first step toward performing statistics on graph-based topological summaries.",
