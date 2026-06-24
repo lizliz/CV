@@ -46,12 +46,17 @@
             "venue": "bioRxiv"
         },
         {
+            "altText": "A figure from the paper.",
             "arXivLink": "https://doi.org/10.21105/joss.09691",
             "authors": "Yemeen Ayub, Elizabeth Munch, Sarah McGuire Scullen, and Daniel H. Chitwood",
             "bibtex": "@article{Ayub2026a,<br> author = {Ayub, Yemeen and Munch, Elizabeth and Scullen, Sarah McGuire and Chitwood, Daniel H.},<br> doi = {10.21105/joss.09691},<br> issn = {2475-9066},<br> journal = {Journal of Open Source Software},<br> month = {April},<br> number = {120},<br> pages = {9691},<br> publisher = {The Open Journal},<br> title = {ect: A Python Package for the Euler Characteristic Transform},<br> volume = {11},<br> year = {2026}<br>}<br>",
             "collapseLabel": "Ayub2026a",
             "date": 2026,
-            "keywords": [],
+            "image": "../img/ECT_Logo.png",
+            "keywords": [
+                "Code",
+                "DirTrans"
+            ],
             "publishedLink": "https://doi.org/10.21105/joss.09691",
             "title": "ect: A Python Package for the Euler Characteristic Transform",
             "venue": "Journal of Open Source Software"
@@ -68,6 +73,37 @@
             ],
             "title": "Comparing Distances for Embedded Graphs",
             "venue": "The 38th Canadian Conference on Computational Geometry (CCCG 2026)"
+        },
+        {
+            "abstract": "Fingerprints are the most widely deployed biometric. Verifying whether two impressions come from the same finger typically relies on minutiae, small landmarks such as skin ridge endings and bifurcations. These landmarks are extracted through a multi-stage pipeline of image enhancement, skeletonization, minutiae detection, and alignment. We investigate an alternative: using topological data analysis to represent the full pattern of skin ridges and valleys directly, bypassing minutiae detection and the downstream matching pipeline. We apply persistent homology, a topological tool that tracks how loops in the ridge pattern form and fill in across spatial scales, producing multi-scale summaries of ridge geometry. We develop and compare a range of verification methods on a standard benchmark dataset, FVC2000 DB1. Even the simplest topological summaries, with no trained parameters, substantially outperform geometry-only baselines. A trained method achieves an AUC of 0.91, while an optimal-transport method excels at the strictest false-accept thresholds, suggesting they capture different aspects of the ridge pattern. Fusing these two approaches yields the best performance at every low false-accept threshold we examine. Our results establish that these topological summaries capture substantial fingerprint identity information, far more effective for verification than raw pixel-level geometry. Because the entire pipeline is openly specified, it offers a transparent complement to minutiae-based systems, and we provide a modular framework for constructing, evaluating, and combining topological verification methods.",
+            "altText": "A figure from the paper.",
+            "arXivLink": "https://arxiv.org/abs/2606.22029",
+            "authors": "Chad M. Topaz, Niny Arcila-Maya, Elizabeth Munch, Zofia Stanley, and Lori Ziegelmeier",
+            "bibtex": "@article{Topaz2026,<br> archiveprefix = {arXiv},<br> author = {Topaz, Chad M. and Arcila-Maya, Niny and Munch, Elizabeth and Stanley, Zofia and Ziegelmeier, Lori},<br> copyright = {arXiv.org perpetual, non-exclusive license},<br> doi = {10.48550/ARXIV.2606.22029},<br> eprint = {2606.22029},<br> month = {June},<br> primaryclass = {cs.CV},<br> publisher = {arXiv},<br> title = {Topological summaries of fingerprint ridge patterns carry identity information},<br> year = {2026}<br>}<br>",
+            "collapseLabel": "Topaz2026",
+            "date": 2026,
+            "image": "../img/Topaz2026.png",
+            "keywords": [
+                "Pers"
+            ],
+            "title": "Topological summaries of fingerprint ridge patterns carry identity information",
+            "venue": "arXiv:2606.22029"
+        },
+        {
+            "abstract": "In this paper, we provide a new construction for studying parameterized persistence, called a canopy. We give two versions of this construction: the A-canopy, retaining all information about points on the diagonal of the persistence diagram; and the D-canopy, encoding the information of the \"standard\" persistence diagram. We do this by making a simple but major modification in the persistence bundle representation information: namely, rather than tracking a point in the persistence diagram, we instead track some choice of pairs of simplices that created said point. This viewpoint is a combinatorial version of tracking the chain complex information rather than just the output of persistence. We show how to construct the canopies from any filtered filtration function, proving, using the algebraic structure of filtered chain complexes, that different choices of pairs result in homeomorphic structures. Finally, we showcase the power of our approach by using canopies to define vines even in the presence of points with multiplicity; to discuss monodromy; and to obtain some immediate results linking non-trivial monodromy in the persistent homology transform with the existence of non-Hausdorff points in the canopy.",
+            "altText": "A figure from the paper.",
+            "arXivLink": "https://arxiv.org/abs/2606.23859",
+            "authors": "Barbara Giunti and Elizabeth Munch",
+            "bibtex": "@article{Giunti2026,<br> archiveprefix = {arXiv},<br> author = {Giunti, Barbara and Munch, Elizabeth},<br> copyright = {arXiv.org perpetual, non-exclusive license},<br> doi = {10.48550/ARXIV.2606.23859},<br> eprint = {2606.23859},<br> month = {June},<br> primaryclass = {cs.CG},<br> publisher = {arXiv},<br> title = {Canopies: A Generalization of Vines and Vineyards for Parameterized Persistence},<br> year = {2026}<br>}<br>",
+            "collapseLabel": "Giunti2026",
+            "date": 2026,
+            "image": "../img/Giunti2026.png",
+            "keywords": [
+                "Pers",
+                "DirTrans"
+            ],
+            "title": "Canopies: A Generalization of Vines and Vineyards for Parameterized Persistence",
+            "venue": "arXiv:2606.23859"
         },
         {
             "altText": "A figure from the paper.",
@@ -196,12 +232,17 @@
             "venue": "arXiv:2305.06315"
         },
         {
+            "altText": "A figure from the paper.",
             "arXivLink": "https://doi.org/10.21105/joss.07243",
             "authors": "Firas A. Khasawneh, Elizabeth Munch, Danielle Barnes, Max M. Chumley, \u0130smail G\u00fczel, Audun D. Myers, Sunia Tanweer, Sarah Tymochko, and Melih Yesilli",
             "bibtex": "@article{Khasawneh2025,<br> author = {Khasawneh, Firas A. and Munch, Elizabeth and Barnes, Danielle and Chumley, Max M. and G\u00fczel, \u0130smail and Myers, Audun D. and Tanweer, Sunia and Tymochko, Sarah and Yesilli, Melih},<br> doi = {10.21105/joss.07243},<br> issn = {2475-9066},<br> journal = {Journal of Open Source Software},<br> month = {March},<br> number = {107},<br> pages = {7243},<br> publisher = {The Open Journal},<br> title = {Teaspoon: A Python Package for Topological Signal Processing},<br> volume = {10},<br> year = {2025}<br>}<br>",
             "collapseLabel": "Khasawneh2025",
             "date": 2025,
-            "keywords": [],
+            "image": "../img/teaspoon.png",
+            "keywords": [
+                "Code",
+                "TSP"
+            ],
             "publishedLink": "https://doi.org/10.21105/joss.07243",
             "title": "Teaspoon: A Python Package for Topological Signal Processing",
             "venue": "Journal of Open Source Software"
