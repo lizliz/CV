@@ -1,6 +1,16 @@
 {
   "talks": [
     {
+    "title": "Canopies for Parameterized Persistence",
+    "venue": "The 15th AIMS Conference, Athens, Greece",
+    "date": "July 9, 2026"
+    },
+    {
+    "title": "Canopies for Parameterized Persistence, or: How I learned to stop worrying and love the diagonal",
+    "venue": "TORI Workshop, Wimereux, France",
+    "date": "July 2, 2026"
+    },
+    {
     "title": "Topological Transforms for Encoding the Shape of Data",
     "venue": "MSU Topology REU, East Lansing, MI",
     "date": "May 15, 2026"
