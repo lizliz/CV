@@ -21,7 +21,7 @@ CompileCV/LizCV-EDIT-ME.pdf
 CompileCV/LizCV.pdf 
 Website/accessinstructions.txt
 Website/ElizabethMunch/slides
-Website/ElizabethMunch/topo2048
+# Website/ElizabethMunch/topo2048
 *.code-workspace
 .vscode/
 NSF_Forms/
