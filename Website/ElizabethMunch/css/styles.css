@@ -372,14 +372,39 @@ h4 {
   margin: 0 0 1rem 0;
 }
 
+.item-group > br {
+  display: none;
+}
+
 .item-group__item {
   padding: .5rem 1rem;
 }
 
+.item-group__item-container {
+  display: flex;
+  align-items: flex-start;
+  min-width: 0;
+  margin-bottom: 1.5rem;
+}
+
+.item-group__item-container > img {
+  flex: 0 0 120px;
+  width: 120px;
+  height: 160px;
+  margin: 0;
+  object-fit: cover;
+}
+
 @media only screen and (min-width: 48rem) {
   .item-group__item-container {
-    display: inline-flex;
-    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .item-group {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 1rem;
+    row-gap: 1.5rem;
   }
 }
 
