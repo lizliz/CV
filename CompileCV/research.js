@@ -106,6 +106,38 @@ var researchJSON = {
             "venue": "arXiv:2606.23859"
         },
         {
+            "abstract": "Directed graphs arise in many applications where computing persistent homology helps to encode the shape and structure of the input information. However, there are only a few ways to turn the directed graph information into an undirected simplicial complex filtration required by the standard persistent homology framework. In this paper, we present a new filtration constructed from a directed graph, called the walk-length filtration. This filtration mirrors the behavior of small walks visiting certain collections of vertices in the directed graph. We show that, while the persistence is not stable under the usual $L_\\infty$-style network distance, a generalized $L_1$-style distance is, indeed, stable. We further provide an algorithm for its computation, and investigate the behavior of this filtration in examples, including cycle networks and synthetic hippocampal networks with a focus on comparison to the often used Dowker filtration.",
+            "altText": "A figure from the paper.",
+            "arXivLink": "https://arxiv.org/abs/2506.22263",
+            "authors": "David E. Mu\u00f1oz, Elizabeth Munch, and Firas A. Khasawneh",
+            "bibtex": "@article{Munoz2026,<br> archiveprefix = {arXiv},<br> author = {Mu\u00f1oz, David E. and Munch, Elizabeth and Khasawneh, Firas A.},<br> copyright = {arXiv.org perpetual, non-exclusive license},<br> doi = {10.3934/fods.2026022},<br> eprint = {2506.22263},<br> issn = {2639-8001},<br> journal = {Foundations of Data Science},<br> month = {June},<br> primaryclass = {cs.CG},<br> publisher = {American Institute of Mathematical Sciences (AIMS)},<br> title = {The walk-length filtration for persistent homology on weighted directed graphs},<br> year = {2026}<br>}<br>",
+            "collapseLabel": "Munoz2026",
+            "date": 2026,
+            "image": "../img/Munoz2025.png",
+            "keywords": [
+                "Pers"
+            ],
+            "publishedLink": "https://doi.org/10.3934/fods.2026022",
+            "title": "The walk-length filtration for persistent homology on weighted directed graphs",
+            "venue": "Foundations of Data Science"
+        },
+        {
+            "abstract": "In this paper, we provide a construction of an acyclic discrete vector field that is compatible with a total order associated with a lower star filtration on a simplicial complex, called the colex vector field. We show that the colex vector field induces a filtered acyclic vector field, whose resulting Morse complex computes the persistent homology of the lower star filtration on the underlying simplicial complex. We show that the colex vector field can be recomputed quickly when the vertex function that induces the lower star filtration is modified via order-adjacent vertex swaps. We provide a framework for storing and computing the number of paths between cells in the simplicial complex, as well as a method to update these values quickly when the colex vector field changes. Finally, we provide publicly available proof-of-concept code for the ideas shown. When applying it to the Persistent Homology Transform, we show that its runtime is comparable to a more standard matrix reduction approach.",
+            "altText": "A figure from the paper.",
+            "arXivLink": "https://arxiv.org/abs/2609.31954",
+            "authors": "Kevin Woytowich, Nkechi Nnadi, and Elizabeth Munch",
+            "bibtex": "@article{Woytowich2026,<br> archiveprefix = {arXiv},<br> author = {Woytowich, Kevin and Nnadi, Nkechi and Munch, Elizabeth},<br> copyright = {arXiv.org perpetual, non-exclusive license},<br> doi = {10.48550/ARXIV.2609.31954},<br> eprint = {2609.31954},<br> month = {September},<br> primaryclass = {math.AT},<br> publisher = {arXiv},<br> title = {Updating a Discrete Morse Vector Field for a Lower Star Filtration Vineyard},<br> year = {2026}<br>}<br>",
+            "collapseLabel": "Woytowich2026",
+            "date": 2026,
+            "image": "../img/Woytowich2026.png",
+            "keywords": [
+                "Pers",
+                "DirTrans"
+            ],
+            "title": "Updating a Discrete Morse Vector Field for a Lower Star Filtration Vineyard",
+            "venue": "arXiv:2609.31954"
+        },
+        {
             "altText": "A figure from the paper.",
             "arXivLink": "https://doi.org/10.31235/osf.io/dmb9k_v1",
             "authors": "J. No\u00e9 Garc\u00eda-Ch\u00e1vez, \u00c1ngel Vicente-Ferrer, Andr\u00e9s Tapia Bucio, Mariana J. Ru\u00edz-Amaro, J. Jimena Hurtado-Olvera, Kylie DeViller, Lachlann Simms, Yemeen Ayub, Qiao Lu, Jason Anthony Anandappa, Luis Bautista-Hinojosa, Duncan M. Boren, Evelin Buitrago, Maria Camila Buitrago-Acosta, Coral CG-Luna, Devendra Prasad Chalise, Aekkapot Chamkasem, Vineeth Chennuru, Marcela Corpus-Hern\u00e1ndez, Brian S. Esp\u00edndola, Michael C. Gasdick, Nitish Satya Sai Gedela, Karla Guzm\u00e1n-Barrenechea, Siavash Heshmati, N. Gabriela Jim\u00e9nez-Rabad\u00e1n, Vientiane Jing, K. Eur\u00eddice Ju\u00e1rez-Mercado, Sai Divya Teja Konda, Ilayda Korkmaz, Aditya Lakshmi-Narayanan, Christina M. Linn, Tiancheng Liu, Viridiana Lizardo, Phanutda Lovanxay, Wiriya Mahikul, Alfredo Morales-Salazar, Ashlynn Morin, Thanh Trung Nguyen, Payton C. Perkinson, Andr\u00e9s Rojas-Rold\u00e1n, Eduardo S\u00e1nchez-Fern\u00e1ndez, Fernando Severiano-Galeana, Diego Uchima-Taborda, Yuhan Zhu, Arjun Krishnan, Aman Y. Husbands, Annabel Romero-Hernandez, Robert VanBuren, Elizabeth Munch, Zo\u00eb Migicovsky, Alejandra Rougon-Cardoso, and Daniel H. Chitwood",
@@ -183,21 +215,6 @@ var researchJSON = {
             ],
             "title": "On the Stability of the Euler Characteristic Transform for a Perturbed Embedding",
             "venue": "arXiv:2506.19991"
-        },
-        {
-            "abstract": "Directed graphs arise in many applications where computing persistent homology helps to encode the shape and structure of the input information. However, there are only a few ways to turn the directed graph information into an undirected simplicial complex filtration required by the standard persistent homology framework. In this paper, we present a new filtration constructed from a directed graph, called the walk-length filtration. This filtration mirrors the behavior of small walks visiting certain collections of vertices in the directed graph. We show that, while the persistence is not stable under the usual $L_\\infty$-style network distance, a generalized $L_1$-style distance is, indeed, stable. We further provide an algorithm for its computation, and investigate the behavior of this filtration in examples, including cycle networks and synthetic hippocampal networks with a focus on comparison to the often used Dowker filtration.",
-            "altText": "A figure from the paper.",
-            "arXivLink": "https://arxiv.org/abs/2506.22263",
-            "authors": "David E. Mu\u00f1oz, Elizabeth Munch, and Firas A. Khasawneh",
-            "bibtex": "@article{Munoz2025,<br> archiveprefix = {arXiv},<br> author = {Mu\u00f1oz, David E. and Munch, Elizabeth and Khasawneh, Firas A.},<br> copyright = {arXiv.org perpetual, non-exclusive license},<br> doi = {10.48550/ARXIV.2506.22263},<br> eprint = {2506.22263},<br> month = {June},<br> primaryclass = {cs.CG},<br> publisher = {arXiv},<br> title = {The Walk-Length Filtration for Persistent Homology on Weighted Directed Graphs},<br> year = {2025}<br>}<br>",
-            "collapseLabel": "Munoz2025",
-            "date": 2025,
-            "image": "../img/Munoz2025.png",
-            "keywords": [
-                "Pers"
-            ],
-            "title": "The Walk-Length Filtration for Persistent Homology on Weighted Directed Graphs",
-            "venue": "arXiv:2506.22263"
         },
         {
             "abstract": "A geometric graph is an abstract graph along with an embedding of the graph into the Euclidean plane which can be used to model a wide range of data sets. The ability to compare and cluster such objects is required in a data analysis pipeline, leading to a need for distances or metrics on these objects. In this work, we study the interleaving distance on geometric graphs, where functor representations of data can be compared by finding pairs of natural transformations between them. However, in many cases, particularly those of the set-valued functor variety, computation of the interleaving distance is NP-hard. For this reason, we take inspiration from the work of Robinson to find quality measures for families of maps that do not rise to the level of a natural transformation. Specifically, we call collections $\\phi = \\\\phi_U\\mid U\\$ and $\\psi = \\\\psi_U\\mid U\\$ which do not necessarily form a true interleaving an \\textitassignment. In the case of embedded graphs, we impose a grid structure on the plane, treat this as a poset endowed with the Alexandroff topology $K$, and encode the embedded graph data as functors $F: \\mathbfOpen(K) \\to \\mathbfSet$ where $F(U)$ is the set of connected components of the graph inside of the geometric realization of the set $U$. We then endow the image with the extra structure of a metric space and define a loss function $L(\\phi,\\psi)$ which measures how far the required diagrams of an interleaving are from commuting. Then for a pair of assignments, we use this loss function to bound the interleaving distance, with an eye toward computation and approximation of the distance. We expect these ideas are not only useful in our particular use case of embedded graphs, but can be extended to a larger class of interleaving distance problems where computational complexity creates a barrier to use in practice.",
