@@ -1,6 +1,16 @@
 {
   "talks": [
     {
+    "title": "Topological Transforms for Shape Comparison",
+    "venue": "\\href{https://sites.google.com/view/msdtga-2026/}{Mathematical Structure in Data: Topology, Geometry and Applications}, Penn State University, State College, PA",
+    "date": "Sept 30, 2026"
+    },
+    {
+    "title": "Topological Transforms for Shape Comparison",
+    "venue": "\\href{https://www.purdue.edu/science/events/glsiam.html}{GL-SIAM Annual Meeting}, Purdue University, West Lafayette, IN",
+    "date": "Sept, 2026"
+    },
+    {
     "title": "Canopies for Parameterized Persistence",
     "venue": "The 15th AIMS Conference, Athens, Greece",
     "date": "July 9, 2026"
