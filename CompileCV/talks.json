@@ -2,6 +2,11 @@
   "talks": [
     {
     "title": "Topological Transforms for Shape Comparison",
+    "venue": "\\href{https://www.nitmb.org/event/multi-scale-biological-adaptation-to-environmental-variability/}{Multi-scale Biological Adaptation to Environmental Variability}, NITMB, Chicago, IL",
+    "date": "Nov 11, 2026"
+    },
+    {
+    "title": "Topological Transforms for Shape Comparison",
     "venue": "\\href{https://sites.google.com/view/msdtga-2026/}{Mathematical Structure in Data: Topology, Geometry and Applications}, Penn State University, State College, PA",
     "date": "Sept 30, 2026"
     },

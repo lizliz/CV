@@ -1,6 +1,22 @@
 var researchJSON = {
     "paperInfo": [
         {
+            "abstract": "For deep learning problems on graph-structured data, pooling layers are important for down sampling, reducing computational cost, and to minimize overfitting. We define a pooling layer, nervePool, for data structured as simplicial complexes, which are generalizations of graphs that include higher-dimensional simplices beyond vertices and edges; this structure allows for greater flexibility in modeling higher-order relationships. The proposed simplicial coarsening scheme is built upon partitions of vertices, which allow us to generate hierarchical representations of simplicial complexes, collapsing information in a learned fashion. NervePool builds on the learned vertex cluster assignments and extends to coarsening of higher dimensional simplices in a deterministic fashion. While in practice the pooling operations are computed via a series of matrix operations, the topological motivation is a set-theoretic construction based on unions of stars of simplices and the nerve complex.",
+            "altText": "A figure from the paper.",
+            "arXivLink": "https://arxiv.org/abs/2305.06315",
+            "authors": "Sarah McGuire Scullen, Ernst R\u00f6ell, Elizabeth Munch, Bastian Rieck, and Matthew Hirn",
+            "bibtex": "@article{Scullen2025,<br> archiveprefix = {arXiv},<br> author = {Scullen, Sarah McGuire and R\u00f6ell, Ernst and Munch, Elizabeth and Rieck, Bastian and Hirn, Matthew},<br> copyright = {arXiv.org perpetual, non-exclusive license},<br> doi = {10.48550/ARXIV.2305.06315},<br> eprint = {2305.06315},<br> journal = {To Appear: Computing in Geometry and Topology},<br> month = {May},<br> primaryclass = {cs.CG},<br> publisher = {arXiv},<br> title = {NervePool: A Simplicial Pooling Layer},<br> year = {2026}<br>}<br>",
+            "collapseLabel": "Scullen2025",
+            "date": 2026,
+            "image": "../img/McGuire2023.png",
+            "keywords": [
+                "ML"
+            ],
+            "publishedLink": "https://doi.org/10.48550/ARXIV.2305.06315",
+            "title": "NervePool: A Simplicial Pooling Layer",
+            "venue": "To Appear: Computing in Geometry and Topology"
+        },
+        {
             "abstract": "The interleaving distance is arguably the most widely used metric in topological data analysis (TDA) due to its applicability to a wide array of inputs of interest, such as (multiparameter) persistence modules, Reeb graphs, merge trees, and zigzag modules. However, computation of the interleaving distance in the vast majority of this settings is known to be NP-hard, limiting its use in practical settings. Inspired by the work of Chambers et al. on the interleaving distance for mapper graphs, we solve a more general problem bounding the interleaving distance between generalized persistence modules on concrete categories via a loss function. This loss function measures how far an assignment, which can be thought of as an interleaving that might not commute, is from defining a true interleaving. We give settings for which the loss can be computed in polynomial time, including for certain assumptions on $k$-parameter persistence modules.",
             "altText": "A figure from the paper.",
             "arXivLink": "https://arxiv.org/abs/2601.09034",
@@ -246,21 +262,6 @@ var researchJSON = {
             "publishedLink": "https://doi.org/10.1007/s41468-025-00215-x",
             "title": "Bounding the interleaving distance for mapper graphs with a loss function",
             "venue": "Journal of Applied and Computational Topology"
-        },
-        {
-            "abstract": "For deep learning problems on graph-structured data, pooling layers are important for down sampling, reducing computational cost, and to minimize overfitting. We define a pooling layer, nervePool, for data structured as simplicial complexes, which are generalizations of graphs that include higher-dimensional simplices beyond vertices and edges; this structure allows for greater flexibility in modeling higher-order relationships. The proposed simplicial coarsening scheme is built upon partitions of vertices, which allow us to generate hierarchical representations of simplicial complexes, collapsing information in a learned fashion. NervePool builds on the learned vertex cluster assignments and extends to coarsening of higher dimensional simplices in a deterministic fashion. While in practice the pooling operations are computed via a series of matrix operations, the topological motivation is a set-theoretic construction based on unions of stars of simplices and the nerve complex.",
-            "altText": "A figure from the paper.",
-            "arXivLink": "https://arxiv.org/abs/2305.06315",
-            "authors": "Sarah McGuire Scullen, Ernst R\u00f6ell, Elizabeth Munch, Bastian Rieck, and Matthew Hirn",
-            "bibtex": "@article{Scullen2025,<br> archiveprefix = {arXiv},<br> author = {Scullen, Sarah McGuire and R\u00f6ell, Ernst and Munch, Elizabeth and Rieck, Bastian and Hirn, Matthew},<br> copyright = {arXiv.org perpetual, non-exclusive license},<br> doi = {10.48550/ARXIV.2305.06315},<br> eprint = {2305.06315},<br> month = {May},<br> primaryclass = {cs.CG},<br> publisher = {arXiv},<br> title = {NervePool: A Simplicial Pooling Layer},<br> year = {2025}<br>}<br>",
-            "collapseLabel": "Scullen2025",
-            "date": 2025,
-            "image": "../img/McGuire2023.png",
-            "keywords": [
-                "ML"
-            ],
-            "title": "NervePool: A Simplicial Pooling Layer",
-            "venue": "arXiv:2305.06315"
         },
         {
             "altText": "A figure from the paper.",
